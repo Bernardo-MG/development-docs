@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>420</x>
+      <y>310</y>
+      <w>160</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>ValueBox
+--
+-value: int
+--
++getValue(): int
++setValue(value: int)
+-notifyValueChanged()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>230</y>
+      <w>100</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+observes</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;20.0;80.0;20.0;80.0;80.0</additional_attributes>
+  </element>
+</diagram>

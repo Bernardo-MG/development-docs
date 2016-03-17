@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>320</x>
+      <y>140</y>
+      <w>210</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>Skill
+--
+
+--
++getName(): string
++getDescriptor(): string
++getValue(): int
++isAgilitySkill(): bool
++isCommunicationSkill(): 
++isCombatSkill(): bool
++isKnowledgeSkill(): bool
++isPerceptionSkill(): bool
++isManipulationSkill(): bool
++isStealthSkill(): bool</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
