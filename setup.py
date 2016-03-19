@@ -61,7 +61,7 @@ setup(
     },
     version=version_lib,
     description='Development docs for Wandrell\'s projects.',
-    author=u'Bernardo Martínez Garrido',
+    author='Bernardo Mart\u00ednez Garrido',
     author_email='programming@wandrell.com',
     license='MIT',
     url='https://github.com/Bernardo-MG/development-docs',
