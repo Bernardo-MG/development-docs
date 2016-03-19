@@ -72,7 +72,7 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Intended Audience :: Developers',
     ],
-    long_description=read('README.md'),
+    long_description=read('readme.md'),
     install_requires=[
     ],
     tests_require=_tests_require,
