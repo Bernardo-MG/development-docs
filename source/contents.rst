@@ -13,6 +13,7 @@ Contents:
    dist/index
    docs/index
    templates/index
+   testing/index
    java/index
 
 
