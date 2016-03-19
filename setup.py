@@ -18,7 +18,7 @@ This is prepared for easing the generation of deployment files.
 __license__ = 'MIT'
 
 # Regular expression for the version
-_version_re = re.compile(r'__version__\s+=\s+(.*)')
+_version_re = re.compile(r'version\s+=\s+(.*)')
 
 
 # Test requirements
@@ -33,7 +33,7 @@ def read(*names, **kwargs):
     ).read()
 
 # Gets the version for the source folder __init__.py file
-with open('cwr/__init__.py', 'rb', encoding='utf-8') as f:
+with open('source/conf.py', 'rb', encoding='utf-8') as f:
     version_lib = f.read()
     version_lib = _version_re.search(version_lib).group(1)
     version_lib = str(ast.literal_eval(version_lib.rstrip()))
