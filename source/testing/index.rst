@@ -50,3 +50,17 @@ tests does not always mean that something broke.
 Usually, if a unit test fails it means something broke in the application. If
 an integration test fails it may mean that a dependency failed, not the test
 itself.
+
+Tests and releases
+==================
+
+The tests check the validity of the code up to the release, after that they are
+no longer required, and should not be included in the final project.
+
+For this reason the testing code and the actual code of the application should
+be kept separated, the code to be released should be isolated from the tests,
+and the tests should be easy to remove.
+
+Usually this is achieved by having a source folder and a testing folder, but
+there the actual way to achieve this will depend on the language and frameworks
+used.
