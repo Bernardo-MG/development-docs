@@ -1,7 +1,5 @@
 # Travis CI Configuration file
 # @link https://travis-ci.org/
 
-# Using Java for the project
-language: java
-jdk:
-  - oraclejdk8
+# Using a generic enviroment
+language: generic
