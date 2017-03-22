@@ -1,16 +1,10 @@
-# Wandrell's Development Docs
+# Development Docs
 
 This is a personal programming guide, to help myself when developing a software project. It explains the methodologies I use and prefer, and how to use them.
 
 ## Building the docs
 
-The docs source is composed of reStructuredText files, prepared for [Sphinx][sphinx]. This means that they can easily be built into many different documents. Even more easily if you take into account the included Makefile (and make bat for Windows).
-
-For example, to build a static html site just use the following command:
-
-```
-make html
-```
+The docs source is composed of markdown files, meant to be used with [Gitbook][gitbook].
 
 ## Collaborate
 
@@ -35,4 +29,4 @@ The project has been released under the [MIT License][license].
 [license]: http://www.opensource.org/licenses/mit-license.php
 [scm]: https://github.com/bernardo-mg/development-docs
 
-[sphinx]: http://www.sphinx-doc.org/
+[gitbook]: https://www.gitbook.com/

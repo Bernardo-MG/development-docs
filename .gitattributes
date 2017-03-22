@@ -2,7 +2,6 @@
 * text=auto
 
 # Known text files
-*.py text
 *.xml text
 *.yml text
 *.md text
