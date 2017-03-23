@@ -7,6 +7,8 @@ It does not aim to be any kind of in depth guide, but a general documentation, s
 * [General information](general/index.md)
    * [Development environment](general/devenv.md)
    * [Documentation](general/documentation.md)
+   * [Testing](general/testing.md)
+   * [Continuous integration](general/ic.md)
 
 * [Java](java/index.md)
    * [Development environment](java/devenv.md)
