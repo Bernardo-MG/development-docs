@@ -17,4 +17,6 @@ The usual components of any development environment are:
 - Documentation server, hosting files generated with Maven Site or Sphinx
 - Reporting services, such as Coveralls
 
+When analysing the development environment the first place to look at is the IDE, as it will be the main interface for the developer. This should be able to integrate with the other components and services, the most important being the version control system.
+
 [devenv_general]: ../img/diagram/devenv_general.png

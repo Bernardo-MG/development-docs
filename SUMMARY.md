@@ -8,3 +8,4 @@ It does not aim to be any kind of in depth guide, but a general documentation, s
 * [Documentation](general/documentation.md)
 
 * [Java](java/index.md)
+* [Python](python/index.md)
