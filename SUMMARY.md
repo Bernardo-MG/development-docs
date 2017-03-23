@@ -4,8 +4,11 @@ This is a guide to help myself when working on my own projects. It serves mostly
 
 It does not aim to be any kind of in depth guide, but a general documentation, so I can get back to any old project without wondering how did all this work.
 
-* [Development environment](general/devenv.md)
-* [Documentation](general/documentation.md)
+* [General information](general/index.md)
+   * [Development environment](general/devenv.md)
+   * [Documentation](general/documentation.md)
 
 * [Java](java/index.md)
+   * [Development environment](java/devenv.md)
 * [Python](python/index.md)
+   * [Development environment](python/devenv.md)
