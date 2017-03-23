@@ -1,3 +1,3 @@
 # Java
 
-* [Development environment](devenv.md)
+* [Development environment](devenv.html)
