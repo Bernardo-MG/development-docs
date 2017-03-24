@@ -1,4 +1,4 @@
-# Python development environment
+# Python development architecture
 
 ![Python development environment][devenv_python]
 
