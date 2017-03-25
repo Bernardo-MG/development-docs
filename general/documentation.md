@@ -7,7 +7,7 @@ There is not a single way to document a project, but it should be done in at lea
 * A generated documentation site
 * Issues tracking
 
-## Diagramns
+## Diagrams
 
 Visual diagrams will follow the UML specifications.
 
