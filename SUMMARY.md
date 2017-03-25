@@ -1,16 +1,22 @@
-# Development docs
+# Development Docs
 
-This is a guide to help myself when working on my own projects. It serves mostly as a notebook where I can take note of anything of importance when working with software.
+This is a personal programming guide and code base, to help myself when developing a software project.
 
-It does not aim to be any kind of in depth guide, but a general documentation, so I can get back to any old project without wondering how did all this work.
+It explains the methodologies I use and prefer, how to use them and if possible it explains decisions I took. This way I can keep a knowledge base, instead of going through a process of forgetting and re-learning when retaking an old project.
 
-* [General information](general/index.md)
+As it is just a helping tool, it does not aim to be an in-depth guide. It expects a certain grade of knowledge about computer science and software technologies.
+
+* General information
    * [Development architecture](general/dev_architecture.md)
    * [Documentation](general/documentation.md)
    * [Testing](general/testing.md)
    * [Continuous integration](general/ic.md)
+   * [Continuous integration](general/ic.md)
+* Other information
+   * [git](other/git.md)
 
-* [Java](java/index.md)
+* Java
    * [Development architecture](java/dev_architecture.md)
-* [Python](python/index.md)
+   * [Maven Site](java/maven_site.md)
+* Python
    * [Development architecture](python/dev_architecture.md)

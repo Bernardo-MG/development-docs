@@ -1,6 +1,10 @@
 # Development Docs
 
-This is a personal programming guide, to help myself when developing a software project. It explains the methodologies I use and prefer, and how to use them.
+This is a personal programming guide and code base, to help myself when developing a software project.
+
+It explains the methodologies I use and prefer, how to use them and if possible it explains decisions I took. This way I can keep a knowledge base, instead of going through a process of forgetting and re-learning when retaking an old project.
+
+As it is just a helping tool, it does not aim to be an in-depth guide. It expects a certain grade of knowledge about computer science and software technologies.
 
 ## Building the docs
 

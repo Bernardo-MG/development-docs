@@ -1,7 +1,7 @@
 # Java development architecture
 
-![Java development environment][devenv_java]
+![Java development architecture][dev_arch_java]
 
 The environment used for Java
 
-[devenv_java]: ../img/diagram/devenv_java.png
+[dev_arch_java]: ../img/diagram/dev_arch_java.png

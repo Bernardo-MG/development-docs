@@ -1,5 +1,5 @@
 # Python development architecture
 
-![Python development environment][devenv_python]
+![Python development architecture][dev_arch_python]
 
-[devenv_python]: ../img/diagram/devenv_python.png
+[dev_arch_python]: ../img/diagram/dev_arch_python.png
