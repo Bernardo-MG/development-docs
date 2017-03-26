@@ -16,8 +16,6 @@ These files include the recommended configurations:
 
 * [Github's git ignore file examples][gitignore_github]
 * [Various git attributes file examples][gitattributes_github]
-* [Sample git attributes file][gitattributes]
 
-[gitattributes]: ../download/git/.gitattributes
 [gitattributes_github]: https://github.com/alexkaratarakis/gitattributes
 [gitignore_github]: https://github.com/github/gitignore
