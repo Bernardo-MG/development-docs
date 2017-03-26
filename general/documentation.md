@@ -31,9 +31,9 @@ Currently the readmes are being divided into the following sections:
 
 ## Diagrams
 
-Visual diagrams will follow the UML specifications.
+Visual diagrams are a helpful tool for documentation. These should follow the UML specifications.
 
-The tool used for creating them us [UMLet][umlet], a free Eclipse-based UML editor. It is very simple, and this way allows a lot of flexibility, but is not capable of auto generating code.
+The tool used for creating them us [UMLet][umlet], a free Eclipse-based UML editor. It is very simple, and this allows a lot of flexibility, but is not capable of auto generating code.
 
 [gitbook]: https://www.gitbook.com
 [maven_site]: https://maven.apache.org/plugins/maven-site-plugin/

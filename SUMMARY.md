@@ -10,13 +10,13 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [Development architecture](general/dev_architecture.md)
    * [Documentation](general/documentation.md)
    * [Testing](general/testing.md)
-   * [Continuous integration](general/ic.md)
-   * [Continuous integration](general/ic.md)
+   * [Continuous integration](general/ci.md)
 * Other information
    * [git](other/git.md)
 
 * Java
    * [Development architecture](java/dev_architecture.md)
+   * [Continuous integration](java/ci.md)
    * [Maven Site](java/maven_site.md)
 * Python
    * [Development architecture](python/dev_architecture.md)
