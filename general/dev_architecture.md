@@ -25,4 +25,4 @@ These are just the components which take a direct part in the project lifecycle.
 
 When analysing the development environment the first place to look at is the IDE, as it will be the main interface for the developer. This should be able to integrate with the other components and services, the most important being the version control system.
 
-[devenv_general]: ../img/diagram/devenv_general.png
+[devenv_general]: ../img/diagram/dev_arch_general.png
