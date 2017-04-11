@@ -4,7 +4,7 @@
 
 ## Travis
 
-Continuous Integration is handled through Travis CI.
+Continuous Integration is handled through [Travis CI][travis].
 
 ### Status flags
 
@@ -12,3 +12,4 @@ A few flags, stored in environmental variables, are used to control the CI flow.
 
 [ci_flow]: ../img/diagram/ci_java_activity.png
 [scripts_repo]: https://github.com/Bernardo-MG/ci-shell-scripts
+[travis]: https://travis-ci.org/
