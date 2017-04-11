@@ -7,7 +7,7 @@ It explains the methodologies I use and prefer, how to use them and if possible 
 As it is just a helping tool, it does not aim to be an in-depth guide. It expects a certain grade of knowledge about computer science and software technologies.
 
 * General information
-   * [Development architecture](general/deveco.md)
+   * [Development ecosystem](general/deveco.md)
    * [Documentation](general/documentation.md)
    * [Testing](general/testing.md)
    * [Continuous integration](general/ci.md)
@@ -15,8 +15,8 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [git](other/git.md)
 
 * Java
-   * [Development architecture](java/deveco.md)
+   * [Development ecosystem](java/deveco.md)
    * [Continuous integration](java/ci.md)
    * [Maven Site](java/maven_site.md)
 * Python
-   * [Development architecture](python/deveco.md)
+   * [Development ecosystem](python/deveco.md)
