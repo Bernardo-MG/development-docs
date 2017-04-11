@@ -19,6 +19,6 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [Development ecosystem](java/deveco.md)
    * [IDE](java/ide.md)
    * [Continuous integration](java/ci.md)
-   * [Maven Site](java/maven_site.md)
+   * [Maven](java/maven.md)
 * Python
    * [Development ecosystem](python/deveco.md)
