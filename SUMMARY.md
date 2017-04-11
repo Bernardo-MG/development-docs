@@ -11,11 +11,13 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [Documentation](general/documentation.md)
    * [Testing](general/testing.md)
    * [Continuous integration](general/ci.md)
+   * [Code style](general/code_style.md)
 * Other information
    * [git](other/git.md)
 
 * Java
    * [Development ecosystem](java/deveco.md)
+   * [IDE](java/ide.md)
    * [Continuous integration](java/ci.md)
    * [Maven Site](java/maven_site.md)
 * Python
