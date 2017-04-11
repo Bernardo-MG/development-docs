@@ -1,4 +1,4 @@
-# Development architecture
+# Development ecosystem
 
 Setting up an usable architecture is the first step when begginning to work, but it does not stop once the IDE is running and the code starts to be coded.
 

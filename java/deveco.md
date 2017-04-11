@@ -1,4 +1,4 @@
-# Java development architecture
+# Java development ecosystem
 
 ![Java development architecture][dev_arch_java]
 

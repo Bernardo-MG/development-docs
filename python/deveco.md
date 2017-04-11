@@ -1,4 +1,4 @@
-# Python development architecture
+# Python development ecosystem
 
 ![Python development architecture][dev_arch_python]
 
