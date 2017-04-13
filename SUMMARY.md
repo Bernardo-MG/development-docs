@@ -14,6 +14,7 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [Code style](general/code_style.md)
 * Other information
    * [git](other/git.md)
+   * [Travis](other/travis.md)
 
 * Java
    * [Development ecosystem](java/deveco.md)
