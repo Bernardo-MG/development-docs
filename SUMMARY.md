@@ -12,7 +12,7 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [Testing](general/testing.md)
    * [Continuous integration](general/ci.md)
    * [Code style](general/code_style.md)
-* Other information
+* Technologies and services
    * [git](other/git.md)
    * [Travis](other/travis.md)
 
