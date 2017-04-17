@@ -6,6 +6,10 @@ It explains the methodologies I use and prefer, how to use them and if possible 
 
 As it is just a helping tool, it does not aim to be an in-depth guide. It expects a certain grade of knowledge about computer science and software technologies.
 
+## Reading the docs
+
+The docs can be [read in Gitbook][docs], where they are deployed automatically.
+
 ## Building the docs
 
 The docs source is composed of markdown files, meant to be used with [Gitbook][gitbook].
@@ -33,4 +37,5 @@ The project has been released under the [MIT License][license].
 [license]: http://www.opensource.org/licenses/mit-license.php
 [scm]: https://github.com/bernardo-mg/development-docs
 
+[docs]: https://www.gitbook.com/book/bernardo-mg/development-docs
 [gitbook]: https://www.gitbook.com/
