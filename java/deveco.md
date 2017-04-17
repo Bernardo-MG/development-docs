@@ -14,7 +14,7 @@ Eclipse is the recommended Java [IDE][ide], it integrates with [Maven][maven] an
 
 Bintray, JCenter and Maven Central are used to [deploy artifacts][deploy_jars].
 
-[ci]: ../general/ci.md
+[ci]: ./ci.md
 [deploy_jars]: ./deployment.md
 [git]: ../other/git.md
 [ide]: ./ide.md
