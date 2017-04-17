@@ -4,6 +4,8 @@
 
 Bintray has a [guide][bintray_guide] detailing how to set this up.
 
+Once this is set up, deployment is handled through CI, which will store the deployment passkey in a safe way.
+
 [maven]: ./maven
 
 [bintray_guide]: https://blog.bintray.com/2014/02/11/bintray-as-pain-free-gateway-to-maven-central/
