@@ -14,8 +14,13 @@ The attributes file maps file extensions to content types, this way, for example
 
 These files include the recommended configurations:
 
+## Git flow
+
+The most popular methodology for using git is [git flow][git_flow].
+
 * [Github's git ignore file examples][gitignore_github]
 * [Various git attributes file examples][gitattributes_github]
 
+[git_flow]: http://nvie.com/posts/a-successful-git-branching-model/
 [gitattributes_github]: https://github.com/alexkaratarakis/gitattributes
 [gitignore_github]: https://github.com/github/gitignore
