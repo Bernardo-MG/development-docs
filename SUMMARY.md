@@ -15,6 +15,7 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
 * Technologies and services
    * [git](other/git.md)
    * [Travis](other/travis.md)
+   * [GitHub](other/github.md)
 
 * Java
    * [Development ecosystem](java/deveco.md)
