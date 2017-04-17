@@ -28,6 +28,18 @@ Inside a base POM the following can be set up:
 - Dependency and plugin dependencies, but only the bare minimum
 - Profiles, for things such as deployment or testing
 
+## Running tests
+
+The [Surefire][surefire] and [Failsafe][failsafe] plugins take care of running tests. It is recommended using the default test search methods, which will run all the test clases with "Test" in the name as unit test, and those with "IT" as integration tests. They will be found by scanning the test packages.
+
+### Command
+
+To run both unit and integration tests the verify should be used:
+
+```
+mvn verify
+```
+
 ## Documentation site
 
 Maven supports its own documentation generation tool the [Maven site][maven_site], handled through the plugin of the same name.
@@ -36,9 +48,13 @@ To keep the project self contained, and take full advantage of Maven, it is reco
 
 By default the site is generated using an ugly and obsolete UI. For this reason a skin is provided, the [docs Maven skin][docs_maven_skin]. Using this the generated site becomes an HTML5 mobile-friendly page.
 
-## Running tests
+### Command
 
-The [Surefire][surefire] and [Failsafe][failsafe] plugins take care of running tests. It is recommended using the default test search methods, which will run all the test clases with "Test" in the name as unit test, and those with "IT" as integration tests. They will be found by scanning the test packages.
+Some reports will require the output from the tests. For this reason it is recommended running all the tests before generating the site:
+
+```
+mvn verify site
+```
 
 [base_pom]: https://github.com/Bernardo-MG/base-pom
 [docs_maven_skin]: https://github.com/Bernardo-MG/docs-maven-skin
