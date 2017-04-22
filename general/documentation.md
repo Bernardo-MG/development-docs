@@ -35,7 +35,12 @@ Visual diagrams are a helpful tool for documentation. These should follow the UM
 
 The tool used for creating them us [UMLet][umlet], a free Eclipse-based UML editor. It is very simple, and this allows a lot of flexibility, but is not capable of auto generating code.
 
+## References
+
+* [Write the Docs][write_the_docs]
+
 [gitbook]: https://www.gitbook.com
 [maven_site]: https://maven.apache.org/plugins/maven-site-plugin/
 [rtd]: https://readthedocs.org/
 [umlet]: http://www.umlet.com/
+[write_the_docs]: http://www.writethedocs.org/guide/
