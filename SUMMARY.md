@@ -24,3 +24,5 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [Maven](java/maven.md)
 * Python
    * [Development ecosystem](python/deveco.md)
+   * [IDE](python/ide.md)
+   * [Continuous integration](python/ci.md)
