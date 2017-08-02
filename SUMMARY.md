@@ -28,4 +28,3 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [Continuous integration](python/ci.md)
    * [PyPi](python/pypi.md)
    * [tox](python/tox.md)
- 
