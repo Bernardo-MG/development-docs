@@ -4,7 +4,7 @@ Setting up an usable architecture is the first step when begginning to work, but
 
 The environment is dependant of the technology being used, and may require setting up servers, or registering into third party services. But it always follows a similar pattern.
 
-![Generic development environment][devenv_general]
+![Generic development environment][dev_eco_general]
 
 The usual components of any development environment are:
 
@@ -25,4 +25,4 @@ These are just the components which take a direct part in the project lifecycle.
 
 When analysing the development environment the first place to look at is the IDE, as it will be the main interface for the developer. This should be able to integrate with the other components and services, the most important being the version control system.
 
-[devenv_general]: ../img/diagram/dev_arch_general.png
+[dev_eco_general]: ../img/diagram/dev_eco_general.png

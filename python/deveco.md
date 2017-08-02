@@ -1,5 +1,5 @@
 # Python development ecosystem
 
-![Python development architecture][dev_arch_python]
+![Python development architecture][dev_eco_python]
 
-[dev_arch_python]: ../img/diagram/dev_arch_python.png
+[dev_eco_python]: ../img/diagram/dev_eco_python.png
