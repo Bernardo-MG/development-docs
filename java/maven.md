@@ -17,6 +17,14 @@ It should be noted that Maven allows not only setting a project's dependencies, 
 
 This is handled with the [dependency management][maven_dependency_management] and [plugin management][maven_plugin_management] options.
 
+### Checking for updates
+
+To check if there are newer versions for the dependencies the following command can be used:
+
+```
+mvn versions:display-dependency-updates versions:display-plugin-updates
+```
+
 ## Project management
 
 ### Base POM
