@@ -64,10 +64,27 @@ Some reports will require the output from the tests. For this reason it is recom
 mvn verify site
 ```
 
+## Default variables
+
+Maven already contains several pre-set variables.
+
+These are defined in the [Maven Super POM][maven_super_pom].
+
+### Array variables
+
+If a variable contains several children they can be accesed as an array.
+
+For example this gets the path to the first test resources directory:
+
+```
+${project.build.testResources[0].directory}
+```
+
 [base_pom]: https://github.com/Bernardo-MG/base-pom
 [docs_maven_skin]: https://github.com/Bernardo-MG/docs-maven-skin
 [failsafe]: http://maven.apache.org/surefire/maven-failsafe-plugin/
 [maven]: https://maven.apache.org/
+[maven_super_pom]: https://maven.apache.org/pom.html#The_Super_POM
 [maven_dependency_management]: https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html#Dependency_Management
 [maven_plugin_management]: https://maven.apache.org/pom.html#Plugin_Management
 [maven_site]: https://maven.apache.org/plugins/maven-site-plugin/
