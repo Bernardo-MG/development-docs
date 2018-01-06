@@ -8,5 +8,13 @@ This is already covered in the PyPi documentation and many tutorials.
 
 It will be enough saying that dependencies are defined in the requirements.txt file inside the Python projects.
 
+## Useful commands
+
+Install requirements:
+
+```
+$ pip install --upgrade -r requirements.txt
+```
+
 [pip]: https://pypi.python.org/pypi/pip
 [pypi]: https://pypi.python.org/pypi
