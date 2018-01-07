@@ -29,4 +29,5 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [PyPi](python/pypi.md)
    * [tox](python/tox.md)
    * [Building the project](python/building.md)
+   * [Tests](python/tests.md)
    * [Deployment](python/deployment.md)
