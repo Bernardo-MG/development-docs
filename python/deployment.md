@@ -2,7 +2,11 @@
 
 Libraries are to be deployed to [PyPi][pypi] with the help of [pip][pip].
 
-The following commands handle this:
+More detailed information can be found at the [distributing packages tutorial][distributing_packages].
+
+# Deploying a distribution
+
+The following commands handle the default deployment:
 
 ```
 $ python setup.py sdist
@@ -49,3 +53,5 @@ This example defines authentication data for PyPi and for the PyPi test server.
 [pypi]: https://pypi.python.org/pypi
 [pypitest]: https://testpypi.python.org/pypi
 [twine]: https://github.com/pypa/twine
+
+[distributing_packages]: https://packaging.python.org/tutorials/distributing-packages/
