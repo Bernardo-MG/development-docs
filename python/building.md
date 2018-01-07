@@ -14,6 +14,14 @@ All the available commands can be listed with:
 python setup.py --help-commands
 ```
 
+## Setting up environment
+
+Before building all the requirements should be installed:
+
+```
+$ pip install --upgrade -r requirements.txt
+```
+
 ## Build
 
 To build everything needed to install the project:
