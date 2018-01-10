@@ -6,14 +6,25 @@ More detailed information can be found at the [distributing packages tutorial][d
 
 # Deploying a distribution
 
-The following commands handle the default deployment:
+First of all build the project.
+
+There are two options, source distribution:
 
 ```
-$ python setup.py sdist
-$ twine upload dist/*
+python setup.py sdist
 ```
 
-The first command will create the source distribution, and then [twine][twine] is used for the deployment.
+Or [Wheel][wheel] distribution (requires installing the wheel package):
+
+```
+python setup.py bdist_wheel
+```
+
+Then [twine][twine] can be used to deploy securely:
+
+```
+twine upload dist/*
+```
 
 ## Test deployment
 
@@ -52,6 +63,8 @@ This example defines authentication data for PyPi and for the PyPi test server.
 [pip]: https://pypi.python.org/pypi/pip
 [pypi]: https://pypi.python.org/pypi
 [pypitest]: https://testpypi.python.org/pypi
+
 [twine]: https://github.com/pypa/twine
+[wheel]: https://github.com/pypa/wheel
 
 [distributing_packages]: https://packaging.python.org/tutorials/distributing-packages/
