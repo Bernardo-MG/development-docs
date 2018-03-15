@@ -4,6 +4,8 @@ The setup.py file defines the project configuration. This is a script used to bu
 
 Additional configuration is contained in the setup.cfg file.
 
+The MANIFEST.in file includes a list of files in the project.
+
 A [Cookiecutter][cookiecutter] template exists and can be used to create new projects: the [Cookiecutter Python Library][cookiecutter_library].
 
 ## Dependencies
