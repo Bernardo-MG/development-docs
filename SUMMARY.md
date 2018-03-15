@@ -25,9 +25,10 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
 * Python
    * [Development ecosystem](python/deveco.md)
    * [IDE](python/ide.md)
-   * [Continuous integration](python/ci.md)
+   * [Continuous Integration](python/ci.md)
    * [PyPi](python/pypi.md)
    * [tox](python/tox.md)
+   * [Project Setup](python/project_setup.md)
    * [Building the project](python/building.md)
    * [Tests](python/tests.md)
    * [Deployment](python/deployment.md)

@@ -6,21 +6,23 @@ More detailed information can be found at the [distributing packages tutorial][d
 
 # Deploying a distribution
 
-First of all build the project.
+First of all build the project by using one of the following commands.
 
-There are two options, source distribution:
+To build the source distribution:
 
 ```
 python setup.py sdist
 ```
 
-Or [Wheel][wheel] distribution (requires installing the wheel package):
+To build the [Wheel][wheel] distribution (requires installing the wheel package):
 
 ```
 python setup.py bdist_wheel
 ```
 
-Then [twine][twine] can be used to deploy securely:
+If possible build both, then deploy them.
+
+[twine][twine] can be used to deploy securely:
 
 ```
 twine upload dist/*
@@ -30,7 +32,7 @@ twine upload dist/*
 
 There is a [test environment for PyPi][pypitest].
 
-And then deployed:
+To deploy:
 
 ```
 $ python setup.py sdist upload -r pypitest

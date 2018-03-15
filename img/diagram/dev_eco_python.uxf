@@ -224,7 +224,7 @@ server</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>symbol=artifact
-Maven site</panel_attributes>
+Sphinx site</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
