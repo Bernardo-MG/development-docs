@@ -1,4 +1,4 @@
-# Continuous integration
+# Continuous Integration
 
 ![CI flow][ci_flow]
 
