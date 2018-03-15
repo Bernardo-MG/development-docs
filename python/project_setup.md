@@ -14,7 +14,12 @@ Dependencies are defined in the requirements.txt file, to be used with [pip][pip
 
 Tests are handled with [tox][tox], and the tox.ini file defines profiles and scripts used to start the testing process.
 
+## Documentation
+
+[Sphinx][sphinx] is used to generate the project docs.
+
 [cookiecutter]: https://github.com/audreyr/cookiecutter
 [cookiecutter_library]: https://github.com/Bernardo-MG/cookiecutter-python-library
 [pip]: https://pypi.python.org/pypi/pip
+[sphinx]: http://www.sphinx-doc.org/
 [tox]: https://tox.readthedocs.io
