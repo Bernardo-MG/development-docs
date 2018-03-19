@@ -144,7 +144,7 @@ These are defined in the [Maven Super POM][maven_super_pom].
 
 ### Array variables
 
-If a variable contains several children they can be accesed as an array.
+If a variable contains several children they can be accessed as an array.
 
 For example this gets the path to the first test resources directory:
 
