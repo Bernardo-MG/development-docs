@@ -1,10 +1,18 @@
 # Java artifacts deployment
 
-[Maven][maven] can be used to deploy Java artifacts. The JAR files are deployed to [Bintray][bintray], from there replicated into [JCenter][jcenter], and then to [Maven Central][maven_central].
+[Maven][maven] is used to deploy Java artifacts. The JAR files are deployed to [Bintray][bintray], from there replicated automatically into [JCenter][jcenter], and manually to [Maven Central][maven_central].
 
 Bintray has a [guide][bintray_guide] detailing how to set this up.
 
-Once this is set up, deployment is handled through CI, which will store the deployment passkey in a safe way.
+Deployment is handled through CI. This will require a passkey, which should be stored in an environmental variable.
+
+## Documentation deployment
+
+Maven is used to generate and deploy a Maven site, which works as the project documentation site.
+
+A static content server is used to store the files. Any which supports SSH can be used. Do not use FTP as it is unsecure.
+
+Deployment is handled through CI. This will require authentication data, which should be stored in environmental variables.
 
 [maven]: ./maven
 

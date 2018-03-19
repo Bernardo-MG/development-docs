@@ -7,7 +7,6 @@
 # Eclipse files #
 .buildpath
 .classpath
-.cproject
 .externalToolBuilders/
 .launch
 .loadpath
@@ -18,13 +17,6 @@ bin/**
 tmp/**
 tmp/**/*
 *.tmp
-*.nak
-*.swp
-*~.nib
-*.pydevproject
-local.properties
-/src/main/resources/rebel.xml
-.springBeans
 
 # IntelliJ Idea files #
 .idea

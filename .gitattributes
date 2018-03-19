@@ -2,9 +2,16 @@
 * text=auto
 
 # Known text files
-*.xml text
-*.yml text
-*.md text
-*.sh text
-*.css text
-*.txt text
+*.css           text diff=css
+*.md            text
+*.sh            text
+*.xml           text
+*.yml           text
+*.txt           text
+
+# Known binary files
+*.gif           binary
+*.ico           binary
+*.jpg           binary
+*.jpeg          binary
+*.png           binary
