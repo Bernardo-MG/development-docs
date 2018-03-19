@@ -64,6 +64,33 @@ Some reports will require the output from the tests. For this reason it is recom
 mvn verify site
 ```
 
+## Linking Javadocs
+
+Generated Javadocs won't contain links to Javadocs from third party libraries. But these docs can be linked through the Javadoc plugin configuration:
+
+```
+<plugin>
+   <!-- Javadoc -->
+   <!-- Generates the javadocs -->
+   <groupId>org.apache.maven.plugins</groupId>
+   <artifactId>maven-javadoc-plugin</artifactId>
+   <configuration>
+      <links>
+         <link>http://docs.oracle.com/javaee/7/api/</link>
+         <link>http://docs.spring.io/spring-data/commons/docs/current/api/</link>
+         <link>http://docs.spring.io/spring-data/jpa/docs/current/api/</link>
+         <link>http://docs.spring.io/spring-data/commons/docs/current/api/</link>
+         <link>http://docs.spring.io/spring-framework/docs/current/javadoc-api/</link>
+         <link>http://docs.spring.io/spring-ws/site/apidocs/</link>
+      </links>
+      <!-- Excludes generated code -->
+      <excludePackageNames>*.generated.*</excludePackageNames>
+   </configuration>
+</plugin>
+```
+
+With this example, all the references to JEE7 or Spring classes will contain a link to the official Javadocs.
+
 ## Default variables
 
 Maven already contains several pre-set variables.
