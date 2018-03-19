@@ -6,9 +6,9 @@
 
 Continuous Integration is handled through [Travis CI][travis].
 
-### Status flags
+## Status flags
 
-A few flags, stored in environmental variables, are used to control the CI flow. These are required by the [CI scripts][scripts_repo].
+A few flags are used to control the CI flow. These are required by the [CI scripts][scripts_repo] and stored in environmental variables.
 
 [ci_flow]: ../img/diagram/ci_java_activity.png
 [scripts_repo]: https://github.com/Bernardo-MG/ci-shell-scripts
