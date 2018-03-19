@@ -154,7 +154,7 @@ ${project.build.testResources[0].directory}
 
 ## Archetypes
 
-An archetype are templates for creating new Maven projects.
+Archetypes are templates for creating new Maven projects.
 
 [archetype_pom]: https://github.com/Bernardo-MG/archetype-pom
 [base_pom]: https://github.com/Bernardo-MG/base-pom
