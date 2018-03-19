@@ -22,6 +22,7 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [IDE](java/ide.md)
    * [Continuous integration](java/ci.md)
    * [Maven](java/maven.md)
+   * [Deployment](java/deployment.md)
    * [JPA](java/jpa.md)
 * Python
    * [Development ecosystem](python/deveco.md)
