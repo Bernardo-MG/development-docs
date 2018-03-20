@@ -20,6 +20,9 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
 * Java
    * [Development ecosystem](java/deveco.md)
    * [IDE](java/ide.md)
+   * [Building the project](java/building.md)
+   * [Project Setup](java/project_setup.md)
+   * [Project templates](java/templates.md)
    * [Continuous integration](java/ci.md)
    * [Maven](java/maven.md)
    * [Deployment](java/deployment.md)
@@ -27,10 +30,11 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
 * Python
    * [Development ecosystem](python/deveco.md)
    * [IDE](python/ide.md)
+   * [Building the project](python/building.md)
+   * [Project Setup](python/project_setup.md)
+   * [Project templates](python/templates.md)
    * [Continuous Integration](python/ci.md)
    * [PyPi](python/pypi.md)
    * [tox](python/tox.md)
-   * [Project Setup](python/project_setup.md)
-   * [Building the project](python/building.md)
    * [Tests](python/tests.md)
    * [Deployment](python/deployment.md)
