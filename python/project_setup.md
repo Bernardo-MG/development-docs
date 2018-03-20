@@ -6,7 +6,7 @@ Additional configuration is contained in the setup.cfg file.
 
 The MANIFEST.in file includes a list of files in the project.
 
-A [Cookiecutter][cookiecutter] template exists and can be used to create new projects: the [Cookiecutter Python Library][cookiecutter_library].
+When creating new projects consider using a [template][templates].
 
 ## Dependencies
 
@@ -20,8 +20,7 @@ Tests are handled with [tox][tox], and the tox.ini file defines profiles and scr
 
 [Sphinx][sphinx] is used to generate the project docs.
 
-[cookiecutter]: https://github.com/audreyr/cookiecutter
-[cookiecutter_library]: https://github.com/Bernardo-MG/cookiecutter-python-library
+[templates]: ./templates
 [pip]: https://pypi.python.org/pypi/pip
 [sphinx]: http://www.sphinx-doc.org/
 [tox]: https://tox.readthedocs.io

@@ -5,7 +5,7 @@ All the Python projects contain a setup.py file, used to build the project.
 It can be used through commands like:
 
 ```
-$ python setup.py [command]
+python setup.py [command]
 ```
 
 All the available commands can be listed with:
@@ -14,12 +14,12 @@ All the available commands can be listed with:
 python setup.py --help-commands
 ```
 
-## Setting up environment
+## Setting up the environment
 
 Before building all the requirements should be installed:
 
 ```
-$ pip install --upgrade -r requirements.txt
+pip install --upgrade -r requirements.txt
 ```
 
 ## Build
@@ -27,7 +27,7 @@ $ pip install --upgrade -r requirements.txt
 To build everything needed to install the project:
 
 ```
-$ python setup.py build
+python setup.py build
 ```
 
 ## Distribution
@@ -35,7 +35,7 @@ $ python setup.py build
 To generate a distributable copy of the project:
 
 ```
-$ python setup.py sdist
+python setup.py sdist
 ```
 
 ## Install
@@ -43,5 +43,5 @@ $ python setup.py sdist
 To install in the local repository:
 
 ```
-$ python setup.py install
+python setup.py install
 ```
