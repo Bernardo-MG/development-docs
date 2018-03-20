@@ -1,6 +1,6 @@
 # Code style
 
-Code style decisions are meant to make the code easier to understand. This is achieved following the most popular standards as close as possible.
+Following a code style decisions makes the code easier to understand, and easier to maintain. It is recommended following the most popular standards as close as possible, this way the style will be accessible to as many people as possible.
 
 ## References
 
@@ -8,6 +8,6 @@ Code style decisions are meant to make the code easier to understand. This is ac
 
 ## Tabs
 
-Tabulations should be avoided. The common alternative for them is using three or four spaces. The recommended number is three, just because it makes the code look more compact.
+Tabulations should be avoided. The common alternative for them is using three or four spaces. If possible use three, just because it makes the code look more compact.
 
 [google_style]: https://google.github.io/styleguide/
