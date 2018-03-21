@@ -7,32 +7,33 @@ It explains the methodologies I use and prefer, how to use them and if possible 
 As it is just a helping tool, it does not aim to be an in-depth guide. It expects a certain grade of knowledge about computer science and software technologies.
 
 * General information
-   * [Development ecosystem](general/deveco.md)
+   * [Development Ecosystem](general/deveco.md)
    * [Documentation](general/documentation.md)
    * [Testing](general/testing.md)
-   * [Continuous integration](general/ci.md)
-   * [Code style](general/code_style.md)
+   * [Continuous Integration](general/ci.md)
+   * [Code Style](general/code_style.md)
 * Technologies and services
    * [git](other/git.md)
    * [Travis](other/travis.md)
    * [GitHub](other/github.md)
 
 * Java
-   * [Development ecosystem](java/deveco.md)
+   * [Development Ecosystem](java/deveco.md)
    * [IDE](java/ide.md)
-   * [Building the project](java/building.md)
+   * [Building the Project](java/building.md)
    * [Project Setup](java/project_setup.md)
-   * [Project templates](java/templates.md)
+   * [Project Templates](java/templates.md)
    * [Continuous integration](java/ci.md)
    * [Maven](java/maven.md)
+   * [Maven reports](java/maven_reports.md)
    * [Deployment](java/deployment.md)
    * [JPA](java/jpa.md)
 * Python
-   * [Development ecosystem](python/deveco.md)
+   * [Development Ecosystem](python/deveco.md)
    * [IDE](python/ide.md)
-   * [Building the project](python/building.md)
+   * [Building the Project](python/building.md)
    * [Project Setup](python/project_setup.md)
-   * [Project templates](python/templates.md)
+   * [Project Templates](python/templates.md)
    * [Continuous Integration](python/ci.md)
    * [PyPi](python/pypi.md)
    * [tox](python/tox.md)
