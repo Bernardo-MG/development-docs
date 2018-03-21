@@ -25,7 +25,8 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [Project Templates](java/templates.md)
    * [Continuous integration](java/ci.md)
    * [Maven](java/maven.md)
-   * [Maven reports](java/maven_reports.md)
+   * [Maven Reports](java/maven_reports.md)
+   * [Maven Build Plugins](java/maven_build_plugins.md)
    * [Deployment](java/deployment.md)
    * [JPA](java/jpa.md)
 * Python

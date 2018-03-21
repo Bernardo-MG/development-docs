@@ -21,4 +21,8 @@ These will be generated along the [Maven Site][maven-site].
 
 The OWASP Dependency Check is very slow, so it is not recommended generating it with each build.
 
+Check the [archetypes][archetypes] to find out how to set them up.
+
+[archetypes]: ./templates.md
+
 [maven-site]: http://maven.apache.org/guides/mini/guide-site.html
