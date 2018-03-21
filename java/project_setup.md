@@ -16,6 +16,6 @@ Testing is done with [JUnit][junit]. Maven will take care of running both unit a
 
 A Maven site is generated for each project.
 
-[maven_archetypes]: ./templates
+[maven_archetypes]: ./templates.md
 
 [junit]: https://junit.org/
