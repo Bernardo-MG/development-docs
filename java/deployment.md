@@ -68,10 +68,6 @@ A static content server is used to store the files. Any which supports SSH can b
 
 Deployment is handled through CI. This will require authentication data, which should be stored in environmental variables.
 
-[maven]: ./maven
-
-[bintray_guide]: https://blog.bintray.com/2014/02/11/bintray-as-pain-free-gateway-to-maven-central/
-
 ### Command
 
 The Maven site can be deployed with:
@@ -111,3 +107,7 @@ And authentication data in the settings file:
 [bintray]: https://bintray.com
 [jcenter]: https://bintray.com/bintray/jcenter
 [maven_central]: https://search.maven.org/
+
+[maven]: ./maven
+
+[bintray_guide]: https://blog.bintray.com/2014/02/11/bintray-as-pain-free-gateway-to-maven-central/
