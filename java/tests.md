@@ -60,3 +60,18 @@ Some additional plugins can be used to improve testing results:
 
 - [JaCoCo](http://eclemma.org/jacoco/trunk/doc/maven.html), generates coverage reports from Surefire and Failsafe.
 - [Surefire Report](https://maven.apache.org/surefire/maven-surefire-report-plugin/), generates the unit tests report.
+
+## Test environment
+
+Complex test environments, which can be required by some integration tests, can be prepared with the help of Spring.
+
+### Databases
+
+The [JPA Example][jpa-example] uses several databases for testing, setting up a full persistence context by using Spring and Maven.
+
+## Mocking
+
+When preparing unit tests the dependencies should be mocked. [Mockito][mockito] is the recommended library for this.
+
+[jpa-example]: https://github.com/Bernardo-MG/jpa-example
+[mockito]: http://site.mockito.org/

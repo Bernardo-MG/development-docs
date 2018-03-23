@@ -9,7 +9,7 @@ There are several implementations. Among those the most important are:
 
 ## Example
 
-To test and remember how to work with JPA use the [JPA Example][jpa-example]
+To test and remember how to work with JPA use the [JPA Example][jpa-example].
 
 [hibernate]: http://hibernate.org/
 [eclipselink]: http://www.eclipse.org/eclipselink/
