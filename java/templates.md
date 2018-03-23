@@ -12,7 +12,7 @@ Before using it an archetype should be downloaded from a repository. It works li
 As an alternative it is always possible to install the archetype project locally before usage:
 
 ```
-$ mvn install
+mvn install
 ```
 
 ## Setup

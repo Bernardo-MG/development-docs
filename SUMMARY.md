@@ -27,6 +27,7 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [Maven](java/maven.md)
    * [Maven Reports](java/maven_reports.md)
    * [Maven Build Plugins](java/maven_build_plugins.md)
+   * [Tests](java/tests.md)
    * [Deployment](java/deployment.md)
    * [JPA](java/jpa.md)
 * Python
