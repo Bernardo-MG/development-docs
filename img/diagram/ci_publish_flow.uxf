@@ -67,7 +67,7 @@
       <h>40</h>
     </coordinates>
     <panel_attributes>skip
-deployment</panel_attributes>
+publish</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -112,7 +112,7 @@ deployment</panel_attributes>
       <w>100</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>deploy
+    <panel_attributes>publish
 release</panel_attributes>
     <additional_attributes/>
   </element>
@@ -124,7 +124,7 @@ release</panel_attributes>
       <w>100</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>deploy
+    <panel_attributes>publish
 development</panel_attributes>
     <additional_attributes/>
   </element>
@@ -137,7 +137,7 @@ development</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>skip
-deployment</panel_attributes>
+publish</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
