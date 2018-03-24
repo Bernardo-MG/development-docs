@@ -2,9 +2,9 @@
 
 The CI service will take care of validating the changes, building/publishing artifacts and messaging services. This should be done after each commit to the code repository.
 
-![CI flow][ci_flow]
-
 ## Worflow
+
+![CI flow][ci_flow]
 
 CI is triggered by changes to the code repository.
 
@@ -29,9 +29,9 @@ Release | Comes from the master branch
 Development | Comes from the develop branch
 Pull request | Environment variable
 
-### Deployment flow
+### Publication flow
 
-![Deployment flow][deployment_flow]
+![Publish flow][publish_flow]
 
 ## Scripts
 
@@ -73,5 +73,5 @@ DO\_TEST\_DOCS | boolean
 DO\_COVERAGE | boolean
 
 [ci_flow]: ../img/diagram/ci_general_activity.png
-[deployment_flow]: ../img/diagram/ci_deployment_flow.png
+[publish_flow]: ../img/diagram/ci_publish_flow.png
 [scripts_repo]: https://github.com/Bernardo-MG/ci-shell-scripts
