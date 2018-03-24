@@ -14,7 +14,7 @@ Recommended Maven report plugins:
 - [PMD](https://maven.apache.org/plugins/maven-pmd-plugin/), checks that the code complies with a series of code quality rules.
 - [Project Info](https://maven.apache.org/plugins/maven-project-info-reports-plugin/), generates general information reports.
 - [Site](https://maven.apache.org/plugins/maven-site-plugin/), generates the Maven Site.
-- [Surefire](https://maven.apache.org/surefire/maven-surefire-report-plugin/), generates the unit tests report.
+- [Surefire Report](https://maven.apache.org/surefire/maven-surefire-report-plugin/), generates the unit tests report.
 - [Taglist](http://www.mojohaus.org/taglist-maven-plugin/), generates a report of all the temporal tags still on the code.
 
 These will be generated along the [Maven Site][maven-site].
