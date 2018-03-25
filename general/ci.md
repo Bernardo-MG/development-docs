@@ -1,4 +1,4 @@
-# Continuous integration
+# Continuous Integration
 
 The CI service will take care of validating the changes, building/publishing artifacts and messaging services. This should be done after each commit to the code repository.
 

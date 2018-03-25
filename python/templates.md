@@ -1,4 +1,4 @@
-# Project templates
+# Project Templates
 
 A [Cookiecutter][cookiecutter] can be used to create new projects: the [Cookiecutter Python Library][cookiecutter_library].
 

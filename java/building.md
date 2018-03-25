@@ -1,4 +1,4 @@
-# Building the project
+# Building the Project
 
 Java projects make use of [Maven][maven]. Which offers commands for most use cases. These work by giving Maven a set of goals, marking how far into its lifecycle it will go:
 

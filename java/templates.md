@@ -1,4 +1,4 @@
-# Project templates
+# Project Templates
 
 [Maven archetypes][archetypes] can be used to create new projects fast.
 
