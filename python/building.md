@@ -1,4 +1,4 @@
-# Building the project
+# Building the Project
 
 All the Python projects contain a setup.py file, used to build the project.
 

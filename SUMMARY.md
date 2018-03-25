@@ -11,7 +11,7 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [Documentation](general/documentation.md)
    * [Testing](general/testing.md)
    * [Continuous Integration](general/ci.md)
-   * [Code Style](general/code_style.md)
+   * [Code Style](general/style.md)
 * Technologies and services
    * [git](other/git.md)
    * [Travis](other/travis.md)
@@ -23,7 +23,7 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [Building the Project](java/building.md)
    * [Project Setup](java/project_setup.md)
    * [Project Templates](java/templates.md)
-   * [Continuous integration](java/ci.md)
+   * [Continuous Integration](java/ci.md)
    * [Maven](java/maven.md)
    * [Maven Reports](java/maven_reports.md)
    * [Maven Build Plugins](java/maven_build_plugins.md)

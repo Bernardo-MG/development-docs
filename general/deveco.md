@@ -1,4 +1,4 @@
-# Development ecosystem
+# Development Ecosystem
 
 Developing requires several services and applications. The choices to be made will depend on the technology used, and the requirements of the project, but there are some general guidelines.
 

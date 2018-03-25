@@ -1,4 +1,4 @@
-# Code style
+# Code Style
 
 Following a code style decisions makes the code easier to understand, and easier to maintain. It is recommended following the most popular standards as close as possible, this way the style will be accessible to as many people as possible.
 

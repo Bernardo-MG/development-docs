@@ -1,4 +1,4 @@
-# Java artifacts deployment
+# Java Artifacts Deployment
 
 ## JAR/WAR
 
