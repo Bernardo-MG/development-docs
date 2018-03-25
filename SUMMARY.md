@@ -11,7 +11,7 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [Documentation](general/documentation.md)
    * [Testing](general/testing.md)
    * [Continuous Integration](general/ci.md)
-   * [Code Style](general/code_style.md)
+   * [Code Style](general/style.md)
 * Technologies and services
    * [git](other/git.md)
    * [Travis](other/travis.md)
