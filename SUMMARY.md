@@ -30,6 +30,7 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [Tests](java/tests.md)
    * [Deployment](java/deployment.md)
    * [JPA](java/jpa.md)
+   * [Deploying Web Projects Locally](java/web_locally.md)
 * Python
    * [Development Ecosystem](python/deveco.md)
    * [IDE](python/ide.md)
