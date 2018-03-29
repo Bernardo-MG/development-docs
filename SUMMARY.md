@@ -24,13 +24,19 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [Project Setup](java/project_setup.md)
    * [Project Templates](java/templates.md)
    * [Continuous Integration](java/ci.md)
-   * [Maven](java/maven.md)
-   * [Maven Reports](java/maven_reports.md)
-   * [Maven Build Plugins](java/maven_build_plugins.md)
    * [Tests](java/tests.md)
-   * [Deployment](java/deployment.md)
+   * [Java Artifacts Deployment](java/deployment.md)
    * [JPA](java/jpa.md)
-   * [Deploying Web Projects Locally](java/web_locally.md)
+* Maven
+   * [Maven](maven/maven.md)
+   * [Maven Reports](maven/maven_reports.md)
+   * [Maven Build Plugins](maven/maven_build_plugins.md)
+   * [Building the Project](maven/building.md))
+   * [Archetypes](maven/archetypes.md)
+   * [Tests](maven/tests.md)
+   * [Deployment With Maven](maven/deployment.md)
+   * [Deploying Web Projects Locally](maven/web_locally.md
+
 * Python
    * [Development Ecosystem](python/deveco.md)
    * [IDE](python/ide.md)
