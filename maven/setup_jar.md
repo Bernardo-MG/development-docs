@@ -1,5 +1,49 @@
 # Setting up the JAR
 
+## Attach sources
+
+To attach sources to the JAR use this configuration:
+
+```
+<plugin>
+   <!-- Source -->
+   <!-- Bundles the source into the packaged project. -->
+   <artifactId>maven-source-plugin</artifactId>
+   <executions>
+      <execution>
+         <!-- Generates the jar for the deployment -->
+         <!-- Source is bound to the package phase -->
+         <id>attach-sources</id>
+         <goals>
+            <goal>jar-no-fork</goal>
+         </goals>
+      </execution>
+   </executions>
+</plugin>
+```
+
+## Attach Javadocs
+
+To attach javadocs to the JAR use this configuration:
+
+```
+<plugin>
+   <!-- Javadoc -->
+   <!-- Handles the Javadocs. -->
+   <artifactId>maven-javadoc-plugin</artifactId>
+   <executions>
+      <!-- Javadoc plugin is bound to the deploy phase -->
+      <execution>
+         <!-- Generates the Javadocs for the deployment -->
+         <id>attach-javadocs</id>
+         <goals>
+            <goal>jar</goal>
+         </goals>
+      </execution>
+   </executions>
+</plugin>
+```
+
 ## Manifest
 
 To set up the JAR manifest use this configuration.
