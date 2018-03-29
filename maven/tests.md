@@ -61,6 +61,32 @@ Some additional plugins can be used to improve testing results:
 - [JaCoCo](http://eclemma.org/jacoco/trunk/doc/maven.html), generates coverage reports from Surefire and Failsafe.
 - [Surefire Report](https://maven.apache.org/surefire/maven-surefire-report-plugin/), generates the unit tests report.
 
+To set up JaCoCo use this configuration:
+
+```
+<plugin>
+   <!-- JaCoCo -->
+   <!-- Generates coverage data from Surefire and Failsafe. -->
+   <groupId>org.jacoco</groupId>
+   <artifactId>jacoco-maven-plugin</artifactId>
+   <executions>
+      <!-- Jacoco is bound to the initialize and verify phases -->
+      <execution>
+         <id>jacoco-initialize</id>
+         <goals>
+            <goal>prepare-agent</goal>
+         </goals>
+      </execution>
+      <execution>
+         <id>jacoco-test-report</id>
+         <goals>
+            <goal>report</goal>
+         </goals>
+      </execution>
+   </executions>
+</plugin>
+```
+
 ## Test environment
 
 Complex test environments, which can be required by some integration tests, can be prepared with the help of Spring.
