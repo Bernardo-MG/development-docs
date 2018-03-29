@@ -29,8 +29,8 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [JPA](java/jpa.md)
 * Maven
    * [Maven](maven/maven.md)
-   * [Maven Reports](maven/maven_reports.md)
    * [Maven Build Plugins](maven/maven_build_plugins.md)
+   * [Maven Reports](maven/maven_reports.md)
    * [Setting up the JAR](maven/setup_jar.md)
    * [Building the Project](maven/building.md))
    * [Archetypes](maven/archetypes.md)
