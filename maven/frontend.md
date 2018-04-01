@@ -8,7 +8,7 @@ Just remember that Maven is mainly a Java tool, and any other technology should 
 
 [Webjars][webjars] are frontend dependencies packaged into Jars.
 
-The downside is that they require a specific framework, such as Spring or Play, to be usable.
+The downside is that they require a specific framework, such as Spring or Play, to be usable. Check their documentation for more details.
 
 ## Minification
 
