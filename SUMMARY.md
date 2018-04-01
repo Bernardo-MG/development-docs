@@ -41,6 +41,7 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [Maven Site](maven/site.md)
    * [Deployment With Maven](maven/deployment.md)
    * [Deploying Web Projects Locally](maven/web_locally.md)
+   * [Frontend With Maven](maven/frontend.md)
 
 * Python
    * [Development Ecosystem](python/deveco.md)
