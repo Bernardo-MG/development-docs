@@ -36,35 +36,6 @@ To check if there are newer versions for the dependencies use the following comm
 mvn versions:display-dependency-updates versions:display-plugin-updates
 ```
 
-## Project management
-
-### Parent POM
-
-Common configuration for multiple projects should be kept inside a parent POM.
-
-These are handled just like any other dependency, and used by adding the following lines:
-
-```
-<parent>
-   <groupId>com.bernardomg.maven</groupId>
-   <artifactId>base-pom</artifactId>
-   <version>1.2.0</version>
-</parent>
-```
-
-Any project can use a parent POM. This is not a feature exclusive to multimodule projects.
-
-A parent POM can keep common configuration for multiple projects:
-- Dependency and plugin versions (plugin/dependency management nodes)
-- Dependency and plugin dependencies, but only the bare minimum (plugin/dependency nodes)
-- Profiles, for things such as deployment or testing
-
-### Prepared POMs
-
-There are a few parent POMs ready to use:
-* [Base POM][base_pom], generic and useful for most projects
-* [Archetype POM][archetype_pom], for Maven Archetypes
-
 ## Settings file
 
 Sensitive information, such as authentication data, should be moved to a [Maven settings file][maven_settings], located in a secure path.
@@ -74,9 +45,6 @@ Then it can be loaded by Maven with any command:
 ```
 mvn deploy --settings ~/settings.xml
 ```
-
-[archetype_pom]: https://github.com/Bernardo-MG/archetype-pom
-[base_pom]: https://github.com/Bernardo-MG/base-pom
 
 [maven]: https://maven.apache.org/
 [maven_lifecycle]: https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html

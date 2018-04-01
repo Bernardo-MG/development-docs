@@ -29,6 +29,7 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [JPA](java/jpa.md)
 * Maven
    * [Maven](maven/maven.md)
+   * [POMs](maven/pom.md)
    * [Configuration](maven/configuration.md)
    * [Building the Project](maven/building.md)
    * [Project Setup](maven/project_setup.md)
