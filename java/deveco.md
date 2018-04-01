@@ -4,11 +4,19 @@
 
 ## IDE
 
-Eclipse is the recommended Java [IDE][ide], it integrates with [Maven][maven] and [git][git].
+Eclipse is the recommended Java [IDE][ide], it integrates with the other tools used, such as Maven or git.
 
 ## CI
 
 [Travis][travis] is used for [Continuous Integration][ci].
+
+## Project Management
+
+[Maven][maven] is used to manage projects.
+
+## Version control
+
+[git][git] is used for version control.
 
 ## Deployment to dependency repositories
 
@@ -18,7 +26,7 @@ Eclipse is the recommended Java [IDE][ide], it integrates with [Maven][maven] an
 [deployment]: ./deployment.md
 [git]: ../other/git.md
 [ide]: ./ide.md
-[maven]: ./maven.md
+[maven]: ../maven/maven.md
 [travis]: ../other/travis.md
 
 [bintray]: https://bintray.com

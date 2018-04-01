@@ -29,12 +29,15 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [JPA](java/jpa.md)
 * Maven
    * [Maven](maven/maven.md)
+   * [Configuration](maven/configuration.md)
+   * [Building the Project](maven/building.md)
+   * [Project Setup](maven/project_setup.md)
+   * [Archetypes](maven/archetypes.md)
    * [Maven Build Plugins](maven/maven_build_plugins.md)
    * [Maven Reports](maven/maven_reports.md)
    * [Setting up the JAR](maven/setup_jar.md)
-   * [Building the Project](maven/building.md)
-   * [Archetypes](maven/archetypes.md)
    * [Tests](maven/tests.md)
+   * [Maven Site](maven/site.md)
    * [Deployment With Maven](maven/deployment.md)
    * [Deploying Web Projects Locally](maven/web_locally.md)
 

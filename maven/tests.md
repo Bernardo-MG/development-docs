@@ -8,6 +8,8 @@ Maven divides tests into two phases, one for unit tests and another for integrat
 
 In a general way, unit tests are small and fast tests, where the components use fake dependencies, or no dependencies at all. While integration tests connect several components and services.
 
+It is recommended using the default test search methods, which will run all the test clases with "Test" in the name as unit test, and those with "IT" as integration tests. They will be found by scanning the packages in the test code folder.
+
 ### Commands
 
 To run both unit and integration tests the use the following command:
@@ -89,7 +91,9 @@ To set up JaCoCo use this configuration:
 
 ## Test environment
 
-Complex test environments, which can be required by some integration tests, can be prepared with the help of Spring.
+Complex test environments, which can be required by some integration tests, may require profiles.
+
+Spring can be used to set up these complex environments.
 
 ### Databases
 

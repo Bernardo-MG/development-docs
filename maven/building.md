@@ -1,6 +1,6 @@
 # Building the Project
 
-Java projects make use of [Maven][maven]. Which offers commands for most use cases. These work by giving Maven a set of goals, marking how far into its lifecycle it will go:
+Maven offers commands for most use cases. These work by giving a set of goals, marking how far into its lifecycle it will go:
 
 ```
 mvn [goal]
@@ -13,6 +13,8 @@ mvn clean [goal]
 ```
 
 This will delete all the generated content before starting.
+
+To find more about these goals check the [Maven lifecycle][maven_lifecycle].
 
 ## Setting up the environment
 
@@ -34,4 +36,4 @@ To install in the local repository:
 mvn clean install
 ```
 
-[maven]: ./maven.md
+[maven_lifecycle]: https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
