@@ -4,6 +4,16 @@ These are some general tips for setting up a Maven project.
 
 Additional configuration is described in the pages after this one.
 
+## Settings file
+
+Sensitive information, such as authentication data, should be moved to a [Maven settings file][maven_settings], located in a secure path.
+
+Then it can be loaded by Maven with any command:
+
+```
+mvn deploy --settings ~/settings.xml
+```
+
 ## Properties
 
 ### Default properties
@@ -40,4 +50,5 @@ ${project.build.testResources[0].directory}
 Add the [Wagon SSH][wagon_ssh] to allow deploying through SSH.
 
 [wagon_ssh]: http://maven.apache.org/wagon/wagon-providers/wagon-ssh/
+[maven_settings]: https://maven.apache.org/settings.html
 [maven_super_pom]: https://maven.apache.org/pom.html#The_Super_POM
