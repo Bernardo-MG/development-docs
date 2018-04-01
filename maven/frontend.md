@@ -4,6 +4,12 @@ While Maven is not particularly well suited for frontend technologies such as Ja
 
 Just remember that Maven is mainly a Java tool, and any other technology should be a secondary aspect of the project. When the frontend moves away from Java it is best to split the project in two.
 
+## Webjars
+
+[Webjars][webjars] are frontend dependencies packaged into Jars.
+
+The downside is that they require a specific framework, such as Spring or Play, to be usable.
+
 ## Minification
 
 To minify JS and CSS files use the [Minify Maven Plugin][minify_plugin].
@@ -229,3 +235,4 @@ If needed, webpack can receive environmental variables:
 [frontend_plugin]: https://github.com/eirslett/frontend-maven-plugin
 [jshint_plugin]: https://github.com/cjdev/jshint-mojo
 [minify_plugin]: http://samaxes.github.io/minify-maven-plugin/
+[webjars]: http://www.webjars.org/
