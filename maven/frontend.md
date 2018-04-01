@@ -94,13 +94,13 @@ Use the [JSHint plugin][jshint_plugin] to validate Javascript files.
 </plugin>
 ```
 
-### NPM and Webpack
+## npm and Webpack
 
 Some project may have advanced requirements, such as additional dependencies, which only npm and webpack can handle.
 
 For these cases the [Frontend Maven plugin][frontend_plugin] can be used.
 
-To use just npm:
+### npm
 
 ```
 <plugin>
@@ -157,7 +157,7 @@ It is recommended binding a npm testing script to the testing phase:
 </plugin>
 ```
 
-To use npm and webpack:
+### npm and webpack:
 
 ```
 <plugin>
