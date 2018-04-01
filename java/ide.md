@@ -8,7 +8,9 @@ There are many versions and packages. Usually the "Eclipse IDE for Java EE Devel
 
 ### Code style
 
-Eclipse supports XML configuration for its code style formatter. The following files are recommended configurations:
+Eclipse supports XML configuration for its code style formatter.
+
+The following files are set for recommended configurations:
 
 - [Java code style][java_code_style], a mix of various standards.
 - [Javascript code style][javascript_code_style], a mix of various standards.
