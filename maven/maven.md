@@ -65,93 +65,6 @@ There are a few parent POMs ready to use:
 * [Base POM][base_pom], generic and useful for most projects
 * [Archetype POM][archetype_pom], for Maven Archetypes
 
-## Running tests
-
-The [Surefire][surefire] and [Failsafe][failsafe] plugins take care of running tests.
-
-It is recommended using the default test search methods, which will run all the test clases with "Test" in the name as unit test, and those with "IT" as integration tests. They will be found by scanning the packages in the test code folder.
-
-### Command
-
-To run both unit and integration tests the use the following command:
-
-```
-mvn verify
-```
-
-To run only unit tests use the following command:
-
-```
-mvn test
-```
-
-Complex test suites may require profiles. For example when testing against various databases.
-
-## Documentation site
-
-Maven supports its own documentation generation tool, the [Maven site][maven_site]. Which handled through the plugin of the same name.
-
-To keep the project self contained, and take full advantage of Maven, it is recommended using this for generating the project's documentation.
-
-By default the site is generated using an ugly and obsolete UI. For that reason the [docs Maven skin][docs_maven_skin] is used. With this theme the generated site becomes an HTML5 mobile-friendly page.
-
-### Reports
-
-The site includes not only documentation, but also several reports, generated along the docs.
-
-### Command
-
-As some reports will require the output from the tests it is recommended running all the tests before generating the site:
-
-```
-mvn verify site
-```
-
-## Linking Javadocs
-
-Maven can generate Javadocs, but these won't link to third party libraries. This can be done by specifying the links to the Javadocs for those libraries:
-
-```
-<plugin>
-   <!-- Javadoc -->
-   <!-- Generates the javadocs -->
-   <groupId>org.apache.maven.plugins</groupId>
-   <artifactId>maven-javadoc-plugin</artifactId>
-   <configuration>
-      <links>
-         <link>http://docs.oracle.com/javaee/7/api/</link>
-         <link>http://docs.spring.io/spring-data/commons/docs/current/api/</link>
-         <link>http://docs.spring.io/spring-data/jpa/docs/current/api/</link>
-         <link>http://docs.spring.io/spring-data/commons/docs/current/api/</link>
-         <link>http://docs.spring.io/spring-framework/docs/current/javadoc-api/</link>
-         <link>http://docs.spring.io/spring-ws/site/apidocs/</link>
-      </links>
-      <!-- Excludes generated code -->
-      <excludePackageNames>*.generated.*</excludePackageNames>
-   </configuration>
-</plugin>
-```
-
-With this example, all the references to JEE7 or Spring classes will contain a link to their official Javadocs.
-
-## Variables
-
-### Default variables
-
-Maven already contains several pre-set variables.
-
-These are defined in the [Maven Super POM][maven_super_pom].
-
-### Array variables
-
-If a variable contains several children they can be accessed as an array.
-
-For example this gets the path to the first test resources directory:
-
-```
-${project.build.testResources[0].directory}
-```
-
 ## Settings file
 
 Sensitive information, such as authentication data, should be moved to a [Maven settings file][maven_settings], located in a secure path.
@@ -162,20 +75,11 @@ Then it can be loaded by Maven with any command:
 mvn deploy --settings ~/settings.xml
 ```
 
-## Archetypes
-
-Archetypes are templates for creating new Maven projects.
-
 [archetype_pom]: https://github.com/Bernardo-MG/archetype-pom
 [base_pom]: https://github.com/Bernardo-MG/base-pom
 
-[docs_maven_skin]: https://github.com/Bernardo-MG/docs-maven-skin
-[failsafe]: http://maven.apache.org/surefire/maven-failsafe-plugin/
 [maven]: https://maven.apache.org/
 [maven_lifecycle]: https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
-[maven_super_pom]: https://maven.apache.org/pom.html#The_Super_POM
 [maven_dependency_management]: https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html#Dependency_Management
 [maven_plugin_management]: https://maven.apache.org/pom.html#Plugin_Management
-[maven_site]: https://maven.apache.org/plugins/maven-site-plugin/
 [maven_settings]: https://maven.apache.org/settings.html
-[surefire]: http://maven.apache.org/surefire/maven-surefire-plugin/

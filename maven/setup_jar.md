@@ -44,6 +44,48 @@ To attach javadocs to the JAR use this configuration:
 </plugin>
 ```
 
+### Third party Javadocs
+
+The generated Javadocs won't link to third party libraries. This can be fixed by specifying the links to the Javadocs for those libraries:
+
+```
+<plugin>
+   <!-- Javadoc -->
+   <!-- Generates the javadocs -->
+   <groupId>org.apache.maven.plugins</groupId>
+   <artifactId>maven-javadoc-plugin</artifactId>
+   <configuration>
+      <links>
+         <link>http://docs.oracle.com/javaee/7/api/</link>
+         <link>http://docs.spring.io/spring-data/commons/docs/current/api/</link>
+         <link>http://docs.spring.io/spring-data/jpa/docs/current/api/</link>
+         <link>http://docs.spring.io/spring-data/commons/docs/current/api/</link>
+         <link>http://docs.spring.io/spring-framework/docs/current/javadoc-api/</link>
+         <link>http://docs.spring.io/spring-ws/site/apidocs/</link>
+      </links>
+   </configuration>
+</plugin>
+```
+
+With this all the references to JEE7 or Spring classes will contain a link to their official Javadocs.
+
+### Generated code
+
+It is recommended ignoring generated code
+
+```
+<plugin>
+   <!-- Javadoc -->
+   <!-- Generates the javadocs -->
+   <groupId>org.apache.maven.plugins</groupId>
+   <artifactId>maven-javadoc-plugin</artifactId>
+   <configuration>
+      <!-- Excludes generated code -->
+      <excludePackageNames>*.generated.*</excludePackageNames>
+   </configuration>
+</plugin>
+```
+
 ## Manifest
 
 To set up the JAR manifest use this configuration.

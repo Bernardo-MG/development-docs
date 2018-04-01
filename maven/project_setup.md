@@ -20,7 +20,7 @@ Testing is done with [JUnit][junit]. Maven will take care of running both unit a
 
 A Maven site is generated for each project.
 
-[maven_archetypes]: ./templates.md
+[maven_archetypes]: ./archetypes.md
 [maven_layout]: https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html
 
 [junit]: https://junit.org/

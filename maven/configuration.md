@@ -6,7 +6,15 @@ Additional configuration is described in the pages after this one.
 
 ## Properties
 
-The following properties when set will used by Maven plugins:
+### Default properties
+
+Maven already contains several pre-set variables.
+
+These are defined in the [Maven Super POM][maven_super_pom].
+
+### Additional properties
+
+The following properties are used by Maven plugins, and can be overwritten to set default values:
 
 |Variable|Recommended value|Usage|
 |---|---|---|
@@ -17,8 +25,19 @@ The following properties when set will used by Maven plugins:
 |maven.compiler.showDeprecation|true|Shows deprecation warnings on compile|
 |maven.compiler.showWarnings|true|Shows compilation warnings on compile|
 
+### Array properties
+
+If a property contains several children they can be accessed as an array.
+
+For example this gets the path to the first test resources directory:
+
+```
+${project.build.testResources[0].directory}
+```
+
 ## Extensions
 
 Add the [Wagon SSH][wagon_ssh] to allow deploying through SSH.
 
 [wagon_ssh]: http://maven.apache.org/wagon/wagon-providers/wagon-ssh/
+[maven_super_pom]: https://maven.apache.org/pom.html#The_Super_POM
