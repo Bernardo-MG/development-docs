@@ -24,3 +24,10 @@ Tests are to be run with each code change to validate them. The CI process shoul
 Test do not make a program bug free, but they remove to need to start and manually test the application after each modification.
 
 Another important notion is that they validate the application, ensure it fits into the specification.
+
+## Integration
+
+Some test may require a complex environment, where several services are integrated. For these cases there are some small guidelines:
+
+- Use embedded databases
+- Mock or stub external services

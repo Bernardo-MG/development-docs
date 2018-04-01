@@ -16,6 +16,7 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [git](other/git.md)
    * [Travis](other/travis.md)
    * [GitHub](other/github.md)
+   * [Databases](general/dbs.md)
 
 * Java
    * [Development Ecosystem](java/deveco.md)
@@ -29,6 +30,8 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [JPA](java/jpa.md)
 * Maven
    * [Maven](maven/maven.md)
+   * [Maven Lifecycle](maven/lifecycle.md)
+   * [Dependency Management](maven/dependencies.md)
    * [POMs](maven/pom.md)
    * [Configuration](maven/configuration.md)
    * [Building the Project](maven/building.md)
@@ -42,6 +45,9 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [Deployment With Maven](maven/deployment.md)
    * [Deploying Web Projects Locally](maven/web_locally.md)
    * [Frontend With Maven](maven/frontend.md)
+* Spring
+   * [Spring](spring/spring.md)
+   * [Spring MVC](spring/mvc.md)
 
 * Python
    * [Development Ecosystem](python/deveco.md)
