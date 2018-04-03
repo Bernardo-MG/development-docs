@@ -22,6 +22,9 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [Database Kinds](dbs/kinds.md)
    * [Style Guide](dbs/style.md)
    * [Joins](dbs/joins.md)
+* Web
+   * [Template View](web/template_view.md)
+   * [Interactive View](web/interactive_view.md)
 
 * Java
    * [Development Ecosystem](java/deveco.md)
