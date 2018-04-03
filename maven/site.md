@@ -10,11 +10,15 @@ By default the site is generated using an ugly and obsolete UI. For that reason 
 
 ## Reports
 
-The site includes not only documentation, but also several reports, generated along the docs.
+The [report plugins][report_plugins] will generate several reports along the site. Check the plugin documentation to find about each of them, but most of them will generate a HTML file which can be linked by the site.
+
+Usually these HTML files are processed by the Maven skin being used. But some reports will ignore that completely.
+
+Remember that some of these reports may need additional information, for example the coverage data generated during the testing phase.
 
 ## Command
 
-As some reports will require the output from the tests it is recommended running all the tests before generating the site:
+As some reports will require test results it is recommended running all the tests before generating the site:
 
 ```
 mvn verify site
@@ -22,3 +26,5 @@ mvn verify site
 
 [docs_maven_skin]: https://github.com/Bernardo-MG/docs-maven-skin
 [maven_site]: https://maven.apache.org/plugins/maven-site-plugin/
+
+[report_plugins]: ./maven_reports.md
