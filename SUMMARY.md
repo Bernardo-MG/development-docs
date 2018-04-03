@@ -28,8 +28,7 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [Tests](java/tests.md)
    * [Java Artifacts Deployment](java/deployment.md)
    * [JPA](java/jpa.md)
-* Maven
-   * [Maven](maven/maven.md)
+* [Maven](maven/maven.md)
    * [Maven Lifecycle](maven/lifecycle.md)
    * [Dependency Management](maven/dependencies.md)
    * [POMs](maven/pom.md)
@@ -45,8 +44,7 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [Deployment With Maven](maven/deployment.md)
    * [Deploying Web Projects Locally](maven/web_locally.md)
    * [Frontend With Maven](maven/frontend.md)
-* Spring
-   * [Spring](spring/spring.md)
+* [Spring](spring/spring.md)
    * [Spring MVC](spring/mvc.md)
 
 * Python
