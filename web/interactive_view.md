@@ -1,6 +1,14 @@
 # Interactive View
 
-Modern frameworks and tecnologies allow splitting the frontend and backend completely, transforming the view into an interactive client which handles all communication with the server.
+Modern frameworks and technologies allow splitting the frontend and backend completely, transforming the view into an interactive client which handles all communication with the server.
+
+## Architecture
+
+This mixes well with client-server architectures.
+
+## State
+
+Data such as results from requests, or the user information, can be stored locally by the frontend client, which now handles part or the totallity of the application state.
 
 ## Example
 
