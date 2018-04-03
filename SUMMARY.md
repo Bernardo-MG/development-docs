@@ -35,6 +35,7 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [Continuous Integration](java/ci.md)
    * [Tests](java/tests.md)
    * [Java Artifacts Deployment](java/deployment.md)
+   * [Java Beans](java/beans.md)
    * [JPA](java/jpa.md)
    * [Project Templates](java/templates.md)
 * [Maven](maven/maven.md)
