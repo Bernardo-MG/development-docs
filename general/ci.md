@@ -1,8 +1,10 @@
 # Continuous Integration
 
-The CI service will take care of validating the changes, building/publishing artifacts and messaging services. This should be done after each commit to the code repository.
+The CI service will take care of building, testing and deploying. Along any other repetitive task which the project may need.
 
-## Worflow
+It should run after each commit to the code repository, and take care of generating releases. Never depend on manual tasks for important jobs.
+
+## Workflow
 
 ![CI flow][ci_flow]
 
@@ -28,6 +30,16 @@ Flow | Marked by
 Release | Comes from the master branch
 Development | Comes from the develop branch
 Pull request | Environment variable
+Other| Any other case
+
+### Tasks
+
+Flow | Marked by
+--- | ---
+Release | Validate project, publish release artifacts
+Development | Validate project, publish development artifacts
+Pull request | Validate project, forbid invalid merges
+Other | Validate project
 
 ### Publication flow
 
@@ -49,7 +61,7 @@ before_install:
 
 ### Setting up the environment
 
-One of the scripts is run in most of the projects:
+One of the scripts can be used for most projects:
 
 ```
 before_install:
@@ -57,9 +69,9 @@ before_install:
   - source ~/.scripts/travis/load-travis-environment.sh
 ```
 
-This takes care of setting up a set of environment variables to be used by the other scripts.
+This will initialize a set of environment variables to be used by the other scripts.
 
-It will create the following flow control environmental variables:
+Some of these will be the following flow control environmental variables:
 
 Variable | Type
 --- | ---
