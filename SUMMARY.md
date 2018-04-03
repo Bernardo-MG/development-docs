@@ -16,7 +16,7 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [git](other/git.md)
    * [Travis](other/travis.md)
    * [GitHub](other/github.md)
-   * [Databases](general/dbs.md)
+   * [Databases](other/dbs.md)
 
 * Java
    * [Development Ecosystem](java/deveco.md)
