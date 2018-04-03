@@ -26,6 +26,7 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
 * Web
    * [Template View](web/template_view.md)
    * [Interactive View](web/interactive_view.md)
+   * [SOAP](web/soap.md)
 
 * Java
    * [Development Ecosystem](java/deveco.md)
