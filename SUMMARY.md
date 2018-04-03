@@ -13,6 +13,7 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [Continuous Integration](general/ci.md)
    * [Code Style](general/style.md)
    * [Design Patterns](general/design_patterns.md)
+   * [Architecture](general/architecture.md)
    * [Refactoring](general/refactoring.md)
 * Technologies and services
    * [git](other/git.md)
