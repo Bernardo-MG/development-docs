@@ -20,7 +20,27 @@ before_script:
 
 This will set up the credentials for deploying the artifacts, both the JAR/WAR and the Maven site.
 
-For this to work two profiles are needed, one for deploying release artifacts and another for development artifacts:
+This requires two profiles.
+
+One for development:
+
+```
+<profile>
+   <!-- Development site deployment profile -->
+   <!-- Sets the site repository to point to the development repo -->
+   <id>deployment-development</id>
+   <distributionManagement>
+      <site>
+         <id>site-development</id>
+         <name>Project Development Documentation Site</name>
+         <!-- The URL should be set externally -->
+         <url>${site.develop.url}</url>
+      </site>
+   </distributionManagement>
+</profile>
+```
+
+And another for release:
 
 ```
 <profile>
@@ -37,19 +57,6 @@ For this to work two profiles are needed, one for deploying release artifacts an
          <name>Project Documentation Site</name>
          <!-- The URL should be set externally -->
          <url>${site.release.url}</url>
-      </site>
-   </distributionManagement>
-</profile>
-<profile>
-   <!-- Development site deployment profile -->
-   <!-- Sets the site repository to point to the development repo -->
-   <id>deployment-development</id>
-   <distributionManagement>
-      <site>
-         <id>site-development</id>
-         <name>Project Development Documentation Site</name>
-         <!-- The URL should be set externally -->
-         <url>${site.develop.url}</url>
       </site>
    </distributionManagement>
 </profile>
