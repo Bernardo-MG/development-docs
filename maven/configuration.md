@@ -35,6 +35,12 @@ The following properties are used by Maven plugins, and can be overwritten to se
 |maven.compiler.showDeprecation|true|Shows deprecation warnings on compile|
 |maven.compiler.showWarnings|true|Shows compilation warnings on compile|
 
+There are other variables which can be used, but it is not recommended changing them without a good reason:
+
+|Variable|Usage|
+|---|---|---|
+|maven.test.skip|Set to true to disable tests|
+
 ### Array properties
 
 If a property contains several children they can be accessed as an array.
