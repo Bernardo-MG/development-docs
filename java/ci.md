@@ -10,7 +10,7 @@ Continuous Integration is handled through [Travis CI][travis].
 
 ## Scripts
 
-The CI scripts include one for setting up a Maven settings file:
+There is a [CI script][scripts_repo] for setting up a Maven settings file:
 
 ```
 before_script:
@@ -20,7 +20,7 @@ before_script:
 
 This will set up the credentials for deploying the artifacts, both the JAR/WAR and the Maven site.
 
-It will require two profiles in the POM, for deploying release and development artifacts:
+For this to work two profiles are needed, one for deploying release artifacts and another for development artifacts:
 
 ```
 <profile>
@@ -81,7 +81,7 @@ after_success:
 
 ## Status flags
 
-A few flags are used to control the CI flow. These are required by the [CI scripts][scripts_repo] and stored in environmental variables.
+A few flags are used to control the CI flow. These are required by the CI scripts and stored in environmental variables.
 
 
 [ci]: ../general/ci.md
