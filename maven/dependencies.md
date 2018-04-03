@@ -15,6 +15,26 @@ This is handled with the [dependency management][maven_dependency_management] an
 
 This way if the dependencies are added into any kind of children POM the version is already set by default. Which is very useful when creating base POMs or working with multi-module projects.
 
+## Snapshots
+
+Development releases are snapshots. These are handled by adding the -SNAPSHOT suffix to a version in the POM:
+
+```
+<version>1.2.3-SNAPSHOT</version>
+```
+
+The generated JAR will be timestamped, and can be stored into a repository like any dependency.
+
+When using the snapshot version as a dependency Maven will download the latest snapshot.
+
+```
+<dependency>
+   <groupId>groupId</groupId>
+   <artifactId>artifactId</artifactId>
+   <version>1.2.3-SNAPSHOT</version>
+</dependency>
+```
+
 ## Bill of Materials (BOM)
 
 A BOM project just contains a POM with a set of dependencies. This allows enforcing a predefined configuration which reduces the problems caused by complex dependencies.

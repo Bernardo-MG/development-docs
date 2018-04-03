@@ -1,4 +1,4 @@
-# Databases
+# Database Kinds
 
 When developing there are two important kinds of databases: embedded and external databases.
 
@@ -19,11 +19,3 @@ These are some databases used embedded:
 
 - [MySQL](https://www.mysql.com/)
 - [PostgreSQL](https://www.postgresql.org/)
-
-## Style guide
-
-Always follow a style guide when designing databases.
-
-- [SQL Style Guide][sql_style]
-
-[sql_style]: http://www.sqlstyle.guide/
