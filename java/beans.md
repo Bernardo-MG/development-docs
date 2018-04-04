@@ -1,3 +1,7 @@
+---
+description: This is a short description of my page
+---
+
 # Java Beans
 
 A bit of convention and a bit of old specification, Java Beans are a common way to generate data objects in Java.
