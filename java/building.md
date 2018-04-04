@@ -25,11 +25,3 @@ JAR files are ready to be used:
 ```
 java -jar App.jar
 ```
-
-## Maven
-
-Maven takes care of all the important tasks when building a project. As long as it is correctly configured.
-
-For more information check the [building with Maven][maven_building] section.
-
-[maven_building]: ../maven/building.md
