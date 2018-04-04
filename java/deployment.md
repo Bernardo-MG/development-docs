@@ -1,7 +1,9 @@
 # Java Artifacts Deployment
 
-## Maven
+There is no official repository for Java artifacts. So were they are deployed will depend on the project management tool being used.
 
-Artifacts are deployed with [Maven][maven_deployment].
+Maven and Gradle are the most popular options.
 
-[maven_deployment]: ../maven/deployment.md
+## Packages
+
+JAR and WAR files can be deployed. Any additional requirement will depend on the tools and services being used.
