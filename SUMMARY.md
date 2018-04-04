@@ -15,6 +15,7 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [Design Patterns](general/design_patterns.md)
    * [Architecture](general/architecture.md)
    * [Refactoring](general/refactoring.md)
+----
 * Technologies and services
    * [git](other/git.md)
    * [Travis](other/travis.md)
@@ -27,7 +28,7 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [Template View](web/template_view.md)
    * [Interactive View](web/interactive_view.md)
    * [SOAP](web/soap.md)
-
+----
 * Java
    * [Development Ecosystem](java/deveco.md)
    * [IDE](java/ide.md)
@@ -58,7 +59,7 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
    * [Frontend With Maven](maven/frontend.md)
 * [Spring](spring/spring.md)
    * [Spring MVC](spring/mvc.md)
-
+----
 * Python
    * [Development Ecosystem](python/deveco.md)
    * [IDE](python/ide.md)
