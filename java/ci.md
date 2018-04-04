@@ -1,11 +1,5 @@
 # Continuous Integration
 
-Check first the [CI][ci] section.
+The project should be adapted to the management tool being used.
 
-## Maven
-
-For Maven check the [Maven CI][maven_ci] page.
-
-
-[ci]: ../general/ci.md
-[maven_ci]: ../maven/ci.md
+Check the corresponding sections.
