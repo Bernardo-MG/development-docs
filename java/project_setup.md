@@ -1,7 +1,5 @@
 # Project Setup
 
-## Maven
+By default there are no rules for organizing Java projects.
 
-Check the [Maven Project Setup][maven_setup] section.
-
-[maven_setup]: ../maven/project_setup.md
+It is recommended using a project management tool such as Maven.
