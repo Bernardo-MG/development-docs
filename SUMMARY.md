@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [Introduction](readme.md)
 * [General information](general-information.md)
   * [Development Ecosystem](general/deveco.md)
   * [Documentation](general/documentation.md)
