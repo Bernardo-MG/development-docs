@@ -6,17 +6,17 @@ Just remember that Maven is mainly a Java tool, and any other technology should 
 
 ## Webjars
 
-[Webjars][webjars] are frontend dependencies packaged into Jars.
+[Webjars](http://www.webjars.org/) are frontend dependencies packaged into Jars.
 
 The downside is that they require a specific framework, such as Spring or Play, to be usable. Check their documentation for more details.
 
 ## Minification
 
-To minify JS and CSS files use the [Minify Maven Plugin][minify_plugin].
+To minify JS and CSS files use the [Minify Maven Plugin](http://samaxes.github.io/minify-maven-plugin/).
 
 ### CSS
 
-```
+```xml
 <plugin>
    <!-- Minify -->
    <!-- Minifies files. -->
@@ -43,7 +43,7 @@ To minify JS and CSS files use the [Minify Maven Plugin][minify_plugin].
 
 ### Javascript
 
-```
+```xml
 <plugin>
    <!-- Minify -->
    <!-- Minifies files. -->
@@ -71,9 +71,9 @@ To minify JS and CSS files use the [Minify Maven Plugin][minify_plugin].
 
 ## Javascript validation
 
-Use the [JSHint plugin][jshint_plugin] to validate Javascript files.
+Use the [JSHint plugin](https://github.com/cjdev/jshint-mojo) to validate Javascript files.
 
-```
+```xml
 <plugin>
    <!-- JSHint -->
    <!-- Validates Javascript files. -->
@@ -104,11 +104,11 @@ Use the [JSHint plugin][jshint_plugin] to validate Javascript files.
 
 Some project may have advanced requirements, such as additional dependencies, which only npm and webpack can handle.
 
-For these cases the [Frontend Maven plugin][frontend_plugin] can be used.
+For these cases the [Frontend Maven plugin](https://github.com/eirslett/frontend-maven-plugin) can be used.
 
 ### npm
 
-```
+```xml
 <plugin>
    <!-- Frontend Plugin -->
    <!-- Manages frontend dependencies -->
@@ -143,7 +143,7 @@ For these cases the [Frontend Maven plugin][frontend_plugin] can be used.
 
 It is recommended binding a npm testing script to the testing phase:
 
-```
+```xml
 <plugin>
    <!-- Frontend Plugin -->
    <groupId>com.github.eirslett</groupId>
@@ -165,7 +165,7 @@ It is recommended binding a npm testing script to the testing phase:
 
 ### npm and webpack:
 
-```
+```xml
 <plugin>
    <!-- Frontend Plugin -->
    <groupId>com.github.eirslett</groupId>
@@ -205,7 +205,7 @@ It is recommended binding a npm testing script to the testing phase:
 
 If needed, webpack can receive environmental variables:
 
-```
+```xml
 <plugin>
    <!-- Frontend Plugin -->
    <groupId>com.github.eirslett</groupId>
@@ -232,7 +232,5 @@ If needed, webpack can receive environmental variables:
 </plugin>
 ```
 
-[frontend_plugin]: https://github.com/eirslett/frontend-maven-plugin
-[jshint_plugin]: https://github.com/cjdev/jshint-mojo
-[minify_plugin]: http://samaxes.github.io/minify-maven-plugin/
-[webjars]: http://www.webjars.org/
+
+

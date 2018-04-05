@@ -1,5 +1,5 @@
 ---
-description: This is a short description of my page
+description: Java Beans
 ---
 
 # Java Beans
@@ -10,8 +10,8 @@ A bit of convention and a bit of old specification, Java Beans are a common way 
 
 Java beans should:
 
-- Have a (explicit) default constructor
-- Contain getters and setters for all the fields
+* Have a \(explicit\) default constructor
+* Contain getters and setters for all the fields
 
 ## Usage
 
@@ -19,4 +19,5 @@ Some libraries, such as JPA implementations, will require data objects to fit th
 
 ## More Information
 
-- [Oracle's Java Bean Tutorial](https://docs.oracle.com/javase/tutorial/javabeans/)
+* [Oracle's Java Bean Tutorial](https://docs.oracle.com/javase/tutorial/javabeans/)
+

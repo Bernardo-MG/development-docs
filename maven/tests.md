@@ -2,7 +2,7 @@
 
 Tests are run with Junit and Maven.
 
-## Unit and integration tests
+## Unit and Integration Tests
 
 Maven divides tests into two phases, one for unit tests and another for integration ones. Running the integration tests will run both the unit and integration tests.
 
@@ -14,13 +14,13 @@ It is recommended using the default test search methods, which will run all the 
 
 To run both unit and integration tests the use the following command:
 
-```
+```bash
 mvn verify
 ```
 
 To run only unit tests use the following command:
 
-```
+```bash
 mvn test
 ```
 
@@ -28,12 +28,12 @@ mvn test
 
 Maven uses two plugins to take care of the tests:
 
-- [Surefire](https://maven.apache.org/surefire/maven-surefire-plugin/) runs unit tests.
-- [Failsafe](https://maven.apache.org/surefire/maven-failsafe-plugin/) runs integration tests.
+* [Surefire](https://maven.apache.org/surefire/maven-surefire-plugin/) runs unit tests.
+* [Failsafe](https://maven.apache.org/surefire/maven-failsafe-plugin/) runs integration tests.
 
 Failsafe has to be set up before the tests can be run:
 
-```
+```xml
 <plugin>
    <!-- Failsafe -->
    <!-- Runs integration tests. -->
@@ -60,12 +60,12 @@ Failsafe has to be set up before the tests can be run:
 
 Some additional plugins can be used to improve testing results:
 
-- [JaCoCo](http://eclemma.org/jacoco/trunk/doc/maven.html), generates coverage reports from Surefire and Failsafe.
-- [Surefire Report](https://maven.apache.org/surefire/maven-surefire-report-plugin/), generates the unit tests report.
+* [JaCoCo](http://eclemma.org/jacoco/trunk/doc/maven.html), generates coverage reports from Surefire and Failsafe.
+* [Surefire Report](https://maven.apache.org/surefire/maven-surefire-report-plugin/), generates the unit tests report.
 
 To set up JaCoCo use this configuration:
 
-```
+```xml
 <plugin>
    <!-- JaCoCo -->
    <!-- Generates coverage data from Surefire and Failsafe. -->
@@ -89,7 +89,7 @@ To set up JaCoCo use this configuration:
 </plugin>
 ```
 
-## Test environment
+## Test Environment
 
 Complex test environments, which can be required by some integration tests, may require profiles.
 
@@ -97,21 +97,21 @@ Spring can be used to set up these complex environments.
 
 ### Databases
 
-The [JPA Example][jpa-example] uses several databases for testing, setting up a full persistence context by using Spring and Maven.
+The [JPA Example](https://github.com/Bernardo-MG/jpa-example) uses several databases for testing, setting up a full persistence context by using Spring and Maven.
 
 ## Mocking
 
-When preparing unit tests the dependencies should be mocked. [Mockito][mockito] is the recommended library for this.
+When preparing unit tests the dependencies should be mocked. [Mockito](http://site.mockito.org/) is the recommended library for this.
 
-## Using web servers with tests
+## Using Web Servers with Tests
 
-Just like explained in [deploying web projects locally][deploying_locally], it is possible to run a web server during the integration tests, by anchoring the plugins execution to the verify phase.
+Just like explained in [deploying web projects locally](./web_locally.md), it is possible to run a web server during the integration tests, by anchoring the plugins execution to the verify phase.
 
 ### Jetty
 
 When using the Jetty plugin with Maven use this configuration:
 
-```
+```xml
 <plugin>
    <!-- Jetty -->
    <!-- Jetty will run the web service during the integration 
@@ -158,7 +158,7 @@ When using the Jetty plugin with Maven use this configuration:
 
 When using the Tomcat plugin with Maven use this configuration:
 
-```
+```xml
 <plugin>
    <!-- Tomcat 7 -->
    <!-- Tomcat 7 will run the web service during the integration 
@@ -193,6 +193,5 @@ When using the Tomcat plugin with Maven use this configuration:
 </plugin>
 ```
 
-[deploying_locally]: ./web_locally.md
-[jpa-example]: https://github.com/Bernardo-MG/jpa-example
-[mockito]: http://site.mockito.org/
+
+

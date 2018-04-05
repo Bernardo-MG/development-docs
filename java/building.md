@@ -1,20 +1,24 @@
-# Building the Project
+---
+description: Compiling and Running Java Files
+---
 
-## JDK
+# Compiling and Running
 
-### From source code
+### Compiling
 
-It is not recommended building Java projects manually. But if needed follow these steps.
+It is not recommended building Java projects manually. But if needed follow these steps to compile Java files.
 
 First compile the file to run:
 
-```
+```bash
 javac App.java
 ```
 
-Then run it:
+## Running
 
-```
+To run it:
+
+```bash
 java App
 ```
 
@@ -22,6 +26,9 @@ java App
 
 JAR files are ready to be used:
 
-```
+```bash
 java -jar App.jar
 ```
+
+
+
