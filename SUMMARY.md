@@ -1,5 +1,6 @@
 # Summary
 
+* [Introduction](README.md)
 * [Introduction](readme.md)
 * [General information](general-information.md)
   * [Development Ecosystem](general/deveco.md)
@@ -63,10 +64,11 @@
 ## Spring
 
 * [General](spring/spring.md)
+  * [Setting Up Persistence](spring/spring/setting-up-persistence.md)
 * [Spring MVC](spring/mvc.md)
-* [Setting Up the Application](spring/spring-ws/setting-up-the-application.md)
+  * [Setting Up the Application](spring/spring-ws/setting-up-the-application.md)
+  * [Loading Pageable Automatically](spring/spring-ws/loading-pageable-automatically.md)
 * [Spring WS](spring/spring-ws.md)
-* [Loading Pageable Automatically](spring/spring-ws/loading-pageable-automatically.md)
 
 ## Python
 
