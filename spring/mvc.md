@@ -1,11 +1,22 @@
-# Spring
+---
+description: Spring MVC
+---
 
-[Spring][spring] is a powerful framework widely used for Java applications.
+# Spring MVC
 
-Its most useful aspects are:
-- Dependency injection
-- Inversion of control
-- Several specialized additional frameworks
-- Easing the creation of web projects
+[Spring MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html) is Springs solution for web applications.
 
-[spring]: https://spring.io/
+## Examples
+
+Examples using Spring MVC:
+
+* [Spring MVC Security Example](https://github.com/Bernardo-MG/spring-mvc-security-example)
+* [Serving Content with Spring MVC](https://github.com/Bernardo-MG/spring-mvc-serving-content-example)
+* [Spring Web Services WS-Security Example](https://github.com/Bernardo-MG/spring-ws-security-soap-example)
+
+## Templates
+
+Maven archetypes for Spring MVC projects:
+
+* [Spring MVC with Thymeleaf Maven Archetype](https://github.com/Bernardo-MG/spring-mvc-thymeleaf-maven-archetype)
+

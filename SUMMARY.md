@@ -37,7 +37,10 @@
   * [Java Beans](java/beans.md)
   * [JPA](java/jpa.md)
   * [Javadoc](java/javadoc.md)
-* [Maven](maven/maven.md)
+
+## Maven
+
+* [General](maven/maven.md)
   * [Maven Lifecycle](maven/lifecycle.md)
   * [Dependency Management](maven/dependencies.md)
   * [POMs](maven/pom.md)
@@ -56,8 +59,14 @@
   * [Artifact Repositories](maven/artifact-repositories.md)
   * [Deploying Documentation](maven/documentation-deployment.md)
   * [Frontend With Maven](maven/frontend.md)
-* [Spring](spring/spring.md)
-  * [Spring MVC](spring/mvc.md)
+
+## Spring
+
+* [General](spring/spring.md)
+* [Spring MVC](spring/mvc.md)
+* [Setting Up the Application](spring/spring-ws/setting-up-the-application.md)
+* [Spring WS](spring/spring-ws.md)
+* [Loading Pageable Automatically](spring/spring-ws/loading-pageable-automatically.md)
 
 ## Python
 
