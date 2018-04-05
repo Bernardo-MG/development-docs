@@ -1,36 +1,28 @@
+---
+description: Java Development Ecosystem
+---
+
 # Java Development Ecosystem
 
-![Java development architecture][dev_eco_java]
+![](../img/diagram/dev_eco_java.png)
 
 ## IDE
 
-Eclipse is the recommended Java [IDE][ide], it integrates with the other tools used, such as Maven or git.
+Eclipse is the recommended Java [IDE](./ide.md), it integrates with the other tools used, such as Maven or git.
 
 ## CI
 
-[Travis][travis] is used for [Continuous Integration][ci].
+[Travis](../other/travis.md) is used for [Continuous Integration](./ci.md).
 
 ## Project Management
 
-[Maven][maven] is used to manage projects.
+[Maven](../maven/maven.md) is used to manage projects.
 
 ## Version control
 
-[git][git] is used for version control.
+[git](../other/git.md) is used for version control.
 
 ## Deployment to dependency repositories
 
-[Bintray][bintray], [JCenter][jcenter] and [Maven Central][maven_central] are used to [deploy artifacts][deployment].
+[Bintray](https://bintray.com), [JCenter](https://bintray.com/bintray/jcenter) and [Maven Central](https://search.maven.org/) are used to [deploy artifacts](./deployment.md).
 
-[ci]: ./ci.md
-[deployment]: ./deployment.md
-[git]: ../other/git.md
-[ide]: ./ide.md
-[maven]: ../maven/maven.md
-[travis]: ../other/travis.md
-
-[bintray]: https://bintray.com
-[jcenter]: https://bintray.com/bintray/jcenter
-[maven_central]: https://search.maven.org/
-
-[dev_eco_java]: ../img/diagram/dev_eco_java.png

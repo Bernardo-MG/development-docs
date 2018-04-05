@@ -1,4 +1,8 @@
-# Building the Project
+---
+description: Building Java Files
+---
+
+# Building Java Files
 
 ## JDK
 
@@ -25,3 +29,6 @@ JAR files are ready to be used:
 ```
 java -jar App.jar
 ```
+
+
+

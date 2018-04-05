@@ -11,7 +11,7 @@
   * [Architecture](general/architecture.md)
   * [Refactoring](general/refactoring.md)
 
----
+## Various
 
 * [Technologies and services](dbs/technologies-and-services.md)
   * [git](other/git.md)
@@ -28,17 +28,14 @@
 
 ## Java
 
-* [Java](maven/java.md)
+* [General](maven/java.md)
   * [Development Ecosystem](java/deveco.md)
   * [IDE](java/ide.md)
   * [Building the Project](java/building.md)
-  * [Project Setup](java/project_setup.md)
   * [Continuous Integration](java/ci.md)
   * [Tests](java/tests.md)
-  * [Java Artifacts Deployment](java/deployment.md)
   * [Java Beans](java/beans.md)
   * [JPA](java/jpa.md)
-  * [Project Templates](java/templates.md)
 * [Maven](maven/maven.md)
   * [Maven Lifecycle](maven/lifecycle.md)
   * [Dependency Management](maven/dependencies.md)
@@ -61,7 +58,7 @@
 
 ## Python
 
-* Python
+* [General](python/python.md)
   * [Development Ecosystem](python/deveco.md)
   * [IDE](python/ide.md)
   * [Building the Project](python/building.md)
