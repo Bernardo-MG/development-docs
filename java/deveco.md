@@ -18,11 +18,11 @@ Eclipse is the recommended Java [IDE](./ide.md), it integrates with the other to
 
 [Maven](../maven/maven.md) is used to manage projects.
 
-## Version control
+## Version Control
 
 [git](../other/git.md) is used for version control.
 
-## Deployment to dependency repositories
+## Deployment to Dependency Repositories
 
 [Bintray](https://bintray.com), [JCenter](https://bintray.com/bintray/jcenter) and [Maven Central](https://search.maven.org/) are used to [deploy artifacts](./deployment.md).
 

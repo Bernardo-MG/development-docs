@@ -4,7 +4,7 @@ description: Tests with Java
 
 # Tests
 
-## Test frameworks
+## Test Frameworks
 
 The test frameworks available for Java are:
 

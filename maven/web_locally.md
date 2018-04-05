@@ -6,19 +6,19 @@ Maven can deploy web applications locally by using plugins.
 
 First of all define a property for the deployment context:
 
-```
+```xml
 <properties>
    <server.path>/webproject</server.path>
 </properties>
 ```
 
-This will be used to deploy the project into the http://localhost:8080/webproject/ URL.
+This will be used to deploy the project into the [http://localhost:8080/webproject/](http://localhost:8080/webproject/) URL.
 
 ### Jetty
 
-When using the [Jetty plugin][jetty_plugin] with Maven use this configuration:
+When using the [Jetty plugin](https://www.eclipse.org/jetty/documentation/9.4.x/jetty-maven-plugin.html) with Maven use this configuration:
 
-```
+```xml
 <plugin>
    <!-- Jetty -->
    <groupId>org.eclipse.jetty</groupId>
@@ -37,9 +37,9 @@ When using the [Jetty plugin][jetty_plugin] with Maven use this configuration:
 
 ### Tomcat
 
-When using the [Tomcat plugin][tomcat_plugin] with Maven use this configuration:
+When using the [Tomcat plugin](http://tomcat.apache.org/maven-plugin-2.0/tomcat7-maven-plugin/) with Maven use this configuration:
 
-```
+```xml
 <plugin>
    <!-- Tomcat 7 -->
    <groupId>org.apache.tomcat.maven</groupId>
@@ -51,5 +51,5 @@ When using the [Tomcat plugin][tomcat_plugin] with Maven use this configuration:
 </plugin>
 ```
 
-[jetty_plugin]: https://www.eclipse.org/jetty/documentation/9.4.x/jetty-maven-plugin.html
-[tomcat_plugin]: http://tomcat.apache.org/maven-plugin-2.0/tomcat7-maven-plugin/
+
+

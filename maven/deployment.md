@@ -2,17 +2,13 @@
 
 ## JAR/WAR
 
-[Maven][maven] is used to deploy Java artifacts. The JAR files are deployed to [Bintray][bintray], from there replicated automatically into [JCenter][jcenter], and manually to [Maven Central][maven_central].
-
-Bintray has a [guide][bintray_guide] detailing how to set this up.
-
-Deployment is handled through CI. This will require a passkey, which should be stored in an environmental variable.
+[Maven](./maven) is used to deploy Java artifacts. The code artifacts are deployed to an artifacts repository as part of the CI process.
 
 ### Command
 
 If needed, a project can be deployed manually:
 
-```
+```bash
 mvn deploy
 ```
 
@@ -20,7 +16,7 @@ mvn deploy
 
 Add the repositories info to the POM:
 
-```
+```xml
 <distributionManagement>
    <repository>
       <uniqueVersion>false</uniqueVersion>
@@ -43,7 +39,7 @@ They will require access data. Never include it in the project, instead add it t
 
 For the previous example the settings file would require something like:
 
-```
+```xml
 <settings>
    <servers>
       <server>
@@ -60,54 +56,5 @@ For the previous example the settings file would require something like:
 </settings>
 ```
 
-## Documentation deployment
 
-Maven is used to generate and deploy a Maven site, which works as the project documentation site.
 
-A static content server is used to store the files. Any which supports SSH can be used. Do not use FTP as it is unsecure.
-
-Deployment is handled through CI. This will require authentication data, which should be stored in environmental variables.
-
-### Command
-
-The Maven site can be deployed with:
-
-```
-mvn site site:deploy
-```
-
-### Configuration
-
-Like with the JAR, the Maven site requires a server:
-
-```
-<distributionManagement>
-   <site>
-      <id>site</id>
-      <name>Project Development Documentation Site</name>
-      <url>[deployment_url]</url>
-   </site>
-</distributionManagement>
-```
-
-And authentication data in the settings file:
-
-```
-<settings>
-   <servers>
-      <server>
-         <id>site</id>
-         <username>[username]</username>
-         <password>[password]</password>
-      </server>
-   </servers>
-</settings>
-```
-
-[bintray]: https://bintray.com
-[jcenter]: https://bintray.com/bintray/jcenter
-[maven_central]: https://search.maven.org/
-
-[maven]: ./maven
-
-[bintray_guide]: https://blog.bintray.com/2014/02/11/bintray-as-pain-free-gateway-to-maven-central/

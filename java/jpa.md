@@ -15,13 +15,13 @@ There are several implementations. Among those the most important are:
 
 To test and remember how to work with JPA use the [JPA Example](https://github.com/Bernardo-MG/jpa-example).
 
-## API dependency
+## API Dependency
 
 There are several version of the Java Persistence API v2, which causes a lot of problems.
 
 Luckily the version 2.2 of the API has an official release:
 
-```
+```xml
 <dependency>
    <!-- JPA API -->
    <groupId>javax.persistence</groupId>

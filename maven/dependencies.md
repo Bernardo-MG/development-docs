@@ -7,11 +7,11 @@ Some rules:
 * Never use snapshots in releases
 * Ensure version convergence
 
-## Version management
+## Version Management
 
 Handling dependencies includes controlling the versions of those dependencies. Maven allows doing so without actually including the versions into the project.
 
-This is handled with the [dependency management][maven_dependency_management] and [plugin management][maven_plugin_management] options.
+This is handled with the [dependency management](https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html#Dependency_Management) and [plugin management](https://maven.apache.org/pom.html#Plugin_Management) options.
 
 This way if the dependencies are added into any kind of children POM the version is already set by default. Which is very useful when creating base POMs or working with multi-module projects.
 
@@ -19,7 +19,7 @@ This way if the dependencies are added into any kind of children POM the version
 
 Development releases are snapshots. These are handled by adding the -SNAPSHOT suffix to a version in the POM:
 
-```
+```xml
 <version>1.2.3-SNAPSHOT</version>
 ```
 
@@ -27,7 +27,7 @@ The generated JAR will be timestamped, and can be stored into a repository like 
 
 When using the snapshot version as a dependency Maven will download the latest snapshot.
 
-```
+```xml
 <dependency>
    <groupId>groupId</groupId>
    <artifactId>artifactId</artifactId>
@@ -35,13 +35,13 @@ When using the snapshot version as a dependency Maven will download the latest s
 </dependency>
 ```
 
-## Bill of Materials (BOM)
+## Bill of Materials \(BOM\)
 
 A BOM project just contains a POM with a set of dependencies. This allows enforcing a predefined configuration which reduces the problems caused by complex dependencies.
 
 They can be used through the dependency management configuration:
 
-```
+```xml
 <dependencyManagement>
    <dependencies>
       <dependency>
@@ -56,7 +56,7 @@ They can be used through the dependency management configuration:
 </dependencyManagement>
 ```
 
-## Checking for updates
+## Checking for Updates
 
 To check if there are newer versions for the dependencies use the following command:
 
@@ -64,5 +64,5 @@ To check if there are newer versions for the dependencies use the following comm
 mvn versions:display-dependency-updates versions:display-plugin-updates
 ```
 
-[maven_dependency_management]: https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html#Dependency_Management
-[maven_plugin_management]: https://maven.apache.org/pom.html#Plugin_Management
+
+

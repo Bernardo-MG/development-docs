@@ -14,7 +14,9 @@ It is recommended using a project management tool, such as Maven, to generate Ja
 
 But they can be built by using this command:
 
-`javadoc file.java -d [destination_path]`
+```bash
+javadoc file.java -d [destination_path]
+```
 
 ## Style Guides
 

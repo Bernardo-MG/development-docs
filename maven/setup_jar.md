@@ -1,10 +1,10 @@
 # Setting up the JAR
 
-## Attach sources
+## Attach Sources
 
 To attach sources to the JAR use this configuration:
 
-```
+```xml
 <plugin>
    <!-- Source -->
    <!-- Bundles the source into the packaged project. -->
@@ -26,7 +26,7 @@ To attach sources to the JAR use this configuration:
 
 To attach javadocs to the JAR use this configuration:
 
-```
+```xml
 <plugin>
    <!-- Javadoc -->
    <!-- Handles the Javadocs. -->
@@ -48,7 +48,7 @@ To attach javadocs to the JAR use this configuration:
 
 The generated Javadocs won't link to third party libraries. This can be fixed by specifying the links to the Javadocs for those libraries:
 
-```
+```xml
 <plugin>
    <!-- Javadoc -->
    <!-- Generates the javadocs -->
@@ -69,11 +69,11 @@ The generated Javadocs won't link to third party libraries. This can be fixed by
 
 With this all the references to JEE7 or Spring classes will contain a link to their official Javadocs.
 
-### Generated code
+### Generated Code
 
 It is recommended ignoring generated code
 
-```
+```xml
 <plugin>
    <!-- Javadoc -->
    <!-- Generates the javadocs -->
@@ -90,7 +90,7 @@ It is recommended ignoring generated code
 
 To set up the JAR manifest use this configuration.
 
-```
+```xml
 <plugin>
    <!-- Jar -->
    <!-- Generates the jar file. -->
@@ -116,9 +116,12 @@ To set up the JAR manifest use this configuration.
 
 The manifest data should contain the artifact coordinates as a folder:
 
-```
+```xml
 <properties>
    <!-- Manifest data -->
    <manifest.name>com/bernardomg/maven/pom/base</manifest.name>
 </properties>
 ```
+
+
+
