@@ -36,6 +36,7 @@
   * [Tests](java/tests.md)
   * [Java Beans](java/beans.md)
   * [JPA](java/jpa.md)
+  * [Javadoc](java/javadoc.md)
 * [Maven](maven/maven.md)
   * [Maven Lifecycle](maven/lifecycle.md)
   * [Dependency Management](maven/dependencies.md)
