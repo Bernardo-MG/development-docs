@@ -34,9 +34,10 @@
   * [Compiling and running](java/building.md)
   * [Continuous Integration](java/ci.md)
   * [Tests](java/tests.md)
+  * [Style Guide](java/style-guide.md)
+  * [Javadoc](java/javadoc.md)
   * [Java Beans](java/beans.md)
   * [JPA](java/jpa.md)
-  * [Javadoc](java/javadoc.md)
 
 ## Maven
 
