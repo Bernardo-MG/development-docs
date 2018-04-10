@@ -34,10 +34,10 @@
   * [Compiling and running](java/building.md)
   * [Continuous Integration](java/ci.md)
   * [Tests](java/tests.md)
-  * [Style Guide](java/style-guide.md)
-  * [Javadoc](java/javadoc.md)
+  * [Functional](java/functional.md)
   * [Java Beans](java/beans.md)
   * [JPA](java/jpa.md)
+  * [Javadoc](java/javadoc.md)
 
 ## Maven
 
@@ -83,4 +83,3 @@
   * [tox](python/tox.md)
   * [Tests](python/tests.md)
   * [Deployment](python/deployment.md)
-
