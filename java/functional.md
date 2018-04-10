@@ -77,6 +77,18 @@ public final <I> Wrapper create(final I input) {
 }
 ```
 
+### Static Method References
+
+The same thing can be done with static methods:
+
+```java
+public final <I, O> O apply(final I input, final Function<I, O> strategy);
+```
+
+```
+apply(input, StringUtils::isNotBlank);
+```
+
 ## Lambdas
 
 Anonymous functions, or lambdas, can be used in a similar way:
@@ -132,6 +144,10 @@ filter(StringUtils::isNotBlank)
 ```java
 map(Wrapper::new)
 ```
+
+## More Information
+
+* [Java 8 Idioms](https://www.ibm.com/developerworks/java/library/j-java8idioms5/index.html)
 
 
 
