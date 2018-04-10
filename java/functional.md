@@ -49,6 +49,34 @@ public final <I, O> O read(final I sample, final Function<I, O> strategy) {
 }
 ```
 
+### Constructor References
+
+Constructors can be passed as arguments too.
+
+```java
+public final <I, O> O create(final I input, final Function<I, O> strategy);
+```
+
+```
+create(sample, Wrapper::new);
+```
+
+Not the constructor can be used as a Function:
+
+```java
+public final <I, O> O create(final I input, final Function<I, O> strategy) {
+   return strategy.apply(sample);
+}
+```
+
+Which is the same as:
+
+```java
+public final <I> Wrapper create(final I input) {
+   return new Wrapper(sample);
+}
+```
+
 ## Lambdas
 
 Anonymous functions, or lambdas, can be used in a similar way:
@@ -73,15 +101,7 @@ final Collection<Wrapper> result;
 result = strings.stream().filter((s) -> StringUtils.isNotBlank(s)).map((s) -> new Wrapper(s)).collect(Collectors.toList());
 ```
 
-Of course, it can be combined with other functional patterns to make it more compact:
-
-```java
-final Collection<Wrapper> result;
-
-result = strings.stream().filter(StringUtils::isNotBlank).map(Wrapper::new).collect(Collectors.toList());
-```
-
-## Stream From Iterable
+### Stream From Iterable
 
 Iterables don't give support to streams by default.
 
@@ -90,3 +110,28 @@ To create a stream from an iterable:
 ```java
 StreamSupport.stream(iterable.spliterator(), false);
 ```
+
+## Avoiding pass-through lambdas
+
+The stream example uses lambdas just to pass an argument to a function or constructor.
+
+```java
+filter((s) -> StringUtils.isNotBlank(s))
+```
+
+```java
+map((s) -> new Wrapper(s))
+```
+
+By using the other functional patterns, these can be reduced like this:
+
+```
+filter(StringUtils::isNotBlank)
+```
+
+```
+map(Wrapper::new)
+```
+
+
+
