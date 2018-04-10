@@ -6,7 +6,9 @@ description: Functional Programming in Java
 
 Java 8 gave support to functional programming in Java.
 
-Several patterns are supported, such as consumers, streams or functions, allong operations such as mapping and filtering.
+Several patterns are supported, such as pipelines \(as streams\), functions or mapping.
+
+As usual with functional programming, try to keep functions pure. Keep the code in each component self-contained, and with no side effects.
 
 ## Functional Interface
 
@@ -17,9 +19,23 @@ Functional interfaces, marked with the @FunctionalInterface annotation, are sing
 public interface Function<T, R>
 ```
 
+While any interface with a single method is a functional interface, which can be initialized from a lambda, those annotated will be checked during compilation, and cause an error if they don't meet the criteria for functional interfaces.
+
 ### Function
 
 The Function interface allows chaining functions by using the compose and andThen methods.
+
+### Predicate
+
+A logical predicate, which can be combined with or and and operations, or negated.
+
+### Consumer
+
+Takes an argument, but returns nothing. Used for operations with side effects.
+
+### Supplier
+
+Receives no argument but returns an object. Can be used for initialization.
 
 ## Method References
 
@@ -37,7 +53,7 @@ protected <I, O> O onRead(final I sample){
 
 It is possible using onRead as the operation strategy:
 
-```
+```java
 read(sample, this::onRead);
 ```
 
@@ -47,6 +63,46 @@ The read method only needs to call the strategy, and then it will make use of th
 public final <I, O> O read(final I sample, final Function<I, O> strategy) {
    return strategy.apply(sample);
 }
+```
+
+### Constructor References
+
+Constructors can be passed as arguments too.
+
+```java
+public final <I, O> O create(final I input, final Function<I, O> strategy);
+```
+
+```java
+create(sample, Wrapper::new);
+```
+
+Not the constructor can be used as a Function:
+
+```java
+public final <I, O> O create(final I input, final Function<I, O> strategy) {
+   return strategy.apply(sample);
+}
+```
+
+Which is the same as:
+
+```java
+public final <I> Wrapper create(final I input) {
+   return new Wrapper(sample);
+}
+```
+
+### Static Method References
+
+The same thing can be done with static methods:
+
+```java
+public final <I, O> O apply(final I input, final Function<I, O> strategy);
+```
+
+```java
+apply(input, StringUtils::isNotBlank);
 ```
 
 ## Lambdas
@@ -63,17 +119,9 @@ As functional interfaces have a single method the conversion won't be ambiguous.
 
 ## Streams
 
-Streams allow working with data collection as a continuous flow, which can be chained to other flows.
+Streams implement the pipeline pattern, chaining operations into a single flow.
 
-For example it is possible filtering data and then mapping it to another object:
-
-```java
-final Collection<Wrapper> result;
-
-result = strings.stream().filter((s) -> StringUtils.isNotBlank(s)).map((s) -> new Wrapper(s)).collect(Collectors.toList());
-```
-
-Of course, it can be combined with other functional patterns to make it more compact:
+Some common uses are filtering and mapping:
 
 ```java
 final Collection<Wrapper> result;
@@ -81,7 +129,7 @@ final Collection<Wrapper> result;
 result = strings.stream().filter(StringUtils::isNotBlank).map(Wrapper::new).collect(Collectors.toList());
 ```
 
-## Stream From Iterable
+### Stream From Iterable
 
 Iterables don't give support to streams by default.
 
@@ -90,3 +138,24 @@ To create a stream from an iterable:
 ```java
 StreamSupport.stream(iterable.spliterator(), false);
 ```
+
+## Avoiding pass-through lambdas
+
+The previous stream example could be like this:
+
+```java
+strings.stream().filter((s) -> StringUtils.isNotBlank(s)).map((s) -> new Wrapper(s)).collect(Collectors.toList());
+```
+
+But that uses lambdas just to pass arguments into functions or constructors. This can be reduced by using the other features which came with Java 8:
+
+```java
+strings.stream().filter(StringUtils::isNotBlank).map(Wrapper::new).collect(Collectors.toList());
+```
+
+## More Information
+
+* [Java 8 Idioms](https://www.ibm.com/developerworks/java/library/j-java8idioms5/index.html)
+
+
+
