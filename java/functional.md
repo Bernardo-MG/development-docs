@@ -125,11 +125,11 @@ map((s) -> new Wrapper(s))
 
 By using the other functional patterns, these can be reduced like this:
 
-```
+```java
 filter(StringUtils::isNotBlank)
 ```
 
-```
+```java
 map(Wrapper::new)
 ```
 
