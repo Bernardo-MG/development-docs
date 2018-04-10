@@ -7,6 +7,7 @@
   * [Testing](general/testing.md)
   * [Continuous Integration](general/ci.md)
   * [Code Style](general/style.md)
+  * [Paradigms](general/paradigms.md)
   * [Design Patterns](general/design_patterns.md)
   * [Architecture](general/architecture.md)
   * [Refactoring](general/refactoring.md)
@@ -83,3 +84,4 @@
   * [tox](python/tox.md)
   * [Tests](python/tests.md)
   * [Deployment](python/deployment.md)
+
