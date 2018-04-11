@@ -4,7 +4,7 @@ description: Functional Programming in Java
 
 # Functional Programming
 
-Java 8 gave support to functional programming in Java.
+Java 8 gave support to the functional programming paradigm in Java.
 
 Several patterns are supported, such as pipelines \(as streams\), functions or mapping.
 
@@ -156,6 +156,7 @@ strings.stream().filter(StringUtils::isNotBlank).map(Wrapper::new).collect(Colle
 ## More Information
 
 * [Java 8 Idioms](https://www.ibm.com/developerworks/java/library/j-java8idioms5/index.html)
+* [Functional Interfaces in Java 8](http://www.baeldung.com/java-8-functional-interfaces)
 
 
 
