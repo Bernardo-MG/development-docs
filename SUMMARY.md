@@ -33,6 +33,7 @@
   * [Development Ecosystem](java/deveco.md)
   * [IDE](java/ide.md)
   * [Compiling and running](java/building.md)
+  * [Manifest](java/manifest.md)
   * [Continuous Integration](java/ci.md)
   * [Tests](java/tests.md)
   * [Javadoc](java/javadoc.md)
