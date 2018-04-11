@@ -35,9 +35,11 @@
   * [Compiling and running](java/building.md)
   * [Continuous Integration](java/ci.md)
   * [Tests](java/tests.md)
-  * [Functional Programming](java/functional.md)
+  * [Functional](java/functional.md)
   * [Java Beans](java/beans.md)
   * [JPA](java/jpa.md)
+  * [JPA Entities](java/jpa-entities.md)
+  * [JPQL](java/jpql.md)
   * [Javadoc](java/javadoc.md)
 
 ## Maven
