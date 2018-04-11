@@ -63,7 +63,8 @@
   * [Deploying Web Projects Locally](maven/web_locally.md)
   * [Artifact Repositories](maven/artifact-repositories.md)
   * [Deploying Documentation](maven/documentation-deployment.md)
-  * [Frontend With Maven](maven/frontend.md)
+  * [JPA](maven/jpa.md)
+  * [Frontend](maven/frontend.md)
 
 ## Spring
 
