@@ -36,11 +36,12 @@
   * [Continuous Integration](java/ci.md)
   * [Tests](java/tests.md)
   * [Javadoc](java/javadoc.md)
-  * [Functional](java/functional.md)
+  * [Functional Programming](java/functional.md)
   * [Java Beans](java/beans.md)
   * [JPA](java/jpa.md)
   * [JPA Entities](java/jpa-entities.md)
   * [JPQL](java/jpql.md)
+  * [Criteria API](java/criteria-api.md)
 
 ## Maven
 
