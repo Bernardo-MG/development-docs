@@ -35,12 +35,13 @@
   * [Compiling and running](java/building.md)
   * [Continuous Integration](java/ci.md)
   * [Tests](java/tests.md)
-  * [Functional](java/functional.md)
+  * [Javadoc](java/javadoc.md)
+  * [Functional Programming](java/functional.md)
   * [Java Beans](java/beans.md)
   * [JPA](java/jpa.md)
   * [JPA Entities](java/jpa-entities.md)
   * [JPQL](java/jpql.md)
-  * [Javadoc](java/javadoc.md)
+  * [Criteria API](java/criteria-api.md)
 
 ## Maven
 
@@ -62,7 +63,8 @@
   * [Deploying Web Projects Locally](maven/web_locally.md)
   * [Artifact Repositories](maven/artifact-repositories.md)
   * [Deploying Documentation](maven/documentation-deployment.md)
-  * [Frontend With Maven](maven/frontend.md)
+  * [JPA](maven/jpa.md)
+  * [Frontend](maven/frontend.md)
 
 ## Spring
 
