@@ -15,6 +15,10 @@ There are several implementations. Among those the most important are:
 
 To test and remember how to work with JPA use the [JPA Example](https://github.com/Bernardo-MG/jpa-example).
 
+## Mapping
+
+Entities can be mapped with annotations or by using XML.
+
 ## API Dependency
 
 There are several version of the Java Persistence API v2, which causes a lot of problems.
@@ -31,4 +35,10 @@ Luckily the version 2.2 of the API has an official release:
 ```
 
 Whenever possible use the version 2.2 or higher of JPA to avoid possible incompatibilities between API implementations.
+
+## More Information
+
+* [ObjectDB JPA Manual](https://www.objectdb.com/java/jpa)
+
+
 
