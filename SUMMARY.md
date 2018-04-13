@@ -34,12 +34,13 @@
   * [IDE](java/ide.md)
   * [Compiling and running](java/building.md)
   * [Inheritance](java/abstract-classes-and-interfaces.md)
+  * [Generics](java/generics.md)
   * [Manifest](java/manifest.md)
   * [Continuous Integration](java/ci.md)
   * [Tests](java/tests.md)
   * [Javadoc](java/javadoc.md)
   * [Functional Programming](java/functional.md)
-  * Abstract Classes and Interfaces
+  * Generics
 * [JPA](java/jpa.md)
   * [JPA Entities](java/jpa-entities.md)
   * [JPQL](java/jpql.md)
