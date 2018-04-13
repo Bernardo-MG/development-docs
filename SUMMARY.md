@@ -38,7 +38,6 @@
   * [Generics](java/generics.md)
   * [Errors and Exceptions](java/errors-and-exceptions.md)
   * [Manifest](java/manifest.md)
-  * [Continuous Integration](java/ci.md)
   * [Tests](java/tests.md)
   * [Javadoc](java/javadoc.md)
   * [Functional Programming](java/functional.md)
