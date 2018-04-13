@@ -75,6 +75,8 @@
 
 * [General](spring/spring.md)
   * [Setting Up Persistence](spring/spring/setting-up-persistence.md)
+* JPA
+  * [Transactional](spring/transactional.md)
 * [Spring MVC](spring/mvc.md)
   * [Setting Up the Application](spring/spring-ws/setting-up-the-application.md)
   * [Loading Pageable Automatically](spring/spring-ws/loading-pageable-automatically.md)
