@@ -56,13 +56,47 @@ It is even possible to define multiple inheritances:
 public class WithGeneric<T extends A & B & C>;
 ```
 
+## Wildcards
+
+If needed a wildcard generic type, which accepts any type, can be used:
+
+```java
+List<?> list;
+```
+
+### Inheritance
+
+This is an upper bounds wildcard:
+
+```java
+List<? extends Number> list;
+```
+
+Which accepts Number and it subclasses.
+
+This is an lower bounds wildcard:
+
+```java
+List<? super Number> list;
+```
+
+Which accepts Number and it super-classes.
+
+## Type Erasure
+
+Generics and types and checked at compile time. That means that they won't check types during runtime.
+
+While this makes them more efficient it also means that types can be lost during runtime, and for example a list of Number may end containing Strings.
+
+The erasure is a bit more complex than that, but it means that types should be set explicitly always to avoid problems.
+
 ## Type Parameter Naming Conventions
 
 Use single upper-case letters.
 
 The most commonly used type parameter names are:
 
-*  E - Element \(used extensively by the Java Collections Framework\)
+* E - Element \(used extensively by the Java Collections Framework\)
 * K - Key
 * N - Number
 * T - Type

@@ -29,16 +29,16 @@
 
 ## Java
 
+* Environment
+  * [Development Ecosystem](java_env/deveco.md)
+  * [IDE](java_env/ide.md)
 * [General](java/readme.md)
-  * [Development Ecosystem](java/deveco.md)
-  * [IDE](java/ide.md)
   * [Compiling and running](java/building.md)
   * [Code Style](java/style.md)
   * [Inheritance](java/abstract-classes-and-interfaces.md)
   * [Generics](java/generics.md)
   * [Errors and Exceptions](java/errors-and-exceptions.md)
   * [Manifest](java/manifest.md)
-  * [Continuous Integration](java/ci.md)
   * [Tests](java/tests.md)
   * [Javadoc](java/javadoc.md)
   * [Functional Programming](java/functional.md)
