@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [General information](general-information.md)
+* [General information](general/readme.md)
   * [Development Ecosystem](general/deveco.md)
   * [Documentation](general/documentation.md)
   * [Testing](general/testing.md)
@@ -14,37 +14,39 @@
 
 ## Various
 
-* [Technologies and services](dbs/technologies-and-services.md)
-  * [git](other/git.md)
-  * [Travis](other/travis.md)
-  * [GitHub](other/github.md)
-* [Databases](dbs/dbs.md)
+* [Technologies and services](services/readme.md)
+  * [git](services/git.md)
+  * [Travis](services/travis.md)
+  * [GitHub](services/github.md)
+* [Databases](readme/dbs.md)
   * [Database Kinds](dbs/kinds.md)
   * [Style Guide](dbs/style.md)
   * [Joins](dbs/joins.md)
-* [Web](dbs/web.md)
+* [Web](web/readme.md)
   * [Template View](web/template_view.md)
   * [Interactive View](web/interactive_view.md)
   * [SOAP](web/soap.md)
 
 ## Java
 
-* [General](maven/java.md)
+* [General](java/readme.md)
   * [Development Ecosystem](java/deveco.md)
   * [IDE](java/ide.md)
   * [Compiling and running](java/building.md)
+  * [Code Style](java/style.md)
   * [Inheritance](java/abstract-classes-and-interfaces.md)
   * [Generics](java/generics.md)
+  * [Errors and Exceptions](java/errors-and-exceptions.md)
   * [Manifest](java/manifest.md)
   * [Continuous Integration](java/ci.md)
   * [Tests](java/tests.md)
   * [Javadoc](java/javadoc.md)
   * [Functional Programming](java/functional.md)
-  * Generics
-* [JPA](java/jpa.md)
-  * [JPA Entities](java/jpa-entities.md)
-  * [JPQL](java/jpql.md)
-  * [Criteria API](java/criteria-api.md)
+  * [Java Beans](java/beans.md)
+* [JPA](jpa/readme.md)
+  * [JPA Entities](jpa/jpa-entities.md)
+  * [JPQL](jpa/jpql.md)
+  * [Criteria API](jpa/criteria-api.md)
 
 ## Maven
 
@@ -77,8 +79,6 @@
   * [Setting Up the Application](spring/spring-ws/setting-up-the-application.md)
   * [Loading Pageable Automatically](spring/spring-ws/loading-pageable-automatically.md)
 * [Spring WS](spring/spring-ws.md)
-* [Testing](spring/testing.md)
-  * [Transactional Test](spring/testing/transactional-test.md)
 
 ## Python
 
