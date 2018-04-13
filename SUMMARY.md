@@ -29,9 +29,10 @@
 
 ## Java
 
+* Environment
+  * [Development Ecosystem](java_env/deveco.md)
+  * [IDE](java_env/ide.md)
 * [General](java/readme.md)
-  * [Development Ecosystem](java/deveco.md)
-  * [IDE](java/ide.md)
   * [Compiling and running](java/building.md)
   * [Code Style](java/style.md)
   * [Inheritance](java/abstract-classes-and-interfaces.md)
