@@ -75,7 +75,7 @@
 
 * [General](spring/spring.md)
   * [Setting Up Persistence](spring/spring/setting-up-persistence.md)
-* JPA
+* [JPA](spring/jpa.md)
   * [Transactional](spring/transactional.md)
 * [Spring MVC](spring/mvc.md)
   * [Setting Up the Application](spring/spring-ws/setting-up-the-application.md)
