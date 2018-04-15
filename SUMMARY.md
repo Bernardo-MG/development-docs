@@ -44,7 +44,8 @@
   * [Functional Programming](java/functional.md)
   * [Java Beans](java/beans.md)
 * [JPA](jpa/readme.md)
-  * [JPA Entities](jpa/jpa-entities.md)
+  * [JPA Entities](jpa/entities.md)
+  * [Lifecycle](jpa/lifecycle.md)
   * [JPQL](jpa/jpql.md)
   * [Criteria API](jpa/criteria-api.md)
 
