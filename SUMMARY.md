@@ -44,7 +44,8 @@
   * [Functional Programming](java/functional.md)
   * [Java Beans](java/beans.md)
 * [JPA](jpa/readme.md)
-  * [JPA Entities](jpa/jpa-entities.md)
+  * [JPA Entities](jpa/entities.md)
+  * [Lifecycle](jpa/lifecycle.md)
   * [JPQL](jpa/jpql.md)
   * [Criteria API](jpa/criteria-api.md)
 
@@ -75,7 +76,7 @@
 
 * [General](spring/spring.md)
   * [Setting Up Persistence](spring/spring/setting-up-persistence.md)
-* JPA
+* [JPA](spring/jpa.md)
   * [Transactional](spring/transactional.md)
 * [Spring MVC](spring/mvc.md)
   * [Setting Up the Application](spring/spring-ws/setting-up-the-application.md)
