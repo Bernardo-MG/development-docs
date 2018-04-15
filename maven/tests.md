@@ -139,7 +139,7 @@ When using the Jetty plugin with Maven use this configuration:
             <daemon>true</daemon>
             <useTestScope>true</useTestScope>
             <webApp>
-               <overrideDescriptor>${project.build.directory}/${project.artifactId}-${project.version}/WEB-INF/web.xml</overrideDescriptor>
+               <overrideDescriptor>${project.build.directory}/${project.build.finalName}/WEB-INF/web.xml</overrideDescriptor>
             </webApp>
          </configuration>
       </execution>
@@ -179,7 +179,7 @@ When using the Tomcat plugin with Maven use this configuration:
          <configuration>
             <fork>true</fork>
             <useTestClasspath>true</useTestClasspath>
-            <warSourceDirectory>${project.build.directory}/${project.artifactId}-${project.version}/</warSourceDirectory>
+            <warSourceDirectory>${project.build.directory}/${project.build.finalName}/</warSourceDirectory>
          </configuration>
       </execution>
       <execution>
