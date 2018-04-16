@@ -90,6 +90,24 @@ public class SimpleEntity {
 }
 ```
 
+### Defining the Entity Name
+
+By default JPA implementations will take the name of the class as the entity name. In this case the entity will be named SomeEntity.
+
+```rust
+@Entity
+@Table(name = "table")
+public class SomeEntity
+```
+
+This can be changed by defining a name in the annotation. This will set the entity name as NamedEntity:
+
+```java
+@Entity(name = "NamedEntity")
+@Table(name = "table")
+public class SomeEntity
+```
+
 ### Transient Fields
 
 Any field containing data which should not be persisted has to be marked with the @Transient field. It is not recommended using this annotation, and it may be a hint telling that the entity is doing something else apart from storing persistent data.
