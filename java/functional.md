@@ -162,6 +162,10 @@ To create a stream from an iterable:
 StreamSupport.stream(iterable.spliterator(), false);
 ```
 
+### Closing Streams
+
+In some cases the streams can be working with an IO data source, or some other source which should be closed after being used. For that reason streams extend the AutoCloseable interface.
+
 ## Avoiding pass-through lambdas
 
 The previous stream example could be like this:
