@@ -23,7 +23,20 @@ While any interface with a single method is a functional interface, which can be
 
 ### Function
 
-The Function interface allows chaining functions by using the compose and andThen methods.
+The Function interface can encapsulate an operation, and allows chaining functions by using the compose and andThen methods.
+
+```java
+protected abstract Iterable<T> onRead(final T sample);
+
+protected final <I, O> Iterable<O> read(final I sample, final Function<I, O> strategy)
+{
+   return strategy.apply(sample);
+}
+
+public final read((final I sample) {
+   return read(input, this::onRead);
+}
+```
 
 ### Predicate
 
