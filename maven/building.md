@@ -28,6 +28,22 @@ To generate the project artifacts \(JAR/WAR\):
 mvn clean package
 ```
 
+### Changing the Artifact Name
+
+By default the generated artifact will include the version number, looking something like:
+
+```
+project_id-version.jar
+```
+
+This can be changed by setting the final name build property:
+
+```
+<build>
+   <finalName>${project.artifactId}</finalName>
+</build>
+```
+
 ## Install
 
 To install in the local repository:
@@ -35,6 +51,4 @@ To install in the local repository:
 ```bash
 mvn clean install
 ```
-
-
 
