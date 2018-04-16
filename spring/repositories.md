@@ -56,6 +56,15 @@ public Iterable<Entity> findByNameJpql(@Param("name") final String name);
 
 Notice that it is using a named argument.
 
+#### SpEL in Queries {#jpa.query.spel-expressions}
+
+To find out automatically the received entity name \(useful when extending the entity\):
+
+```java
+@Query("SELECT e FROM #{#entityName} e WHERE e.name = :name")
+public Iterable<Entity> findByNameJpql(@Param("name") final String name);
+```
+
 ## Sorting and Paging
 
 If a method receives a Sort or Pageable parameter it will be applied to the query.
