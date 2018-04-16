@@ -54,6 +54,12 @@ It is possible to define the query which a method will use:
 public Iterable<Entity> findByNameJpql(@Param("name") final String name);
 ```
 
+Notice that it is using a named argument.
+
+## Sorting and Paging
+
+If a method receives a Sort or Pageable parameter it will be applied to the query.
+
 ## Custom Repositories
 
 Repositores can be extended with custom code. This requires the following classes:
