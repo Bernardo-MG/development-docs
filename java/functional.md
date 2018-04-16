@@ -33,7 +33,7 @@ protected final <I, O> Iterable<O> read(final I sample, final Function<I, O> str
    return strategy.apply(sample);
 }
 
-public final read((final I sample) {
+public final read(final I sample) {
    return read(input, this::onRead);
 }
 ```
