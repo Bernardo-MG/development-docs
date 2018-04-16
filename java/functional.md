@@ -35,7 +35,17 @@ Takes an argument, but returns nothing. Used for operations with side effects.
 
 ### Supplier
 
-Receives no argument but returns an object. Can be used for initialization.
+Receives no argument but returns an object. Can be used as a strategy for initialization.
+
+```java
+Supplier<Entity> supplier;
+
+supplier = Entity::new;
+
+// Both lines create a new entity
+Entity ent1 = new Entity();
+Entity ent2 = supplier.get();
+```
 
 ## Method References
 
