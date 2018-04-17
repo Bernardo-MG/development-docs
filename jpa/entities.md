@@ -90,6 +90,42 @@ public class SimpleEntity {
 }
 ```
 
+### Ids
+
+Id columns are annotated with @Id:
+
+```java
+@Id
+@GeneratedValue(strategy = GenerationType.IDENTITY)
+@Column(name = "id", nullable = false, unique = true)
+private Integer id = null;
+```
+
+When using composite ids these can be defined into a class id:
+
+```java
+@Entity(name = "CompositeKeyIdClassEntity")
+@Table(name = "composite_key_idclass_entities")
+@IdClass(CompositeKey.class)
+public class CompositeKeyIdClassEntity implements Serializable {
+
+    private static final long serialVersionUID = -4338241927428303803L;
+
+    @Id
+    @Column(name = "id1", nullable = false, unique = true)
+    private Integer           id;
+
+    @Id
+    @Column(name = "id2", nullable = false, unique = true)
+    private Long              supportId;
+
+   // Constructor, getters, setters, etc...
+
+}
+```
+
+This way they can be handled as a single object.
+
 ### Defining the Entity Name
 
 By default JPA implementations will take the name of the class as the entity name. In this case the entity will be named SomeEntity.
