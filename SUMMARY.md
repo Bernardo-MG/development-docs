@@ -37,11 +37,12 @@
   * [Code Style](java/style.md)
   * [Inheritance](java/abstract-classes-and-interfaces.md)
   * [Generics](java/generics.md)
+  * [Enums](java/enums.md)
   * [Serialization](java/serialization.md)
   * [Errors and Exceptions](java/errors-and-exceptions.md)
   * [Manifest](java/manifest.md)
   * [Tests](java/tests.md)
-  * [Javadoc](java/javadoc.md)
+  * Enums
   * Serialization
   * [Java Beans](java/beans.md)
 * [JPA](jpa/readme.md)
