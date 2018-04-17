@@ -40,10 +40,10 @@
   * [Enums](java/enums.md)
   * [Serialization](java/serialization.md)
   * [Errors and Exceptions](java/errors-and-exceptions.md)
+  * [Functional Programming](java/functional.md)
+  * [Javadoc](java/javadoc.md)
   * [Manifest](java/manifest.md)
   * [Tests](java/tests.md)
-  * Enums
-  * Serialization
   * [Java Beans](java/beans.md)
 * [JPA](jpa/readme.md)
   * [JPA Entities](jpa/entities.md)
