@@ -29,9 +29,13 @@ public enum NumbersEnum {
 NumbersEnum number = NumbersEnum.TWO;
 ```
 
+## Enums as Classes
+
+Java enums work similar to any class, which means they can implement interfaces, and contain custom methods.
+
 ## Enums as Data Structures
 
-An enum may contain additional data, for example it may store a String value.
+As they are similar to other classes they can be used to create data structures, for example each value may contain a String:
 
 ```java
 public enum StringEnum
@@ -56,10 +60,6 @@ public enum StringEnum
 
 As enum constructors should be private, there is no way to create a value which is not contained in the enum.
 
-## Additional Methods
-
-Just as they can contain fields, it is possible adding any method. They behave as any other class.
-
 ## Switchs
 
 Enums are easy to use in switchs:
@@ -76,6 +76,26 @@ public void checkValue(final NumbersEnum value) {
    default:
    }
 }
+```
+
+## Finding Values
+
+Enums contain all the fields defined on them, and these can be acquired easily:
+
+```java
+NumbersEnum.values();
+```
+
+Working with the ordinal value is not recommended, as this will change of the fields are reordered:
+
+```java
+NumbersEnum.TWO.ordinal();
+```
+
+It is better using the string value:
+
+```java
+final NumbersEnum numbers = NumbersEnum.valueOf("TWO");
 ```
 
 ## More Information
