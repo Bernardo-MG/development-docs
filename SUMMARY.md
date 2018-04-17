@@ -40,7 +40,6 @@
   * [Enums](java/enums.md)
   * [Serialization](java/serialization.md)
   * [Errors and Exceptions](java/errors-and-exceptions.md)
-  * [Functional Programming](java/functional.md)
   * [Javadoc](java/javadoc.md)
   * [Manifest](java/manifest.md)
   * [Tests](java/tests.md)
@@ -50,6 +49,11 @@
   * [Lifecycle](jpa/lifecycle.md)
   * [JPQL](jpa/jpql.md)
   * [Criteria API](jpa/criteria-api.md)
+* [Functional](java_functional/readme.md)
+  * [Interfaces](java_functional/interfaces.md)
+  * [Method References](java_functional/method-references.md)
+  * [Streams](java_functional/streams.md)
+  * [Lambdas](java_functional/lambdas.md)
 
 ## Maven
 
