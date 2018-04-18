@@ -54,6 +54,8 @@
   * [Method References](java_functional/method-references.md)
   * [Streams](java_functional/streams.md)
   * [Lambdas](java_functional/lambdas.md)
+* [Examples](java/examples.md)
+  * [Interfaces and Generics for a Service](java/examples/interfaces-and-generics-for-a-service.md)
 
 ## Maven
 
