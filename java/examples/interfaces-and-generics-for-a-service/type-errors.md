@@ -2,17 +2,7 @@
 
 ### Dependency Expecting a Child
 
-Now, let's suppose there is a version of the service using a repository for finding the object:
-
-```java
-public interface ModelObjecRepository {
-
-   public ModelObjectEntity read(final ModelObjectEntity sample);
-
-}
-```
-
-This won't even compile:
+Lets try using the repository for reading:
 
 ```java
 public ModelObject find(final ModelObject sample) {

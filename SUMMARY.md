@@ -58,6 +58,7 @@
 ## Java Examples
 
 * [Interfaces and Generics for a Service](java/examples/interfaces-and-generics-for-a-service.md)
+  * [Dependencies](java/examples/interfaces-and-generics-for-a-service/dependencies.md)
   * [Type Errors](java/examples/interfaces-and-generics-for-a-service/type-errors.md)
   * [Nested Type Errors](java/examples/interfaces-and-generics-for-a-service/nested-type-errors.md)
 

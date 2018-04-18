@@ -6,6 +6,8 @@ description: Interfaces and Generics for a Java Service
 
 Complex inheritance schemes can cause a lot of problems when two objects share a same root, but diverge too much from each other.
 
+## Model
+
 ```java
 public interface ModelObject {
 
@@ -36,10 +38,10 @@ public class ModelObjectAdditionalField implements ModelObject {
 }
 ```
 
-Now, you have a service which works with the interface:
+## Service
 
 ```java
-public interface ModelObjecService {
+public interface ModelObjectService {
 
    /**
    * Returns an object matching the received sample.
@@ -49,21 +51,37 @@ public interface ModelObjecService {
    */
    public ModelObject find(final ModelObject sample);
 
+   /**
+   * Returns an object matching the received sample.
+   *
+   * @param data objects to save
+   * @return all the objects which could be saved
+   */
+   public Iterable<ModelObject> save(final Iterable<ModelObject> data);
+
 }
 ```
 
-This works perfectly:
+## Usage
 
 ```java
-ModelObject found;
-ModelObjectAdditionalField sample;
+final ModelObjectAdditionalField sample;
+final ModelObject found;
 
 sample = new ModelObjectAdditionalField();
 
 found = service.find(sample);
 ```
 
-Except when it doesn't.
+```java
+final Collection<ModelObject> data;
+final Iterable<ModelObject> created;
+
+data.add(new ModelObjectEntity());
+data.add(new ModelObjectAdditionalField());
+
+created = service.save(data);
+```
 
 
 

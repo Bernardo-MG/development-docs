@@ -1,45 +1,8 @@
-## Nested Type
-
-Lets add another method to the service:
-
-```java
-public interface ModelObjecService {
-
-   /**
-   * Returns an object matching the received sample.
-   *
-   * @param data objects to save
-   * @return all the objects which could be saved
-   */
-   public Iterable<ModelObject> save(final Iterable<ModelObject> data);
-
-}
-```
-
-Which works like this:
-
-```java
-List<ModelObject> data;
-
-data.add(new ModelObjectEntity());
-data.add(new ModelObjectAdditionalField());
-
-service.save(data);
-```
-
 ## Nested Type Errors
 
 ### Dependency Expecting a Child
 
-We will use the repository example again:
-
-```java
-public interface ModelObjecRepository {
-
-   public Iterable<ModelObjectEntity> create(final Iterable<ModelObjectEntity> sample);
-
-}
-```
+Now we will use the repository when saving:
 
 ```java
 public Iterable<ModelObject> save(final Iterable<ModelObject> data) {
@@ -66,7 +29,7 @@ service.save(data);
 The easiest way, which is not recommended, is removing the nested type:
 
 ```java
-public interface ModelObjecService {
+public interface ModelObjectService {
 
    public Iterable save(final Iterable data);
 
@@ -87,6 +50,23 @@ data = new ArrayList<>();
 
 // There is not an error or warning
 service.save(data);
+```
+
+### Transforming Types
+
+Again, the types can be transformed:
+
+```java
+public Iterable<ModelObject> save(final Iterable<ModelObject> data) {
+   final Iterable<ModelObjectEntity> entities;
+   final Iterable<ModelObjectEntity> created;
+
+   entities = StreamSupport.stream(data.spliterator(), false).map(this::toEntity).collect(Collectors.toList());
+
+   created = repository.save(entities);
+
+   return StreamSupport.stream(created.spliterator(), false).map(this::toObject).collect(Collectors.toList());
+}
 ```
 
 ### Using Wildcard
