@@ -16,22 +16,50 @@ result = strings.stream().filter(StringUtils::isNotBlank).map(Wrapper::new).coll
 
 ## Common Operations
 
-Filtering:
+### Filter
 
 ```java
 strings.stream().filter(StringUtils::isNotBlank);
 ```
 
-Mapping:
+### Map
 
 ```java
 strings.stream().map(Wrapper::new);
 ```
 
+### Consume
+
+```java
+integers.stream().forEach(this::increase);
+```
+
+### Collect
+
 Store in a list:
 
 ```java
-strings.stream().collect(Collectors.toList());
+List<String> list = strings.stream().collect(Collectors.toList());
+```
+
+Store in a string:
+
+```java
+String string = strings.stream().collect(Collectors.joining(", "));
+```
+
+### Concatenate
+
+Streams can be combined:
+
+```java
+Stream.concat(list1.stream(), list2.stream);
+```
+
+### Generate
+
+```
+Stream<String> stream = Stream.of(string1, string2);
 ```
 
 ## Stream From Iterable
