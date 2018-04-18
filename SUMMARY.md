@@ -54,8 +54,12 @@
   * [Method References](java_functional/method-references.md)
   * [Streams](java_functional/streams.md)
   * [Lambdas](java_functional/lambdas.md)
-* [Examples](java/examples.md)
-  * [Interfaces and Generics for a Service](java/examples/interfaces-and-generics-for-a-service.md)
+
+## Java Examples
+
+* [Interfaces and Generics for a Service](java/examples/interfaces-and-generics-for-a-service.md)
+  * [Type Errors](java/examples/interfaces-and-generics-for-a-service/type-errors.md)
+  * [Nested Type Errors](java/examples/interfaces-and-generics-for-a-service/nested-type-errors.md)
 
 ## Maven
 
