@@ -2,6 +2,8 @@
 
 Lets add a repository to handle those operations.
 
+This will cause problems, as it works only with ModelObjectEntity.
+
 ```java
 public interface ModelObjectRepository {
 
@@ -12,5 +14,7 @@ public interface ModelObjectRepository {
 }
 ```
 
-As you see, the repository gives support only to ModelObjectEntity, not to ModelObjectAdditionalField.
+
+
+
 

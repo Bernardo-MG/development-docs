@@ -8,6 +8,12 @@ Complex inheritance schemes can cause a lot of problems when two objects share a
 
 ## Model
 
+A model composed of:
+
+* Interface
+* JPA entity
+* DTO with additional fields
+
 ```java
 public interface ModelObject {
 
@@ -17,6 +23,7 @@ public interface ModelObject {
 
 }
 
+@Entity
 public class ModelObjectEntity implements ModelObject {
 
    // Class prepared for persistence
@@ -41,6 +48,13 @@ public class ModelObjectAdditionalField implements ModelObject {
 ## Service
 
 ```java
+/**
+* Service making use of the interface.
+* <p>
+* One method expects and returns the interface.
+* <p>
+* Another expects and returns an iterable of the interface.
+*/
 public interface ModelObjectService {
 
    /**
