@@ -40,6 +40,8 @@ private ModelObjectEntity toEntity(final ModelObject sample) {
 }
 ```
 
+Note that it tries to cast the object before creating a new instance.
+
 ### Adding a Type
 
 Another is adding a type to the interface:

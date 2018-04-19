@@ -61,6 +61,9 @@
   * [Dependencies](java/examples/interfaces-and-generics-for-a-service/dependencies.md)
   * [Type Errors](java/examples/interfaces-and-generics-for-a-service/type-errors.md)
   * [Nested Type Errors](java/examples/interfaces-and-generics-for-a-service/nested-type-errors.md)
+* [Creating New Instances Dynamically](java/examples/creating-new-instances.md)
+  * [Using Classes](java/examples/creating-new-instances/using-classes.md)
+  * [Using Providers](java/examples/creating-new-instances/using-providers.md)
 
 ## Maven
 
