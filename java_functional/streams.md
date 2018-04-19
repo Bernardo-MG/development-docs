@@ -48,6 +48,12 @@ Store in a string:
 String string = strings.stream().collect(Collectors.joining(", "));
 ```
 
+Store in a map:
+
+```java
+Map<String, Named> map = objs.stream().collect(Collectors.toMap(Named::getName, Function.identity()));
+```
+
 ### Concatenate
 
 Streams can be combined:
