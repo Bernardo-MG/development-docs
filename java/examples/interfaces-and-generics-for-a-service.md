@@ -13,7 +13,7 @@ public interface ModelObject {
 
    public String getName();
 
-   public void setName();
+   public void setName(final String name);
 
 }
 
