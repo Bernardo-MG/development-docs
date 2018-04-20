@@ -11,6 +11,7 @@
   * [Design Patterns](general/design_patterns.md)
   * [Architecture](general/architecture.md)
   * [Refactoring](general/refactoring.md)
+  * Date Formats
 
 ## Various
 
@@ -57,13 +58,13 @@
 
 ## Java Examples
 
-* [Interfaces and Generics for a Service](java/examples/interfaces-and-generics-for-a-service.md)
-  * [Dependencies](java/examples/interfaces-and-generics-for-a-service/dependencies.md)
-  * [Type Errors](java/examples/interfaces-and-generics-for-a-service/type-errors.md)
-  * [Nested Type Errors](java/examples/interfaces-and-generics-for-a-service/nested-type-errors.md)
-* [Creating New Instances Dynamically](java/examples/creating-new-instances.md)
-  * [Using Classes](java/examples/creating-new-instances/using-classes.md)
-  * [Using Providers](java/examples/creating-new-instances/using-providers.md)
+* [Interfaces and Generics for a Service](java_examples/interfaces-and-generics-for-a-service/readme.md)
+  * [Dependencies](java_examples/interfaces-and-generics-for-a-service/dependencies.md)
+  * [Type Errors](java_examples/interfaces-and-generics-for-a-service/type-errors.md)
+  * [Nested Type Errors](java_examples/interfaces-and-generics-for-a-service/nested-type-errors.md)
+* [Creating New Instances Dynamically](java_examples/creating-new-instances/readme.md)
+  * [Using Classes](java_examples/creating-new-instances/using-classes.md)
+  * [Using Providers](java_examples/creating-new-instances/using-providers.md)
 
 ## Maven
 
