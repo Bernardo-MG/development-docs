@@ -100,7 +100,8 @@
   * [Setting Up the Application](spring/spring-mvc/setting-up-the-application.md)
   * [Loading Pageable Automatically](spring/spring-mvc/loading-pageable-automatically.md)
 * [Spring WS](spring/spring-ws/readme.md)
-* [Spring WS](spring/spring-security/readme.md)
+* [Spring Security](spring/spring-security/readme.md)
+  * [Setting Up](spring/spring-security/setting-up.md)
 
 ## Python
 
