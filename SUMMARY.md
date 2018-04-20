@@ -96,10 +96,11 @@
 * [JPA](spring/jpa.md)
   * [Transactional](spring/transactional.md)
   * [Repositories](spring/repositories.md)
-* [Spring MVC](spring/mvc.md)
-  * [Setting Up the Application](spring/spring-ws/setting-up-the-application.md)
-  * [Loading Pageable Automatically](spring/spring-ws/loading-pageable-automatically.md)
-* [Spring WS](spring/spring-ws.md)
+* [Spring MVC](spring/spring-mvc/readme.md)
+  * [Setting Up the Application](spring/spring-mvc/setting-up-the-application.md)
+  * [Loading Pageable Automatically](spring/spring-mvc/loading-pageable-automatically.md)
+* [Spring WS](spring/spring-ws/readme.md)
+* [Spring WS](spring/spring-security/readme.md)
 
 ## Python
 
