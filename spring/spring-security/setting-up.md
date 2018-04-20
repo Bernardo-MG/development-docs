@@ -23,3 +23,7 @@ To activate security annotations:
 ```
 <global-method-security pre-post-annotations="enabled" />
 ```
+
+```
+@EnableGlobalMethodSecurity(prePostEnabled = true)
+```
