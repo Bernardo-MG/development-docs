@@ -99,6 +99,7 @@
 * [Spring MVC](spring/spring-mvc/readme.md)
   * [Setting Up the Application](spring/spring-mvc/setting-up-the-application.md)
   * [Serving Resources](spring/spring-mvc/serving_resources.md)
+  * [Serving Resources](spring/spring-mvc/securing_urls.md)
   * [Loading Pageable Automatically](spring/spring-mvc/loading-pageable-automatically.md)
 * [Spring WS](spring/spring-ws/readme.md)
 * [Spring Security](spring/spring-security/readme.md)
