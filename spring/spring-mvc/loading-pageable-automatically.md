@@ -14,6 +14,8 @@ public final Iterable<ModelObject>
 }
 ```
 
+## XML Configuration
+
 First define the resolvers:
 
 ```xml
