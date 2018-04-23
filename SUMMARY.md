@@ -102,6 +102,7 @@
   * [Securing URLS](spring/spring-mvc/securing_urls.md)
   * [Controllers](spring/spring-mvc/controllers.md)
   * [Loading Pageable Automatically](spring/spring-mvc/loading-pageable-automatically.md)
+  * [Error Handling](spring/spring-mvc/errorhandling.md)
 * [Spring WS](spring/spring-ws/readme.md)
 * [Spring Security](spring/spring-security/readme.md)
   * [Setting Up](spring/spring-security/setting-up.md)
