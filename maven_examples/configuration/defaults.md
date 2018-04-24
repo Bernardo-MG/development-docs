@@ -1,4 +1,4 @@
-# Configuration
+# Defaults
 
 These are some general tips for setting up a Maven project.
 
