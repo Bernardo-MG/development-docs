@@ -45,6 +45,7 @@
   * [Manifest](java/manifest.md)
   * [Tests](java/tests.md)
   * [Java Beans](java/beans.md)
+  * [Immutable and Unmodifiable](java/immutable.md)
 * [JPA](jpa/readme.md)
   * [JPA Entities](jpa/entities.md)
   * [Lifecycle](jpa/lifecycle.md)
@@ -72,22 +73,29 @@
   * [Maven Lifecycle](maven/lifecycle.md)
   * [Dependency Management](maven/dependencies.md)
   * [POMs](maven/pom.md)
-  * [Configuration](maven/configuration.md)
   * [Archetypes](maven/archetypes.md)
   * [Building the Project](maven/building.md)
-  * [Project Setup](maven/project_setup.md)
-  * [Continuous Integration with Maven](maven/ci.md)
   * [Maven Build Plugins](maven/maven_build_plugins.md)
   * [Maven Reports](maven/maven_reports.md)
-  * [Setting up the JAR](maven/setup_jar.md)
   * [Tests](maven/tests.md)
   * [Maven Site](maven/site.md)
-  * [Deployment With Maven](maven/deployment.md)
-  * [Deploying Web Projects Locally](maven/web_locally.md)
   * [Artifact Repositories](maven/artifact-repositories.md)
+
+## Maven Examples
+
+* Configuration
+  * [Defaults](maven_examples/configuration/defaults.md)
+  * [Project Setup](maven_examples/configuration/project_setup.md)
+  * [Versions](maven_examples/configuration/versions.md)
+  * [Setting up the JAR](maven_examples/configuration/setup_jar.md)
+  * [JPA](maven_examples/configuration/jpa.md)
+* [Continuous Integration](maven_examples/ci/readme.md)
+  * [Tests](maven_examples/ci/tests.md)
+* Deployments
+  * [Deployment With Maven](maven_examples/deployment/deployment.md)
+  * [Deploying Web Projects Locally](maven_examples/deployment/web_locally.md)
   * [Deploying Documentation](maven/documentation-deployment.md)
-  * [JPA](maven/jpa.md)
-  * [Frontend](maven/frontend.md)
+* [Frontend with Maven](maven/frontend/readme.md)
 
 ## Spring
 
@@ -102,6 +110,7 @@
   * [Securing URLS](spring/spring-mvc/securing_urls.md)
   * [Controllers](spring/spring-mvc/controllers.md)
   * [Loading Pageable Automatically](spring/spring-mvc/loading-pageable-automatically.md)
+  * [Error Handling](spring/spring-mvc/errorhandling.md)
 * [Spring WS](spring/spring-ws/readme.md)
 * [Spring Security](spring/spring-security/readme.md)
   * [Setting Up](spring/spring-security/setting-up.md)
