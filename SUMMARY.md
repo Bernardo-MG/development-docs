@@ -69,13 +69,14 @@
 
 ## Maven
 
-* [General](maven/maven.md)
+* [General](maven/readme.md)
   * [Maven Lifecycle](maven/lifecycle.md)
   * [Dependency Management](maven/dependencies.md)
   * [POMs](maven/pom.md)
   * [Settings File](maven/settings-file.md)
   * [Archetypes](maven/archetypes.md)
   * [Building the Project](maven/building.md)
+  * [Maven Site](maven/site.md)
   * [Maven Build Plugins](maven/maven_build_plugins.md)
   * [Maven Reports](maven/maven_reports.md)
   * [Tests](maven/tests.md)
@@ -83,39 +84,36 @@
 
 ## Maven Examples
 
-* [Configuration](maven_examples/ci/configuration.md)
+* [Configuration](maven_examples/configuration/readme.md)
   * [Parent POM](maven_examples/configuration/parent-pom.md)
   * [Default Properties](maven_examples/configuration/defaults.md)
-  * [Project Setup](maven_examples/configuration/project_setup.md)
   * [Versions](maven_examples/configuration/versions.md)
   * [Extensions](maven_examples/configuration/extensions.md)
-* [Setting Up the JAR](maven_examples/ci/setting-up-the-jar.md)
-  * [Attach Sources](maven_examples/ci/setting-up-the-jar/attach-sources.md)
-  * [Attach Javadocs](maven_examples/ci/setting-up-the-jar/attach-javadocs.md)
-  * [Manifest](maven_examples/ci/setting-up-the-jar/manifest.md)
-* [JPA](maven_examples/ci/jpa.md)
-  * [Generating Metamodel](maven_examples/ci/jpa/generating-metamodel.md)
-* [Deployments](maven_examples/ci/deployments.md)
+  * [Project Setup](maven_examples/configuration/project_setup.md)
+* [Setting Up the JAR](maven_examples/readme.md)
+  * [Attach Sources](maven_examples/jar/attach-sources.md)
+  * [Attach Javadocs](maven_examples/jar/attach-javadocs.md)
+  * [Manifest](maven_examples/jar/manifest.md)
+* [JPA](maven_examples/jpa/readme.md)
+  * [Generating Metamodel](maven_examples/jpa/generating-metamodel.md)
+* [Deployments](maven_examples/deployment/readme.md)
   * [Deployment With Maven](maven_examples/deployment/deployment.md)
   * [Deploying Web Projects Locally](maven_examples/deployment/web_locally.md)
-  * [Deploying Documentation](maven/documentation-deployment.md)
+  * [Deploying Documentation](maven_examples/deployment/documentation-deployment.md)
 * [Continuous Integration](maven_examples/ci/readme.md)
   * [Tests](maven_examples/ci/tests.md)
 * [Frontend with Maven](maven_examples/frontend/readme.md)
 
 ## Spring
 
-* [General](spring/spring.md)
-  * [Setting Up Persistence](spring/spring/setting-up-persistence.md)
-* [JPA](spring/jpa.md)
-  * [Transactional](spring/transactional.md)
-  * [Repositories](spring/repositories.md)
+* [General](spring/readme.md)
+* [JPA](spring/jpa/readme.md)
+  * [Transactional](spring/jpa/transactional.md)
+  * [Repositories](spring/jpa/repositories.md)
 * [Spring MVC](spring/spring-mvc/readme.md)
-  * [Setting Up the Application](spring/spring-mvc/setting-up-the-application.md)
   * [Serving Resources](spring/spring-mvc/serving_resources.md)
   * [Securing URLS](spring/spring-mvc/securing_urls.md)
   * [Controllers](spring/spring-mvc/controllers.md)
-  * [Loading Pageable Automatically](spring/spring-mvc/loading-pageable-automatically.md)
   * [Controller Advices](spring/spring-mvc/controller-advices.md)
   * [Error Handling](spring/spring-mvc/errorhandling.md)
   * [Binding Configuration](spring/spring-mvc/binding-configuration.md)
@@ -124,6 +122,13 @@
 * [Spring WS](spring/spring-ws/readme.md)
 * [Spring Security](spring/spring-security/readme.md)
   * [Setting Up](spring/spring-security/setting-up.md)
+
+## Spring Examples
+
+* [Setting Up Persistence](spring_examples/setting_up_persistence/readme.md)
+* Controllers
+   * [Loading Pageable Automatically](spring_examples/controllers/loading-pageable-automatically.md)
+* [Setting Up a Web Application](spring_examples/setting_up_web/readme.md)
 
 ## Python
 
