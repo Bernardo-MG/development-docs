@@ -73,29 +73,35 @@
   * [Maven Lifecycle](maven/lifecycle.md)
   * [Dependency Management](maven/dependencies.md)
   * [POMs](maven/pom.md)
+  * [Settings File](maven/settings-file.md)
   * [Archetypes](maven/archetypes.md)
   * [Building the Project](maven/building.md)
   * [Maven Build Plugins](maven/maven_build_plugins.md)
   * [Maven Reports](maven/maven_reports.md)
   * [Tests](maven/tests.md)
-  * [Maven Site](maven/site.md)
   * [Artifact Repositories](maven/artifact-repositories.md)
 
 ## Maven Examples
 
-* Configuration
-  * [Defaults](maven_examples/configuration/defaults.md)
+* [Configuration](maven_examples/ci/configuration.md)
+  * [Parent POM](maven_examples/configuration/parent-pom.md)
+  * [Default Properties](maven_examples/configuration/defaults.md)
   * [Project Setup](maven_examples/configuration/project_setup.md)
   * [Versions](maven_examples/configuration/versions.md)
-  * [Setting up the JAR](maven_examples/configuration/setup_jar.md)
-  * [JPA](maven_examples/configuration/jpa.md)
-* [Continuous Integration](maven_examples/ci/readme.md)
-  * [Tests](maven_examples/ci/tests.md)
-* Deployments
+  * [Extensions](maven_examples/configuration/extensions.md)
+* [Setting Up the JAR](maven_examples/ci/setting-up-the-jar.md)
+  * [Attach Sources](maven_examples/ci/setting-up-the-jar/attach-sources.md)
+  * [Attach Javadocs](maven_examples/ci/setting-up-the-jar/attach-javadocs.md)
+  * [Manifest](maven_examples/ci/setting-up-the-jar/manifest.md)
+* [JPA](maven_examples/ci/jpa.md)
+  * [Generating Metamodel](maven_examples/ci/jpa/generating-metamodel.md)
+* [Deployments](maven_examples/ci/deployments.md)
   * [Deployment With Maven](maven_examples/deployment/deployment.md)
   * [Deploying Web Projects Locally](maven_examples/deployment/web_locally.md)
   * [Deploying Documentation](maven/documentation-deployment.md)
-* [Frontend with Maven](maven/frontend/readme.md)
+* [Continuous Integration](maven_examples/ci/readme.md)
+  * [Tests](maven_examples/ci/tests.md)
+* [Frontend with Maven](maven_examples/frontend/readme.md)
 
 ## Spring
 

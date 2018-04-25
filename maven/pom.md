@@ -22,12 +22,19 @@ A parent POM can keep common configuration for multiple projects:
 * Dependency and plugin dependencies, but only the bare minimum \(plugin/dependency nodes\)
 * Profiles, for things such as deployment or testing
 
-## Prepared POMs
+## Defaults
 
-There are a few parent POMs ready to use:
+The [Maven Super POM](https://maven.apache.org/pom.html#The_Super_POM) includes several default properties.
 
-* [Base POM](https://github.com/Bernardo-MG/base-pom), generic and useful for most projects
-* [Archetype POM](https://github.com/Bernardo-MG/archetype-pom), for Maven Archetypes
+### Array Properties
+
+If a property contains several children they can be accessed as an array.
+
+For example this gets the path to the first test resources directory:
+
+```
+${project.build.testResources[0].directory}
+```
 
 
 
