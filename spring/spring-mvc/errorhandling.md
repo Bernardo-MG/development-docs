@@ -1,6 +1,6 @@
 # Error Handling
 
-Aspects can be used to take care of controller exceptions:
+A controller advice can be used to take care of exception handling:
 
 ```java
 @ControllerAdvice
@@ -22,6 +22,8 @@ public final class ControllerExceptionHandler {
 }
 ```
 
+The @ExceptionHandler defines the exception to capture, and @ResponseStatus the status for the response.
+
 ## Default Implementation
 
 There is an abstract class to ease creating exception handlers:
@@ -29,16 +31,6 @@ There is an abstract class to ease creating exception handlers:
 ```java
 @ControllerAdvice
 public class DefaultErrorHandler extends ResponseEntityExceptionHandler
-```
-
-## Overriding
-
-Exception handling can be overriden for expecific controllers:
-
-```java
-@ControllerAdvice(assignableTypes = { EmployeeController.class })
-@Order(Ordered.HIGHEST_PRECEDENCE)
-public class EmployeeErrorHandler
 ```
 
 
