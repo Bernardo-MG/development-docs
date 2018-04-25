@@ -69,13 +69,14 @@
 
 ## Maven
 
-* [General](maven/maven.md)
+* [General](maven/readme.md)
   * [Maven Lifecycle](maven/lifecycle.md)
   * [Dependency Management](maven/dependencies.md)
   * [POMs](maven/pom.md)
   * [Settings File](maven/settings-file.md)
   * [Archetypes](maven/archetypes.md)
   * [Building the Project](maven/building.md)
+  * [Maven Site](maven/site.md)
   * [Maven Build Plugins](maven/maven_build_plugins.md)
   * [Maven Reports](maven/maven_reports.md)
   * [Tests](maven/tests.md)
@@ -93,8 +94,8 @@
   * [Attach Sources](maven_examples/jar/attach-sources.md)
   * [Attach Javadocs](maven_examples/jar/attach-javadocs.md)
   * [Manifest](maven_examples/jar/manifest.md)
-* [JPA](maven_examples/ci/jpa.md)
-  * [Generating Metamodel](maven_examples/ci/jpa/generating-metamodel.md)
+* [JPA](maven_examples/jpa/readme.md)
+  * [Generating Metamodel](maven_examples/jpa/generating-metamodel.md)
 * [Deployments](maven_examples/deployment/readme.md)
   * [Deployment With Maven](maven_examples/deployment/deployment.md)
   * [Deploying Web Projects Locally](maven_examples/deployment/web_locally.md)
