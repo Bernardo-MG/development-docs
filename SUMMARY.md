@@ -106,17 +106,14 @@
 
 ## Spring
 
-* [General](spring/spring.md)
-  * [Setting Up Persistence](spring/spring/setting-up-persistence.md)
-* [JPA](spring/jpa.md)
-  * [Transactional](spring/transactional.md)
-  * [Repositories](spring/repositories.md)
+* [General](spring/readme.md)
+* [JPA](spring/jpa/readme.md)
+  * [Transactional](spring/jpa/transactional.md)
+  * [Repositories](spring/jpa/repositories.md)
 * [Spring MVC](spring/spring-mvc/readme.md)
-  * [Setting Up the Application](spring/spring-mvc/setting-up-the-application.md)
   * [Serving Resources](spring/spring-mvc/serving_resources.md)
   * [Securing URLS](spring/spring-mvc/securing_urls.md)
   * [Controllers](spring/spring-mvc/controllers.md)
-  * [Loading Pageable Automatically](spring/spring-mvc/loading-pageable-automatically.md)
   * [Controller Advices](spring/spring-mvc/controller-advices.md)
   * [Error Handling](spring/spring-mvc/errorhandling.md)
   * [Binding Configuration](spring/spring-mvc/binding-configuration.md)
@@ -125,6 +122,13 @@
 * [Spring WS](spring/spring-ws/readme.md)
 * [Spring Security](spring/spring-security/readme.md)
   * [Setting Up](spring/spring-security/setting-up.md)
+
+## Spring Examples
+
+* [Setting Up Persistence](spring_examples/setting_up_persistence/readme.md)
+* Controllers
+   * [Loading Pageable Automatically](spring_examples/controllers/loading-pageable-automatically.md)
+* [Setting Up a Web Application](spring_examples/setting_up_web/readme.md)
 
 ## Python
 
