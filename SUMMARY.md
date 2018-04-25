@@ -83,7 +83,7 @@
 
 ## Maven Examples
 
-* Configuration
+* [Configuration](maven_examples/ci/configuration.md)
   * [Defaults](maven_examples/configuration/defaults.md)
   * [Project Setup](maven_examples/configuration/project_setup.md)
   * [Versions](maven_examples/configuration/versions.md)
@@ -91,11 +91,11 @@
   * [JPA](maven_examples/configuration/jpa.md)
 * [Continuous Integration](maven_examples/ci/readme.md)
   * [Tests](maven_examples/ci/tests.md)
-* Deployments
+* [Deployments](maven_examples/ci/deployments.md)
   * [Deployment With Maven](maven_examples/deployment/deployment.md)
   * [Deploying Web Projects Locally](maven_examples/deployment/web_locally.md)
-  * [Deploying Documentation](maven/documentation-deployment.md)
-* [Frontend with Maven](maven/frontend/readme.md)
+  * [Deploying Documentation](maven_examples/deployment/documentation-deployment.md)
+* [Frontend with Maven](maven_examples/frontend/readme.md)
 
 ## Spring
 
@@ -110,7 +110,11 @@
   * [Securing URLS](spring/spring-mvc/securing_urls.md)
   * [Controllers](spring/spring-mvc/controllers.md)
   * [Loading Pageable Automatically](spring/spring-mvc/loading-pageable-automatically.md)
+  * [Controller Advices](spring/spring-mvc/controller-advices.md)
   * [Error Handling](spring/spring-mvc/errorhandling.md)
+  * [Binding Configuration](spring/spring-mvc/binding-configuration.md)
+  * [Model Attributes](spring/spring-mvc/model-attributes.md)
+  * [Values from the Request and Path](spring/spring-mvc/values-from-the-request-and-path.md)
 * [Spring WS](spring/spring-ws/readme.md)
 * [Spring Security](spring/spring-security/readme.md)
   * [Setting Up](spring/spring-security/setting-up.md)
