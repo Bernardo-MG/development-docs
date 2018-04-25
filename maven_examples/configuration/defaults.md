@@ -1,8 +1,6 @@
 # Default Properties
 
-Plugins, and Maven itself, make use of default properties. Change them and you will change the way Maven works.
-
-### Properties to Override
+## Properties to Override
 
 The following properties should be set up to match the project requirements:
 
