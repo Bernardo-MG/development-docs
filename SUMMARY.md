@@ -49,6 +49,8 @@
   * [Tests](java/tests.md)
   * [Java Beans](java/beans.md)
   * [Immutable and Unmodifiable](java/immutable.md)
+  * [Operators](java/operators.md)
+  * [Control Flow](java/flow-control.md)
 * [JPA](jpa/readme.md)
   * [JPA Entities](jpa/entities.md)
   * [Lifecycle](jpa/lifecycle.md)
