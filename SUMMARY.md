@@ -36,6 +36,8 @@
 * [General](java/readme.md)
   * [Compiling and running](java/building.md)
   * [Code Style](java/style.md)
+  * [Variables](java/variables.md)
+  * [Primitives](java/primitives.md)
   * [Inheritance](java/abstract-classes-and-interfaces.md)
   * [Generics](java/generics.md)
   * [Enums](java/enums.md)
@@ -59,6 +61,8 @@
 
 ## Java Examples
 
+* [Beans](java_examples/interfaces-and-generics-for-a-service/beans.md)
+  * [Hashcode, equals and toString](java_examples/interfaces-and-generics-for-a-service/beans/hashcode-equals-and-tostring.md)
 * [Interfaces and Generics for a Service](java_examples/interfaces-and-generics-for-a-service/readme.md)
   * [Dependencies](java_examples/interfaces-and-generics-for-a-service/dependencies.md)
   * [Type Errors](java_examples/interfaces-and-generics-for-a-service/type-errors.md)
@@ -127,7 +131,7 @@
 
 * [Setting Up Persistence](spring_examples/setting_up_persistence/readme.md)
 * Controllers
-   * [Loading Pageable Automatically](spring_examples/controllers/loading-pageable-automatically.md)
+  * [Loading Pageable Automatically](spring_examples/controllers/loading-pageable-automatically.md)
 * [Setting Up a Web Application](spring_examples/setting_up_web/readme.md)
 
 ## Python
