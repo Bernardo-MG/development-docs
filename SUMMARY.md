@@ -11,7 +11,7 @@
   * [Design Patterns](general/design_patterns.md)
   * [Architecture](general/architecture.md)
   * [Refactoring](general/refactoring.md)
-  * Date Formats
+  * [Date Formats](general/date-formats.md)
 
 ## Various
 
