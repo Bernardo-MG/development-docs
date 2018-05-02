@@ -122,6 +122,7 @@
   * [Securing URLS](spring/spring-mvc/securing_urls.md)
   * [Controllers](spring/spring-mvc/controllers.md)
   * [Controller Advices](spring/spring-mvc/controller-advices.md)
+  * [Mapping Controller Variables](spring/spring-mvc/mapping-controller-arguments.md)
   * [Error Handling](spring/spring-mvc/errorhandling.md)
   * [Binding Configuration](spring/spring-mvc/binding-configuration.md)
   * [Model Attributes](spring/spring-mvc/model-attributes.md)

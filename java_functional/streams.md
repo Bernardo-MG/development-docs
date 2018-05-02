@@ -28,6 +28,16 @@ strings.stream().filter(StringUtils::isNotBlank);
 strings.stream().map(Wrapper::new);
 ```
 
+### Reduce
+
+```java
+integers.stream().reduce(this::sum);
+```
+
+```java
+integers.stream().sum();
+```
+
 ### Consume
 
 ```java
