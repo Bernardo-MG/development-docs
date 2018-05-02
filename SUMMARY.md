@@ -127,6 +127,7 @@
   * [Binding Configuration](spring/spring-mvc/binding-configuration.md)
   * [Model Attributes](spring/spring-mvc/model-attributes.md)
   * [Values from the Request and Path](spring/spring-mvc/values-from-the-request-and-path.md)
+  * [Mapping to Controller Methods](spring/spring-mvc/mapping-to-controller-methods.md)
 * [Spring WS](spring/spring-ws/readme.md)
 * [Spring Security](spring/spring-security/readme.md)
   * [Setting Up](spring/spring-security/setting-up.md)
