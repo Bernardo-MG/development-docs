@@ -24,8 +24,31 @@ strings.stream().filter(StringUtils::isNotBlank);
 
 ### Map
 
+Transform one object into another.
+
 ```java
 strings.stream().map(Wrapper::new);
+```
+
+### Flat Map
+
+Transform into an stream and merge.
+
+```java
+strings.stream().flatMap(this:splitString);
+```
+
+```java
+public Stream<String> splitString(final String str);
+```
+
+```java
+Collection<Stream<String>> mapped;
+Collection<String> flattened;
+
+mapped = strings.stream().map(this:splitString).collect(Collectors.toList());
+
+flattened = strings.stream().flatMap(this:splitString).collect(Collectors.toList());
 ```
 
 ### Reduce
