@@ -131,6 +131,8 @@
 * [Spring WS](spring/spring-ws/readme.md)
 * [Spring Security](spring/spring-security/readme.md)
   * [Setting Up](spring/spring-security/setting-up.md)
+* [Spring Boot](spring/spring-boot.md)
+  * [Setting Up](spring/spring-boot/setting-up.md)
 
 ## Spring Examples
 
