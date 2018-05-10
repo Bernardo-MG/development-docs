@@ -11,7 +11,7 @@
   * [Design Patterns](general/design_patterns.md)
   * [Architecture](general/architecture.md)
   * [Refactoring](general/refactoring.md)
-  * Date Formats
+  * [Date Formats](general/date-formats.md)
 
 ## Various
 
@@ -121,7 +121,9 @@
   * [Serving Resources](spring/spring-mvc/serving_resources.md)
   * [Securing URLS](spring/spring-mvc/securing_urls.md)
   * [Controllers](spring/spring-mvc/controllers.md)
+  * [Mapping to Controller Methods](spring/spring-mvc/mapping-to-controller-methods.md)
   * [Controller Advices](spring/spring-mvc/controller-advices.md)
+  * [Mapping Controller Variables](spring/spring-mvc/mapping-controller-arguments.md)
   * [Error Handling](spring/spring-mvc/errorhandling.md)
   * [Binding Configuration](spring/spring-mvc/binding-configuration.md)
   * [Model Attributes](spring/spring-mvc/model-attributes.md)
@@ -129,6 +131,8 @@
 * [Spring WS](spring/spring-ws/readme.md)
 * [Spring Security](spring/spring-security/readme.md)
   * [Setting Up](spring/spring-security/setting-up.md)
+* [Spring Boot](spring/spring-boot.md)
+  * [Setting Up](spring/spring-boot/setting-up.md)
 
 ## Spring Examples
 
