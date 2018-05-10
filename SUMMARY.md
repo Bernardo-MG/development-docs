@@ -73,6 +73,8 @@
 * [Creating New Instances Dynamically](java_examples/creating-new-instances/readme.md)
   * [Using Classes](java_examples/creating-new-instances/using-classes.md)
   * [Using Providers](java_examples/creating-new-instances/using-providers.md)
+* Utilities Classes
+  * [Constants Class](java_examples/interfaces-and-generics-for-a-service/constants-class.md)
 
 ## Maven
 
