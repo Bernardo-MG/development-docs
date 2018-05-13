@@ -36,6 +36,7 @@
 * [General](java/readme.md)
   * [Compiling and running](java/building.md)
   * [Code Style](java/style.md)
+  * [Javadoc](java/javadoc.md)
   * [Variables](java/variables.md)
   * [Primitives](java/primitives.md)
   * [Arrays](java/arrays.md)
@@ -46,11 +47,14 @@
   * [Enums](java/enums.md)
   * [Serialization](java/serialization.md)
   * [Errors and Exceptions](java/errors-and-exceptions.md)
-  * Arrays
   * [Manifest](java/manifest.md)
   * [Tests](java/tests.md)
   * [Java Beans](java/beans.md)
   * [Immutable and Unmodifiable](java/immutable.md)
+* [Internationalization](jpa/readme.md)
+  * [Locale](java_i18n/locale.md)
+  * [Resource Bundle](java_i18n/bundle.md)
+  * [Formatting](java_i18n/formatting.md)
 * [JPA](jpa/readme.md)
   * [JPA Entities](jpa/entities.md)
   * [Lifecycle](jpa/lifecycle.md)
@@ -73,6 +77,8 @@
 * [Creating New Instances Dynamically](java_examples/creating-new-instances/readme.md)
   * [Using Classes](java_examples/creating-new-instances/using-classes.md)
   * [Using Providers](java_examples/creating-new-instances/using-providers.md)
+* Utilities Classes
+  * [Constants Class](java_examples/interfaces-and-generics-for-a-service/constants-class.md)
 
 ## Maven
 
