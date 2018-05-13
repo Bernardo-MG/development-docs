@@ -36,6 +36,7 @@
 * [General](java/readme.md)
   * [Compiling and running](java/building.md)
   * [Code Style](java/style.md)
+  * [Javadoc](java/javadoc.md)
   * [Variables](java/variables.md)
   * [Primitives](java/primitives.md)
   * [Arrays](java/arrays.md)
@@ -46,7 +47,6 @@
   * [Enums](java/enums.md)
   * [Serialization](java/serialization.md)
   * [Errors and Exceptions](java/errors-and-exceptions.md)
-  * Arrays
   * [Manifest](java/manifest.md)
   * [Tests](java/tests.md)
   * [Java Beans](java/beans.md)
