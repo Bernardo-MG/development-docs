@@ -120,6 +120,7 @@
 ## Spring
 
 * [General](spring/readme.md)
+  * [Dependency Injection](spring/dependency-injection.md)
 * [JPA](spring/jpa/readme.md)
   * [Transactional](spring/jpa/transactional.md)
   * [Repositories](spring/jpa/repositories.md)
