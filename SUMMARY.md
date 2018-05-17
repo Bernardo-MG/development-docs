@@ -120,7 +120,6 @@
 ## Spring
 
 * [General](spring/readme.md)
-  * [Dependency Injection](spring/dependency-injection.md)
 * [JPA](spring/jpa/readme.md)
   * [Transactional](spring/jpa/transactional.md)
   * [Repositories](spring/jpa/repositories.md)
@@ -140,11 +139,15 @@
   * [Setting Up](spring/spring-security/setting-up.md)
 * [Spring Boot](spring/spring-boot.md)
   * [Setting Up](spring/spring-boot/setting-up.md)
+* [Dependency Injection](spring/dependency-injection.md)
+  * [Injecting Multiple Instances](spring/dependency-injection/injecting-instances.md)
+
+## DependencyI
 
 ## Spring Examples
 
 * [Setting Up Persistence](spring_examples/setting_up_persistence/readme.md)
-* Controllers
+* [Controllers](spring_examples/setting_up_persistence/controllers.md)
   * [Loading Pageable Automatically](spring_examples/controllers/loading-pageable-automatically.md)
 * [Setting Up a Web Application](spring_examples/setting_up_web/readme.md)
 
