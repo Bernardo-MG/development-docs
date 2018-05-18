@@ -36,6 +36,7 @@
 * [General](java/readme.md)
   * [Compiling and running](java/building.md)
   * [Code Style](java/style.md)
+  * [Comments](java/comments.md)
   * [Javadoc](java/javadoc.md)
   * [Variables](java/variables.md)
   * [Primitives](java/primitives.md)

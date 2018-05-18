@@ -6,7 +6,16 @@ description: Javadoc
 
 Java comments can be used to generate documentation. But not any comment, only those matching the [Javadoc](https://docs.oracle.com/javase/9/javadoc/javadoc.htm) specification.
 
-It is using Javadocs in all the code, and validating it as part of the CI process.
+```java
+/**
+* Returns the employee with the received code.
+*
+* @param id
+*            employee id
+* @return name of the employee with the id
+*/
+public String getEmployeeName(final Integer id);
+```
 
 ## Generating Javadoc
 
