@@ -142,6 +142,8 @@
   * [Setting Up](spring/spring-boot/setting-up.md)
 * [Dependency Injection](spring/dependency-injection.md)
   * [Injecting Multiple Instances](spring/dependency-injection/injecting-instances.md)
+  * [Injecting Values](spring/dependency-injection/injecting-values.md)
+  * [Injections](spring/dependency-injection/injections.md)
 
 ## DependencyI
 
