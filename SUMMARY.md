@@ -148,6 +148,11 @@
 
 ## DependencyI
 
+## JUnit
+
+* [Setting Up Tests](junit/setting-up-tests.md)
+  * [Disable Tests](junit/disable-tests.md)
+
 ## Spring Examples
 
 * [Setting Up Persistence](spring_examples/setting_up_persistence/readme.md)
