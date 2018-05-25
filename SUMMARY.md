@@ -136,6 +136,7 @@
   * [Model Attributes](spring/spring-mvc/model-attributes.md)
   * [Values from the Request and Path](spring/spring-mvc/values-from-the-request-and-path.md)
   * [Request Argument Validation](spring/spring-mvc/request-argument-validation.md)
+  * [View Resolvers](spring/spring-mvc/view-resolvers.md)
 * [Spring WS](spring/spring-ws/readme.md)
 * [Spring Security](spring/spring-security/readme.md)
   * [Setting Up](spring/spring-security/setting-up.md)

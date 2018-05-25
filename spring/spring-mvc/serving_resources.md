@@ -10,6 +10,17 @@ The following will map into the /static path all the contents from the src/main/
 </mvc:resources>
 ```
 
+```java
+public class WebConfiguration extends WebMvcConfigurerAdapter {
+
+   @Override
+   public void addResourceHandlers(final ResourceHandlerRegistry registry) {
+      registry.addResourceHandler("/static/**").addResourceLocations("/resources/").setCachePeriod(2592000);
+   }
+
+}
+```
+
 If using webjars, this will add the libraries contents too:
 
 ```xml
@@ -22,3 +33,6 @@ If using webjars, this will add the libraries contents too:
    </mvc:resource-chain>
 </mvc:resources>
 ```
+
+
+
