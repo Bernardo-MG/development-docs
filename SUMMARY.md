@@ -27,6 +27,7 @@
   * [Template View](web/template_view.md)
   * [Interactive View](web/interactive_view.md)
   * [SOAP](web/soap.md)
+  * [Open Graph](web/opengraph.md)
 
 ## Java
 
@@ -146,8 +147,6 @@
   * [Injections](spring/dependency-injection/injections.md)
   * [Injecting Values](spring/dependency-injection/injecting-values.md)
   * [Injecting Multiple Instances](spring/dependency-injection/injecting-instances.md)
-
-## DependencyI
 
 ## JUnit
 
