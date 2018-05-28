@@ -11,6 +11,28 @@
 </parent>
 ```
 
+## Starters
+
+These dependencies are used to set up the application automatically.
+
+For example this prepares a MVC project:
+
+```xml
+<dependency>
+   <groupId>org.springframework.boot</groupId>
+   <artifactId>spring-boot-starter-web</artifactId>
+</dependency>
+```
+
+While this adds and allows running an embedded Tomcat:
+
+```xml
+<dependency>
+   <groupId>org.springframework.boot</groupId>
+   <artifactId>spring-boot-starter-tomcat</artifactId>
+</dependency>
+```
+
 ## Configuration Class
 
 The SpringBootApplication annotation combines several configuration annotations.

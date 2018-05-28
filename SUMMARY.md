@@ -27,6 +27,7 @@
   * [Template View](web/template_view.md)
   * [Interactive View](web/interactive_view.md)
   * [SOAP](web/soap.md)
+  * [Open Graph](web/opengraph.md)
 
 ## Java
 
@@ -36,6 +37,7 @@
 * [General](java/readme.md)
   * [Compiling and running](java/building.md)
   * [Code Style](java/style.md)
+  * [Comments](java/comments.md)
   * [Javadoc](java/javadoc.md)
   * [Variables](java/variables.md)
   * [Primitives](java/primitives.md)
@@ -134,16 +136,27 @@
   * [Binding Configuration](spring/spring-mvc/binding-configuration.md)
   * [Model Attributes](spring/spring-mvc/model-attributes.md)
   * [Values from the Request and Path](spring/spring-mvc/values-from-the-request-and-path.md)
+  * [Request Argument Validation](spring/spring-mvc/request-argument-validation.md)
+  * [View Resolvers](spring/spring-mvc/view-resolvers.md)
 * [Spring WS](spring/spring-ws/readme.md)
 * [Spring Security](spring/spring-security/readme.md)
   * [Setting Up](spring/spring-security/setting-up.md)
 * [Spring Boot](spring/spring-boot.md)
   * [Setting Up](spring/spring-boot/setting-up.md)
+* [Dependency Injection](spring/dependency-injection.md)
+  * [Injections](spring/dependency-injection/injections.md)
+  * [Injecting Values](spring/dependency-injection/injecting-values.md)
+  * [Injecting Multiple Instances](spring/dependency-injection/injecting-instances.md)
+
+## JUnit
+
+* [Setting Up Tests](junit/setting-up-tests.md)
+  * [Disable Tests](junit/disable-tests.md)
 
 ## Spring Examples
 
 * [Setting Up Persistence](spring_examples/setting_up_persistence/readme.md)
-* Controllers
+* [Controllers](spring_examples/setting_up_persistence/controllers.md)
   * [Loading Pageable Automatically](spring_examples/controllers/loading-pageable-automatically.md)
 * [Setting Up a Web Application](spring_examples/setting_up_web/readme.md)
 
