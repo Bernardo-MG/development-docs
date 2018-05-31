@@ -27,7 +27,8 @@
   * [Template View](web/template_view.md)
   * [Interactive View](web/interactive_view.md)
   * [SOAP](web/soap.md)
-  * [Open Graph](web/opengraph.md)
+  * [Open Graph](web/open_graph.md)
+  * [Twitter Card](web/twitter_card.md)
 
 ## Java
 
