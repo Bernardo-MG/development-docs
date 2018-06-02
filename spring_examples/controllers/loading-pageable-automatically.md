@@ -19,8 +19,8 @@ public final Iterable<ModelObject>
 First define the resolvers:
 
 ```xml
-<bean class="${resolver.sort.class}" id="sortResolver" />
-<bean class="${resolver.pageable.class}" id="pagingResolver">
+<bean id="sortResolver" class="${resolver.sort.class}" />
+<bean id="pagingResolver" class="${resolver.pageable.class}">
    <constructor-arg ref="sortResolver" />
 </bean>
 ```
