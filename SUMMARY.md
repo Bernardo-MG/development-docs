@@ -97,6 +97,8 @@
   * [Maven Reports](maven/maven_reports.md)
   * [Tests](maven/tests.md)
   * [Artifact Repositories](maven/artifact-repositories.md)
+* [Maven Archetype](maven/maven-archetype.md)
+  * [Testing Archetypes](maven/maven-archetype/testing-archetypes.md)
 
 ## Maven Examples
 
