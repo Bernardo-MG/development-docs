@@ -27,7 +27,8 @@
   * [Template View](web/template_view.md)
   * [Interactive View](web/interactive_view.md)
   * [SOAP](web/soap.md)
-  * [Open Graph](web/opengraph.md)
+  * [Open Graph](web/open_graph.md)
+  * [Twitter Card](web/twitter_card.md)
 
 ## Java
 
@@ -96,6 +97,8 @@
   * [Maven Reports](maven/maven_reports.md)
   * [Tests](maven/tests.md)
   * [Artifact Repositories](maven/artifact-repositories.md)
+* [Maven Archetype](maven/maven-archetype.md)
+  * [Testing Archetypes](maven/maven-archetype/testing-archetypes.md)
 
 ## Maven Examples
 
@@ -138,6 +141,7 @@
   * [Values from the Request and Path](spring/spring-mvc/values-from-the-request-and-path.md)
   * [Request Argument Validation](spring/spring-mvc/request-argument-validation.md)
   * [View Resolvers](spring/spring-mvc/view-resolvers.md)
+  * [Testing JSON](spring/spring-mvc/testing-json.md)
 * [Spring WS](spring/spring-ws/readme.md)
 * [Spring Security](spring/spring-security/readme.md)
   * [Setting Up](spring/spring-security/setting-up.md)
