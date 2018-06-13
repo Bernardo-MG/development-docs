@@ -74,5 +74,11 @@ This command will do so:
 mvn clean dependency:purge-local-repository
 ```
 
+To remove only snapshots:
+
+```
+mvn clean dependency:purge-local-repository -DsnapshotsOnly=true
+```
+
 
 
