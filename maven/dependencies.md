@@ -60,8 +60,18 @@ They can be used through the dependency management configuration:
 
 To check if there are newer versions for the dependencies use the following command:
 
-```
+```sh
 mvn versions:display-dependency-updates versions:display-plugin-updates
+```
+
+## Purging Dependencies
+
+Sometimes you need to delete and download again all the dependencies. This may be caused by the use of snapshots.
+
+This command will do so:
+
+```
+mvn clean dependency:purge-local-repository
 ```
 
 
