@@ -22,6 +22,7 @@ public ExpectedException expectedEx = ExpectedException.none();
 @Test
 public final void testWithException() {
    expectedEx.expect(Exception.class);
+   expectedEx.expectMessage("error.message");
 
    service.throwsException();
 }
