@@ -156,6 +156,7 @@
 
 * [Setting Up Tests](junit/setting-up-tests.md)
   * [Disable Tests](junit/disable-tests.md)
+  * [Exceptions](junit/exceptions.md)
 
 ## Spring Examples
 
