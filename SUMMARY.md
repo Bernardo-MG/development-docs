@@ -153,6 +153,7 @@
   * [Injecting Multiple Instances](spring/dependency-injection/injecting-instances.md)
 * [Configuration](spring/configuration.md)
   * [Conditional Configuration](spring/configuration/conditional-configuration.md)
+  * [Profiles](spring/configuration/profiles.md)
 
 ## JUnit
 
