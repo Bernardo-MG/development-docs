@@ -151,11 +151,15 @@
   * [Injections](spring/dependency-injection/injections.md)
   * [Injecting Values](spring/dependency-injection/injecting-values.md)
   * [Injecting Multiple Instances](spring/dependency-injection/injecting-instances.md)
+* [Configuration](spring/configuration.md)
+  * [Conditional Configuration](spring/configuration/conditional-configuration.md)
+  * [Profiles](spring/configuration/profiles.md)
 
 ## JUnit
 
 * [Setting Up Tests](junit/setting-up-tests.md)
   * [Disable Tests](junit/disable-tests.md)
+  * [Exceptions](junit/exceptions.md)
 
 ## Spring Examples
 
