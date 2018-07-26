@@ -30,6 +30,11 @@
   * [Open Graph](web/open_graph.md)
   * [Twitter Card](web/twitter_card.md)
 
+## Web
+
+* [REST](web/rest.md)
+* SOAP
+
 ## Java
 
 * Environment
