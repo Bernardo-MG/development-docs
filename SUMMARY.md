@@ -169,6 +169,7 @@
 ## Mockito
 
 * [Mocking](mockito/mocking.md)
+* [Capture Arguments](mockito/capture-arguments.md)
 
 ## Spring Examples
 
