@@ -192,3 +192,7 @@
   * [Tests](python/tests.md)
   * [Deployment](python/deployment.md)
 
+## Architecture
+
+* [SOA](architecture/soa/readme.md)
+
