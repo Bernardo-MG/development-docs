@@ -35,6 +35,10 @@
 * [REST](web/rest.md)
 * SOAP
 
+## Architecture
+
+* [SOA](architecture/soa/readme.md)
+
 ## Java
 
 * Environment
@@ -191,8 +195,4 @@
   * [tox](python/tox.md)
   * [Tests](python/tests.md)
   * [Deployment](python/deployment.md)
-
-## Architecture
-
-* [SOA](architecture/soa/readme.md)
 
