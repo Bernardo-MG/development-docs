@@ -35,6 +35,10 @@
 * [REST](web/rest.md)
 * SOAP
 
+## Architecture
+
+* [SOA](architecture/soa/readme.md)
+
 ## Java
 
 * Environment
@@ -165,6 +169,11 @@
 * [Setting Up Tests](junit/setting-up-tests.md)
   * [Disable Tests](junit/disable-tests.md)
   * [Exceptions](junit/exceptions.md)
+
+## Mockito
+
+* [Mocking](mockito/mocking.md)
+* [Capture Arguments](mockito/capture-arguments.md)
 
 ## Spring Examples
 
