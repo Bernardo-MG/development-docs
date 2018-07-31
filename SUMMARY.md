@@ -29,6 +29,7 @@
   * [SOAP](web/soap.md)
   * [Open Graph](web/open_graph.md)
   * [Twitter Card](web/twitter_card.md)
+* [Parsers](services/parsers.md)
 
 ## Web
 
