@@ -26,15 +26,14 @@
 * [Web](web/readme.md)
   * [Template View](web/template_view.md)
   * [Interactive View](web/interactive_view.md)
-  * [SOAP](web/soap.md)
   * [Open Graph](web/open_graph.md)
   * [Twitter Card](web/twitter_card.md)
 * [Parsers](services/parsers.md)
 
 ## Web
 
-* [REST](web/rest.md)
-* SOAP
+* [REST](rest/readme.md)
+* [SOAP](soap/readme.md)
 
 ## Architecture
 
@@ -43,8 +42,8 @@
 ## Java
 
 * Environment
-  * [Development Ecosystem](java_env/deveco.md)
-  * [IDE](java_env/ide.md)
+  * [Development Ecosystem](java/environment/deveco.md)
+  * [IDE](java/environment/ide.md)
 * [General](java/readme.md)
   * [Compiling and running](java/building.md)
   * [Code Style](java/style.md)
@@ -64,29 +63,29 @@
   * [Tests](java/tests.md)
   * [Java Beans](java/beans.md)
   * [Immutable and Unmodifiable](java/immutable.md)
-* [Internationalization](jpa/readme.md)
-  * [Locale](java_i18n/locale.md)
-  * [Resource Bundle](java_i18n/bundle.md)
-  * [Formatting](java_i18n/formatting.md)
-* [JPA](jpa/readme.md)
-  * [JPA Entities](jpa/entities.md)
-  * [Lifecycle](jpa/lifecycle.md)
-  * [JPQL](jpa/jpql.md)
-  * [Criteria API](jpa/criteria-api.md)
-* [Functional](java_functional/readme.md)
-  * [Interfaces](java_functional/interfaces.md)
-  * [Function](java_functional/function.md)
-  * [Predicate](java_functional/predicate.md)
-  * [Consumer](java_functional/consumer.md)
-  * [Supplier](java_functional/supplier.md)
-  * [Method References](java_functional/method-references.md)
-  * [Streams](java_functional/streams.md)
-  * [Lambdas](java_functional/lambdas.md)
+* [Internationalization](java/i18n/readme.md)
+  * [Locale](java/i18n/locale.md)
+  * [Resource Bundle](java/i18n/bundle.md)
+  * [Formatting](java/i18n/formatting.md)
+* [JPA](java/jpa/readme.md)
+  * [JPA Entities](java/jpa/entities.md)
+  * [Lifecycle](java/jpa/lifecycle.md)
+  * [JPQL](java/jpa/jpql.md)
+  * [Criteria API](java/jpa/criteria-api.md)
+* [Functional](java/functional/readme.md)
+  * [Interfaces](java/functional/interfaces.md)
+  * [Function](java/functional/function.md)
+  * [Predicate](java/functional/predicate.md)
+  * [Consumer](java/functional/consumer.md)
+  * [Supplier](java/functional/supplier.md)
+  * [Method References](java/functional/method-references.md)
+  * [Streams](java/functional/streams.md)
+  * [Lambdas](java/functional/lambdas.md)
 
 ## Java Examples
 
-* [Beans](java_examples/interfaces-and-generics-for-a-service/beans.md)
-  * [Hashcode, equals and toString](java_examples/interfaces-and-generics-for-a-service/beans/hashcode-equals-and-tostring.md)
+* [Beans](java_examples/beans/readme.md)
+  * [Hashcode, equals and toString](java_examples/beans/hashcode-equals-and-tostring.md)
 * [Interfaces and Generics for a Service](java_examples/interfaces-and-generics-for-a-service/readme.md)
   * [Dependencies](java_examples/interfaces-and-generics-for-a-service/dependencies.md)
   * [Type Errors](java_examples/interfaces-and-generics-for-a-service/type-errors.md)
@@ -95,7 +94,7 @@
   * [Using Classes](java_examples/creating-new-instances/using-classes.md)
   * [Using Providers](java_examples/creating-new-instances/using-providers.md)
 * Utilities Classes
-  * [Constants Class](java_examples/interfaces-and-generics-for-a-service/constants-class.md)
+  * [Constants Class](java_examples/utilities/constants-class.md)
 
 ## Maven
 
@@ -111,7 +110,7 @@
   * [Maven Reports](maven/maven_reports.md)
   * [Tests](maven/tests.md)
   * [Artifact Repositories](maven/artifact-repositories.md)
-* [Maven Archetype](maven/maven-archetype.md)
+* [Maven Archetype](maven/maven-archetype/readme.md)
   * [Testing Archetypes](maven/maven-archetype/testing-archetypes.md)
 
 ## Maven Examples
@@ -159,21 +158,21 @@
 * [Spring WS](spring/spring-ws/readme.md)
 * [Spring Security](spring/spring-security/readme.md)
   * [Setting Up](spring/spring-security/setting-up.md)
-* [Spring Boot](spring/spring-boot.md)
+* [Spring Boot](spring/spring-boot/readme.md)
   * [Setting Up](spring/spring-boot/setting-up.md)
-* [Dependency Injection](spring/dependency-injection.md)
+* [Dependency Injection](spring/dependency-injection/readme.md)
   * [Injections](spring/dependency-injection/injections.md)
   * [Injecting Values](spring/dependency-injection/injecting-values.md)
   * [Injecting Multiple Instances](spring/dependency-injection/injecting-instances.md)
-* [Configuration](spring/configuration.md)
+* [Configuration](spring/configuration/readme.md)
   * [Conditional Configuration](spring/configuration/conditional-configuration.md)
   * [Profiles](spring/configuration/profiles.md)
 
 ## JUnit
 
-* [Setting Up Tests](junit/setting-up-tests.md)
-  * [Disable Tests](junit/disable-tests.md)
-  * [Exceptions](junit/exceptions.md)
+* [Setting Up Tests](junit/settests/readme.md)
+  * [Disable Tests](junit/settests/disable-tests.md)
+  * [Exceptions](junit/settests/exceptions.md)
 
 ## Mockito
 
@@ -183,7 +182,7 @@
 ## Spring Examples
 
 * [Setting Up Persistence](spring_examples/setting_up_persistence/readme.md)
-* [Controllers](spring_examples/setting_up_persistence/controllers.md)
+* [Controllers](spring_examples/controllers/readme.md)
   * [Loading Pageable Automatically](spring_examples/controllers/loading-pageable-automatically.md)
 * [Setting Up a Web Application](spring_examples/setting_up_web/readme.md)
 
