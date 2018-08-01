@@ -29,6 +29,7 @@
   * [SOAP](web/soap.md)
   * [Open Graph](web/open_graph.md)
   * [Twitter Card](web/twitter_card.md)
+* [Parsers](services/parsers.md)
 
 ## Web
 
@@ -74,6 +75,10 @@
   * [Criteria API](jpa/criteria-api.md)
 * [Functional](java_functional/readme.md)
   * [Interfaces](java_functional/interfaces.md)
+  * [Function](java_functional/function.md)
+  * [Predicate](java_functional/predicate.md)
+  * [Consumer](java_functional/consumer.md)
+  * [Supplier](java_functional/supplier.md)
   * [Method References](java_functional/method-references.md)
   * [Streams](java_functional/streams.md)
   * [Lambdas](java_functional/lambdas.md)
