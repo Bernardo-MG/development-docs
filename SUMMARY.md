@@ -77,6 +77,7 @@
   * [Interfaces](java_functional/interfaces.md)
   * [Function](java_functional/function.md)
   * [Predicate](java_functional/predicate.md)
+  * [Consumer](java_functional/consumer.md)
   * [Method References](java_functional/method-references.md)
   * [Streams](java_functional/streams.md)
   * [Lambdas](java_functional/lambdas.md)
