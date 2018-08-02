@@ -4,7 +4,7 @@
 
 Configuration classes can be loaded conditionally.
 
-### Conditional Property
+### Conditional by Property
 
 ```java
 @Configuration
@@ -12,7 +12,13 @@ Configuration classes can be loaded conditionally.
 public class ConfigClass
 ```
 
-### Condition Class
+### Conditional by Class
+
+```java
+@Configuration
+@Conditional(ConfigurationCondition .class)
+public class ConfigClass
+```
 
 ```java
 public class ConfigurationCondition implements Condition
@@ -32,11 +38,7 @@ public class ConfigurationCondition implements Condition
 }
 ```
 
-```java
-@Configuration
-@Conditional(ConfigurationCondition .class)
-public class ConfigClass
-```
+
 
 ### Conditioned By Bean
 
