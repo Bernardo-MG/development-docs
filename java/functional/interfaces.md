@@ -17,3 +17,7 @@ These interfaces are very useful when working with the functional paradigm, as w
 
 By default Java comes with several functional patterns.
 
+## Default Methods
+
+These interfaces mix well with default methods, and the functional interfaces included in the JDK make use of them.
+
