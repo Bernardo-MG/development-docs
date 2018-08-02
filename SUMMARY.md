@@ -93,7 +93,7 @@
 * [Creating New Instances Dynamically](java_examples/creating-new-instances/readme.md)
   * [Using Classes](java_examples/creating-new-instances/using-classes.md)
   * [Using Providers](java_examples/creating-new-instances/using-providers.md)
-* Utilities Classes
+* [Utilities Classes](java_examples/beans/utilities-classes.md)
   * [Constants Class](java_examples/utilities/constants-class.md)
 
 ## Maven
@@ -167,6 +167,7 @@
 * [Configuration](spring/configuration/readme.md)
   * [Conditional Configuration](spring/configuration/conditional-configuration.md)
   * [Profiles](spring/configuration/profiles.md)
+  * [Dependencies](spring/configuration/dependencies.md)
 
 ## JUnit
 
@@ -185,6 +186,8 @@
 * [Controllers](spring_examples/controllers/readme.md)
   * [Loading Pageable Automatically](spring_examples/controllers/loading-pageable-automatically.md)
 * [Setting Up a Web Application](spring_examples/setting_up_web/readme.md)
+* [Complex Beans](spring_examples/setting_up_persistence/complex-dependencies.md)
+  * [Dynamic Dependency](spring_examples/setting_up_persistence/complex-dependencies/dynamic-dependency.md)
 
 ## Python
 
