@@ -26,7 +26,7 @@ The value usually is a primitive wrapper:
 public class ExampleService implements Service {
 
    @Value("${properties.valueName}")
-   private String value;
+   private Integer value;
 
    public ExampleService() {
       super();
