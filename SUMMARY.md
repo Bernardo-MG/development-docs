@@ -81,6 +81,7 @@
   * [Method References](java/functional/method-references.md)
   * [Streams](java/functional/streams.md)
   * [Lambdas](java/functional/lambdas.md)
+* [Java Bean Validation](java/java-validation.md)
 
 ## Java Examples
 
