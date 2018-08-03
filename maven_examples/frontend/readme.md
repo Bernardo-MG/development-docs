@@ -71,7 +71,7 @@ To minify JS and CSS files use the [Minify Maven Plugin](http://samaxes.github.i
 
 ## Javascript validation
 
-Use the [JSHint plugin](https://github.com/cjdev/jshint-mojo) to validate Javascript files.
+The [JSHint plugin](https://github.com/cjdev/jshint-mojo) to validate Javascript files, but it is no longer supported.
 
 ```xml
 <plugin>

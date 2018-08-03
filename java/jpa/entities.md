@@ -142,7 +142,7 @@ This way they can be handled as a single object.
 
 By default JPA implementations will take the name of the class as the entity name. In this case the entity will be named SomeEntity.
 
-```rust
+```java
 @Entity
 @Table(name = "table")
 public class SomeEntity

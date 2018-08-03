@@ -40,7 +40,7 @@ formatted = formatter.format(messageArguments);
 
 Having this message bundle:
 
-```
+```properties
 template = There {0}.
 noEmployees = are no employees
 oneEmployee = is one employee
@@ -150,3 +150,6 @@ formatted = patternFormatter.format(amount);
 ## More Information
 
 * [Formatting](https://docs.oracle.com/javase/tutorial/i18n/format/index.html)
+
+
+
