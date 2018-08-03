@@ -26,7 +26,7 @@ The persistence context requires the following common beans:
 </bean>
 ```
 
-```
+```properties
 # Bean classes
 jpa.entityManagerFactory.class=org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean
 jpa.entityManager.class=org.springframework.orm.jpa.support.SharedEntityManagerBean
