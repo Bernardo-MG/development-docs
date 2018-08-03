@@ -8,11 +8,23 @@ Java beans can be mapped to the database tables.
 
 This can be done with XML or annotations.
 
+## Constraints
+
+* Usage of JPA annotations or XML mapping
+* Non final classes
+* Non final getters and setters
+
 ## Additional Constraints
 
-Always extend the equals and hashCode methods. This way if two entities contain the same data they can be handled as being the same entity.
+These are recommended, but not compulsory:
 
-It is recommended extending the toString method too, to make the resulting string readable.
+* Extend the equals method
+* Extend the hashCode method
+* Extend the toString method
+
+## Comparison Methods
+
+For the equals and hashCode methods do not use the id for this, make use of the unique fields.
 
 ## Annotations
 
