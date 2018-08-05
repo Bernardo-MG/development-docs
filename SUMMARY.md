@@ -81,21 +81,21 @@
   * [Method References](java/functional/method-references.md)
   * [Streams](java/functional/streams.md)
   * [Lambdas](java/functional/lambdas.md)
-* [Java Bean Validation](java/java-validation.md)
+* [Java Bean Validation](java/validation/readme.md)
 
 ## Java Examples
 
-* [Beans](java_examples/beans/readme.md)
-  * [Hashcode, equals and toString](java_examples/beans/hashcode-equals-and-tostring.md)
-* [Interfaces and Generics for a Service](java_examples/interfaces-and-generics-for-a-service/readme.md)
-  * [Dependencies](java_examples/interfaces-and-generics-for-a-service/dependencies.md)
-  * [Type Errors](java_examples/interfaces-and-generics-for-a-service/type-errors.md)
-  * [Nested Type Errors](java_examples/interfaces-and-generics-for-a-service/nested-type-errors.md)
-* [Creating New Instances Dynamically](java_examples/creating-new-instances/readme.md)
-  * [Using Classes](java_examples/creating-new-instances/using-classes.md)
-  * [Using Providers](java_examples/creating-new-instances/using-providers.md)
-* [Utilities Classes](java_examples/beans/utilities-classes.md)
-  * [Constants Class](java_examples/utilities/constants-class.md)
+* [Beans](java/examples/beans/readme.md)
+  * [Hashcode, equals and toString](java/examples/beans/hashcode-equals-and-tostring.md)
+* [Interfaces and Generics for a Service](java/examples/interfaces-and-generics-for-a-service/readme.md)
+  * [Dependencies](java/examples/interfaces-and-generics-for-a-service/dependencies.md)
+  * [Type Errors](java/examples/interfaces-and-generics-for-a-service/type-errors.md)
+  * [Nested Type Errors](java/examples/interfaces-and-generics-for-a-service/nested-type-errors.md)
+* [Creating New Instances Dynamically](java/examples/creating-new-instances/readme.md)
+  * [Using Classes](java/examples/creating-new-instances/using-classes.md)
+  * [Using Providers](java/examples/creating-new-instances/using-providers.md)
+* [Utilities Classes](java/examples/beans/utilities-classes.md)
+  * [Constants Class](java/examples/utilities/constants-class.md)
 
 ## Maven
 
@@ -116,25 +116,25 @@
 
 ## Maven Examples
 
-* [Configuration](maven_examples/configuration/readme.md)
-  * [Parent POM](maven_examples/configuration/parent-pom.md)
-  * [Default Properties](maven_examples/configuration/defaults.md)
-  * [Versions](maven_examples/configuration/versions.md)
-  * [Extensions](maven_examples/configuration/extensions.md)
-  * [Project Setup](maven_examples/configuration/project_setup.md)
-* [Setting Up the JAR](maven_examples/readme.md)
-  * [Attach Sources](maven_examples/jar/attach-sources.md)
-  * [Attach Javadocs](maven_examples/jar/attach-javadocs.md)
-  * [Manifest](maven_examples/jar/manifest.md)
-* [JPA](maven_examples/jpa/readme.md)
-  * [Generating Metamodel](maven_examples/jpa/generating-metamodel.md)
-* [Deployments](maven_examples/deployment/readme.md)
-  * [Deployment With Maven](maven_examples/deployment/deployment.md)
-  * [Deploying Web Projects Locally](maven_examples/deployment/web_locally.md)
-  * [Deploying Documentation](maven_examples/deployment/documentation-deployment.md)
-* [Continuous Integration](maven_examples/ci/readme.md)
-  * [Tests](maven_examples/ci/tests.md)
-* [Frontend with Maven](maven_examples/frontend/readme.md)
+* [Configuration](maven/examples/configuration/readme.md)
+  * [Parent POM](maven/examples/configuration/parent-pom.md)
+  * [Default Properties](maven/examples/configuration/defaults.md)
+  * [Versions](maven/examples/configuration/versions.md)
+  * [Extensions](maven/examples/configuration/extensions.md)
+  * [Project Setup](maven/examples/configuration/project_setup.md)
+* [Setting Up the JAR](maven/examples/readme.md)
+  * [Attach Sources](maven/examples/jar/attach-sources.md)
+  * [Attach Javadocs](maven/examples/jar/attach-javadocs.md)
+  * [Manifest](maven/examples/jar/manifest.md)
+* [JPA](maven/examples/jpa/readme.md)
+  * [Generating Metamodel](maven/examples/jpa/generating-metamodel.md)
+* [Deployments](maven/examples/deployment/readme.md)
+  * [Deployment With Maven](maven/examples/deployment/deployment.md)
+  * [Deploying Web Projects Locally](maven/examples/deployment/web_locally.md)
+  * [Deploying Documentation](maven/examples/deployment/documentation-deployment.md)
+* [Continuous Integration](maven/examples/ci/readme.md)
+  * [Tests](maven/examples/ci/tests.md)
+* [Frontend with Maven](maven/examples/frontend/readme.md)
 
 ## Spring
 
@@ -183,12 +183,12 @@
 
 ## Spring Examples
 
-* [Setting Up Persistence](spring_examples/setting_up_persistence/readme.md)
-* [Controllers](spring_examples/controllers/readme.md)
-  * [Loading Pageable Automatically](spring_examples/controllers/loading-pageable-automatically.md)
-* [Setting Up a Web Application](spring_examples/setting_up_web/readme.md)
-* [Complex Beans](spring_examples/setting_up_persistence/complex-dependencies.md)
-  * [Dynamic Dependency](spring_examples/setting_up_persistence/complex-dependencies/dynamic-dependency.md)
+* [Setting Up Persistence](spring/examples/setting_up_persistence/readme.md)
+* [Controllers](spring/examples/controllers/readme.md)
+  * [Loading Pageable Automatically](spring/examples/controllers/loading-pageable-automatically.md)
+* [Setting Up a Web Application](spring/examples/setting_up_web/readme.md)
+* [Complex Beans](spring/examples/setting_up_persistence/complex-dependencies.md)
+  * [Dynamic Dependency](spring/examples/setting_up_persistence/complex-dependencies/dynamic-dependency.md)
 
 ## Python
 
