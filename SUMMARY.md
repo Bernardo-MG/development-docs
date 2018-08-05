@@ -67,6 +67,7 @@
   * [Locale](java/i18n/locale.md)
   * [Resource Bundle](java/i18n/bundle.md)
   * [Formatting](java/i18n/formatting.md)
+* [Java Bean Validation](java/validation/readme.md)
 * [JPA](java/jpa/readme.md)
   * [JPA Entities](java/jpa/entities.md)
   * [Lifecycle](java/jpa/lifecycle.md)
@@ -81,7 +82,6 @@
   * [Method References](java/functional/method-references.md)
   * [Streams](java/functional/streams.md)
   * [Lambdas](java/functional/lambdas.md)
-* [Java Bean Validation](java/validation/readme.md)
 
 ## Java Examples
 
@@ -96,6 +96,17 @@
   * [Using Providers](java/examples/creating-new-instances/using-providers.md)
 * [Utilities Classes](java/examples/beans/utilities-classes.md)
   * [Constants Class](java/examples/utilities/constants-class.md)
+
+## JUnit
+
+* [Setting Up Tests](junit/settests/readme.md)
+  * [Disable Tests](junit/settests/disable-tests.md)
+  * [Exceptions](junit/settests/exceptions.md)
+
+## Mockito
+
+* [Mocking](mockito/mocking.md)
+* [Capture Arguments](mockito/capture-arguments.md)
 
 ## Maven
 
@@ -139,9 +150,19 @@
 ## Spring
 
 * [General](spring/readme.md)
+* [Dependency Injection](spring/dependency-injection/readme.md)
+  * [Injections](spring/dependency-injection/injections.md)
+  * [Injecting Values](spring/dependency-injection/injecting-values.md)
+  * [Injecting Multiple Instances](spring/dependency-injection/injecting-instances.md)
+* [Configuration](spring/configuration/readme.md)
+  * [Conditional Configuration](spring/configuration/conditional-configuration.md)
+  * [Profiles](spring/configuration/profiles.md)
+  * [Dependencies](spring/configuration/dependencies.md)
 * [JPA](spring/jpa/readme.md)
   * [Transactional](spring/jpa/transactional.md)
   * [Repositories](spring/jpa/repositories.md)
+* [Spring Security](spring/spring-security/readme.md)
+  * [Setting Up](spring/spring-security/setting-up.md)
 * [Spring MVC](spring/spring-mvc/readme.md)
   * [Serving Resources](spring/spring-mvc/serving_resources.md)
   * [Securing URLS](spring/spring-mvc/securing_urls.md)
@@ -157,29 +178,8 @@
   * [View Resolvers](spring/spring-mvc/view-resolvers.md)
   * [Testing JSON](spring/spring-mvc/testing-json.md)
 * [Spring WS](spring/spring-ws/readme.md)
-* [Spring Security](spring/spring-security/readme.md)
-  * [Setting Up](spring/spring-security/setting-up.md)
 * [Spring Boot](spring/spring-boot/readme.md)
   * [Setting Up](spring/spring-boot/setting-up.md)
-* [Dependency Injection](spring/dependency-injection/readme.md)
-  * [Injections](spring/dependency-injection/injections.md)
-  * [Injecting Values](spring/dependency-injection/injecting-values.md)
-  * [Injecting Multiple Instances](spring/dependency-injection/injecting-instances.md)
-* [Configuration](spring/configuration/readme.md)
-  * [Conditional Configuration](spring/configuration/conditional-configuration.md)
-  * [Profiles](spring/configuration/profiles.md)
-  * [Dependencies](spring/configuration/dependencies.md)
-
-## JUnit
-
-* [Setting Up Tests](junit/settests/readme.md)
-  * [Disable Tests](junit/settests/disable-tests.md)
-  * [Exceptions](junit/settests/exceptions.md)
-
-## Mockito
-
-* [Mocking](mockito/mocking.md)
-* [Capture Arguments](mockito/capture-arguments.md)
 
 ## Spring Examples
 
