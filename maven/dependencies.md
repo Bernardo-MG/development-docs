@@ -71,13 +71,13 @@ Sometimes you need to delete and download again all the dependencies. This may b
 This command will do so:
 
 ```
-mvn clean dependency:purge-local-repository
+mvn dependency:purge-local-repository
 ```
 
 To remove only snapshots:
 
 ```
-mvn clean dependency:purge-local-repository -DsnapshotsOnly=true
+mvn dependency:purge-local-repository -DsnapshotsOnly=true
 ```
 
 

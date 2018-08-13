@@ -12,7 +12,7 @@ These queries are harder to read, but easier to modify dynamically.
 
 This JPQL query:
 
-```
+```sql
 SELECT entity FROM SimpleEntity entity WHERE entity.id = :id
 ```
 
