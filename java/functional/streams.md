@@ -18,8 +18,14 @@ result = strings.stream().filter(StringUtils::isNotBlank).map(Wrapper::new).coll
 
 ### Filter
 
+Remove all the null values:
+
 ```java
-strings.stream().filter(StringUtils::isNotBlank);
+Collection<Object> collection;
+
+// Collection is initialized
+
+collection.stream().filter(Objects::nonNull);
 ```
 
 ### Map
