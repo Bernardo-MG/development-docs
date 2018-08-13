@@ -16,16 +16,37 @@ result = strings.stream().filter(StringUtils::isNotBlank).map(Wrapper::new).coll
 
 ## Common Operations
 
+### Collect
+
+Store in a list:
+
+```java
+List<String> list = strings.stream().collect(Collectors.toList());
+```
+
+Store in a string:
+
+```java
+String string = strings.stream().collect(Collectors.joining(", "));
+```
+
+Store in a map:
+
+```java
+Map<String, Named> map = objs.stream().collect(Collectors.toMap(Named::getName, Function.identity()));
+```
+
 ### Filter
 
 Remove all the null values:
 
 ```java
 Collection<Object> collection;
+Collection<Object> filtered;
 
 // Collection is initialized
 
-collection.stream().filter(Objects::nonNull);
+filtered = collection.stream().filter(Objects::nonNull).collect(Collectors.toList());
 ```
 
 ### Map
@@ -71,26 +92,6 @@ integers.stream().sum();
 
 ```java
 integers.stream().forEach(this::increase);
-```
-
-### Collect
-
-Store in a list:
-
-```java
-List<String> list = strings.stream().collect(Collectors.toList());
-```
-
-Store in a string:
-
-```java
-String string = strings.stream().collect(Collectors.joining(", "));
-```
-
-Store in a map:
-
-```java
-Map<String, Named> map = objs.stream().collect(Collectors.toMap(Named::getName, Function.identity()));
 ```
 
 ### Concatenate
