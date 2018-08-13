@@ -21,19 +21,25 @@ result = strings.stream().filter(StringUtils::isNotBlank).map(Wrapper::new).coll
 Store in a list:
 
 ```java
-List<String> list = strings.stream().collect(Collectors.toList());
+List<String> list;
+
+list = strings.stream().collect(Collectors.toList());
 ```
 
 Store in a string:
 
 ```java
-String string = strings.stream().collect(Collectors.joining(", "));
+String string;
+
+string = strings.stream().collect(Collectors.joining(", "));
 ```
 
 Store in a map:
 
 ```java
-Map<String, Named> map = objs.stream().collect(Collectors.toMap(Named::getName, Function.identity()));
+Map<String, Named> map;
+
+map  = objs.stream().collect(Collectors.toMap(Named::getName, Function.identity()));
 ```
 
 ### Filter
@@ -69,10 +75,6 @@ wrapped = strings.stream().map(Wrapper::new).collect(Collectors.toList());
 Transform into an stream and merge.
 
 ```java
-public Stream<String> splitString(final String str);
-```
-
-```java
 public interface AdressBook {
 
    public Collection<String> getAdresses();
@@ -87,7 +89,7 @@ Collection<String> addresses;
 // Collection is initialized
 
 // Collects all the addresses from all the address books
-addresses= books.stream().flatMap((b) -> b.getAdresses().stream()).collect(Collectors.toList());
+addresses = books.stream().flatMap((b) -> b.getAdresses().stream()).collect(Collectors.toList());
 ```
 
 ### Reduce
@@ -119,6 +121,7 @@ Collection<Integer> integers;
 
 // Collection is initialized
 
+// Increases all the values
 integers.stream().forEach(this::increase);
 ```
 
@@ -133,6 +136,7 @@ Collection<Integer> allValues;
 
 // Collections are initialized
 
+// Combines collections
 allValues = Stream.concat(list1.stream(), list2.stream).collect(Collectors.toList());
 ```
 
@@ -143,7 +147,7 @@ allValues = Stream.concat(list1.stream(), list2.stream).collect(Collectors.toLis
 ```java
 Stream<String> stream;
 
-stream  = Stream.of(string1, string2);
+stream  = Stream.of("abc", "def");
 ```
 
 ### Stream From Iterable
@@ -151,7 +155,10 @@ stream  = Stream.of(string1, string2);
 Iterables don't give support to streams by default, but there is a utility class for this:
 
 ```java
-StreamSupport.stream(iterable.spliterator(), false);
+Iterable<String> strings;
+Stream<String> stream;
+
+stream = StreamSupport.stream(strings.spliterator(), false);
 ```
 
 ## Closing Streams
