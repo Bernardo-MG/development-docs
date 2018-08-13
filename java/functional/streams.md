@@ -38,7 +38,7 @@ Map<String, Named> map = objs.stream().collect(Collectors.toMap(Named::getName, 
 
 ### Filter
 
-Remove all the null values:
+Remove values.
 
 ```java
 Collection<Object> collection;
@@ -46,6 +46,7 @@ Collection<Object> filtered;
 
 // Collection is initialized
 
+// Removes null values
 filtered = collection.stream().filter(Objects::nonNull).collect(Collectors.toList());
 ```
 
@@ -54,7 +55,13 @@ filtered = collection.stream().filter(Objects::nonNull).collect(Collectors.toLis
 Transform one object into another.
 
 ```java
-strings.stream().map(Wrapper::new);
+Collection<String> strings;
+Collection<Wrapper> wrapped;
+
+// Collection is initialized
+
+// Wraps values
+wrapped = strings.stream().map(Wrapper::new).collect(Collectors.toList());
 ```
 
 ### Flat Map
@@ -62,27 +69,42 @@ strings.stream().map(Wrapper::new);
 Transform into an stream and merge.
 
 ```java
-strings.stream().flatMap(this:splitString);
-```
-
-```java
 public Stream<String> splitString(final String str);
 ```
 
 ```java
-Collection<Stream<String>> mapped;
-Collection<String> flattened;
+public interface AdressBook {
 
-mapped = strings.stream().map(this:splitString).collect(Collectors.toList());
+   public Collection<String> getAdresses();
 
-flattened = strings.stream().flatMap(this:splitString).collect(Collectors.toList());
+}
+```
+
+```java
+Collection<AdressBook> books;
+Collection<String> addresses;
+
+// Collection is initialized
+
+// Collects all the addresses from all the address books
+addresses= books.stream().flatMap((b) -> b.getAdresses().stream()).collect(Collectors.toList());
 ```
 
 ### Reduce
 
+Combines all the values.
+
 ```java
-integers.stream().reduce(this::sum);
+Collection<Integer> integers;
+Integer sumation;
+
+// Collection is initialized
+
+// All the values are added together
+sumation = integers.stream().reduce(this::sum);
 ```
+
+Some streams include the most common reduction functions:
 
 ```java
 integers.stream().sum();
@@ -90,25 +112,41 @@ integers.stream().sum();
 
 ### Consume
 
+Apply a function to all the elements.
+
 ```java
+Collection<Integer> integers;
+
+// Collection is initialized
+
 integers.stream().forEach(this::increase);
 ```
 
 ### Concatenate
 
-Streams can be combined:
+Combine streams.
 
 ```java
-Stream.concat(list1.stream(), list2.stream);
+Collection<Integer> list1;
+Collection<Integer> list2;
+Collection<Integer> allValues;
+
+// Collections are initialized
+
+allValues = Stream.concat(list1.stream(), list2.stream).collect(Collectors.toList());
 ```
 
-### Generate
+## Generation
 
-```
-Stream<String> stream = Stream.of(string1, string2);
+### Stream From Array
+
+```java
+Stream<String> stream;
+
+stream  = Stream.of(string1, string2);
 ```
 
-## Stream From Iterable
+### Stream From Iterable
 
 Iterables don't give support to streams by default, but there is a utility class for this:
 
