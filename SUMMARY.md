@@ -125,6 +125,10 @@
 * [Maven Archetype](maven/maven-archetype/readme.md)
   * [Testing Archetypes](maven/maven-archetype/testing-archetypes.md)
 
+## Logging in Java
+
+* [Log4j](java/logging/log4j.md)
+
 ## Maven Examples
 
 * [Configuration](maven/examples/configuration/readme.md)
