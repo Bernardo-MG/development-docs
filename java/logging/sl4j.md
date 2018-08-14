@@ -16,5 +16,15 @@ public class LoginHandler {
 }
 ```
 
+## Logging Levels
+
+Levels are defined by the Logger interface.
+
+* Trace
+* Debug
+* Info
+* Warn
+* Error
+
 
 
