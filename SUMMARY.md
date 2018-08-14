@@ -128,6 +128,7 @@
 ## Logging in Java
 
 * [Log4j](java/logging/log4j.md)
+* [SL4J](java/logging/sl4j.md)
 
 ## Maven Examples
 
