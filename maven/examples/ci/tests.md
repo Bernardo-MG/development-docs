@@ -4,7 +4,7 @@ JUnit is the usual testing library used with Maven. But as the tests are run by 
 
 ## Plugins
 
-### Surefire (Unit Tests)
+### Surefire \(Unit Tests\)
 
 The default testing plugin is [Surefire](https://maven.apache.org/surefire/maven-surefire-plugin/), which runs on the testing phase:
 
@@ -12,13 +12,17 @@ The default testing plugin is [Surefire](https://maven.apache.org/surefire/maven
 mvn test
 ```
 
-### Failsafe (Integration Tests)
+By default it scans for test classes with "Test" in their name.
+
+### Failsafe \(Integration Tests\)
 
 For integration test the [Failsafe](https://maven.apache.org/surefire/maven-failsafe-plugin/) plugin is used. This runs on the verification phase:
 
 ```bash
 mvn test
 ```
+
+By default it scans for test classes with "IT" in their name.
 
 It has to be set up before the integration tests can be run:
 
@@ -47,7 +51,7 @@ It has to be set up before the integration tests can be run:
 </plugin>
 ```
 
-## JaCoCo (Test Coverage)
+## JaCoCo \(Test Coverage\)
 
 For test coverage you can use JaCoCo:
 
