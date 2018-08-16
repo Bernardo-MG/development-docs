@@ -108,6 +108,11 @@
 * [Mocking](mockito/mocking.md)
 * [Capture Arguments](mockito/capture-arguments.md)
 
+## Logging in Java
+
+* [Log4j](java/logging/log4j.md)
+* [SL4J](java/logging/sl4j.md)
+
 ## Maven
 
 * [General](maven/readme.md)
@@ -124,11 +129,6 @@
   * [Maven Reports](maven/maven_reports.md)
 * [Maven Archetype](maven/maven-archetype/readme.md)
   * [Testing Archetypes](maven/maven-archetype/testing-archetypes.md)
-
-## Logging in Java
-
-* [Log4j](java/logging/log4j.md)
-* [SL4J](java/logging/sl4j.md)
 
 ## Maven Examples
 
