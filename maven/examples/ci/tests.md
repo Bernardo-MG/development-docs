@@ -1,12 +1,26 @@
 # Tests
 
-Tests are run with Junit and Maven.
+JUnit is the usual testing library used with Maven. But as the tests are run by plugins, prepared for the usual cases, this matters little, you just need a set of tests and setting up the plugins.
 
 ## Plugins
 
-### Failsafe
+### Surefire (Unit Tests)
 
-Failsafe has to be set up before the tests can be run:
+The default testing plugin is [Surefire](https://maven.apache.org/surefire/maven-surefire-plugin/), which runs on the testing phase:
+
+```bash
+mvn test
+```
+
+### Failsafe (Integration Tests)
+
+For integration test the [Failsafe](https://maven.apache.org/surefire/maven-failsafe-plugin/) plugin is used. This runs on the verification phase:
+
+```bash
+mvn test
+```
+
+It has to be set up before the integration tests can be run:
 
 ```xml
 <plugin>
@@ -33,9 +47,9 @@ Failsafe has to be set up before the tests can be run:
 </plugin>
 ```
 
-### JaCoCo
+## JaCoCo (Test Coverage)
 
-To set up JaCoCo use this configuration:
+For test coverage you can use JaCoCo:
 
 ```xml
 <plugin>
@@ -61,7 +75,7 @@ To set up JaCoCo use this configuration:
 </plugin>
 ```
 
-## Test Environment
+## Test Environments
 
 Complex test environments, which can be required by some integration tests, may require profiles.
 
@@ -71,13 +85,9 @@ Spring can be used to set up these complex environments.
 
 The [JPA Example](https://github.com/Bernardo-MG/jpa-example) uses several databases for testing, setting up a full persistence context by using Spring and Maven.
 
-## Mocking
-
-When preparing unit tests the dependencies should be mocked. [Mockito](http://site.mockito.org/) is the recommended library for this.
-
 ## Using Web Servers with Tests
 
-Just like explained in [deploying web projects locally](./web_locally.md), it is possible to run a web server during the integration tests, by anchoring the plugins execution to the verify phase.
+Just like explained in [deploying web projects locally](../deployment/web_locally.md), it is possible to run a web server during the integration tests, by anchoring the plugins execution to the verify phase.
 
 ### Jetty
 
