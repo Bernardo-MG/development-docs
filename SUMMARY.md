@@ -122,6 +122,7 @@
   * [Maven Reports](maven/maven_reports.md)
   * [Tests](maven/tests.md)
   * [Artifact Repositories](maven/artifact-repositories.md)
+  * [Profiles](maven/profile.md)
 * [Maven Archetype](maven/maven-archetype/readme.md)
   * [Testing Archetypes](maven/maven-archetype/testing-archetypes.md)
 
