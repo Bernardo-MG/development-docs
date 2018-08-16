@@ -133,23 +133,23 @@
 ## Maven Examples
 
 * [Configuration](maven/examples/configuration/readme.md)
+  * [Project Setup](maven/examples/configuration/project_setup.md)
   * [Parent POM](maven/examples/configuration/parent-pom.md)
   * [Default Properties](maven/examples/configuration/defaults.md)
   * [Versions](maven/examples/configuration/versions.md)
   * [Extensions](maven/examples/configuration/extensions.md)
-  * [Project Setup](maven/examples/configuration/project_setup.md)
-* [Setting Up the JAR](maven/examples/readme.md)
+* [Setting Up the JAR](maven/examples/jar/readme.md)
   * [Attach Sources](maven/examples/jar/attach-sources.md)
   * [Attach Javadocs](maven/examples/jar/attach-javadocs.md)
   * [Manifest](maven/examples/jar/manifest.md)
-* [JPA](maven/examples/jpa/readme.md)
-  * [Generating Metamodel](maven/examples/jpa/generating-metamodel.md)
 * [Deployments](maven/examples/deployment/readme.md)
   * [Deployment With Maven](maven/examples/deployment/deployment.md)
   * [Deploying Web Projects Locally](maven/examples/deployment/web_locally.md)
   * [Deploying Documentation](maven/examples/deployment/documentation-deployment.md)
 * [Continuous Integration](maven/examples/ci/readme.md)
   * [Tests](maven/examples/ci/tests.md)
+* [JPA](maven/examples/jpa/readme.md)
+  * [Generating Metamodel](maven/examples/jpa/generating-metamodel.md)
 * [Frontend with Maven](maven/examples/frontend/readme.md)
 
 ## Spring

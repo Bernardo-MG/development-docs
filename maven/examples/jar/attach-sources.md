@@ -1,6 +1,6 @@
 # Attach Sources
 
-To attach sources to the JAR use this configuration:
+Just use the [Maven Source plugin](https://maven.apache.org/plugins/maven-source-plugin/):
 
 ```xml
 <plugin>
