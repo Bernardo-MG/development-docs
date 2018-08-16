@@ -1,6 +1,6 @@
 # Attach Javadocs
 
-To attach javadocs to the JAR use this configuration:
+Again, this just needs a plugin, in this case the [Maven Javadoc plugin](https://maven.apache.org/plugins/maven-javadoc-plugin/):
 
 ```xml
 <plugin>
@@ -45,9 +45,9 @@ The generated Javadocs won't link to third party libraries. This can be fixed by
 
 With this all the references to JEE7 or Spring classes will contain a link to their official Javadocs.
 
-## Generated Code
+## Ignoring code
 
-It is recommended ignoring generated code
+Some code is generated automatically and its Javadocs won't add anything. This is a good case for ignoring code during Javadoc generation:
 
 ```xml
 <plugin>
@@ -61,6 +61,3 @@ It is recommended ignoring generated code
    </configuration>
 </plugin>
 ```
-
-
-

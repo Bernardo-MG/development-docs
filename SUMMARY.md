@@ -108,43 +108,48 @@
 * [Mocking](mockito/mocking.md)
 * [Capture Arguments](mockito/capture-arguments.md)
 
+## Logging in Java
+
+* [Log4j](java/logging/log4j.md)
+* [SL4J](java/logging/sl4j.md)
+
 ## Maven
 
 * [General](maven/readme.md)
   * [Maven Lifecycle](maven/lifecycle.md)
-  * [Dependency Management](maven/dependencies.md)
-  * [POMs](maven/pom.md)
-  * [Settings File](maven/settings-file.md)
-  * [Archetypes](maven/archetypes.md)
   * [Building the Project](maven/building.md)
-  * [Maven Site](maven/site.md)
-  * [Maven Build Plugins](maven/maven_build_plugins.md)
-  * [Maven Reports](maven/maven_reports.md)
-  * [Tests](maven/tests.md)
+  * [Profiles](maven/profile.md)
+  * [POMs](maven/pom.md)
+  * [Dependency Management](maven/dependencies.md)
   * [Artifact Repositories](maven/artifact-repositories.md)
+  * [Settings File](maven/settings-file.md)
+  * [Maven Build Plugins](maven/maven_build_plugins.md)
+  * [Tests](maven/tests.md)
+  * [Maven Site](maven/site.md)
+  * [Maven Reports](maven/maven_reports.md)
 * [Maven Archetype](maven/maven-archetype/readme.md)
   * [Testing Archetypes](maven/maven-archetype/testing-archetypes.md)
 
 ## Maven Examples
 
 * [Configuration](maven/examples/configuration/readme.md)
+  * [Project Setup](maven/examples/configuration/project_setup.md)
   * [Parent POM](maven/examples/configuration/parent-pom.md)
   * [Default Properties](maven/examples/configuration/defaults.md)
   * [Versions](maven/examples/configuration/versions.md)
   * [Extensions](maven/examples/configuration/extensions.md)
-  * [Project Setup](maven/examples/configuration/project_setup.md)
-* [Setting Up the JAR](maven/examples/readme.md)
+* [Setting Up the JAR](maven/examples/jar/readme.md)
   * [Attach Sources](maven/examples/jar/attach-sources.md)
   * [Attach Javadocs](maven/examples/jar/attach-javadocs.md)
   * [Manifest](maven/examples/jar/manifest.md)
-* [JPA](maven/examples/jpa/readme.md)
-  * [Generating Metamodel](maven/examples/jpa/generating-metamodel.md)
 * [Deployments](maven/examples/deployment/readme.md)
   * [Deployment With Maven](maven/examples/deployment/deployment.md)
   * [Deploying Web Projects Locally](maven/examples/deployment/web_locally.md)
   * [Deploying Documentation](maven/examples/deployment/documentation-deployment.md)
 * [Continuous Integration](maven/examples/ci/readme.md)
   * [Tests](maven/examples/ci/tests.md)
+* [JPA](maven/examples/jpa/readme.md)
+  * [Generating Metamodel](maven/examples/jpa/generating-metamodel.md)
 * [Frontend with Maven](maven/examples/frontend/readme.md)
 
 ## Spring

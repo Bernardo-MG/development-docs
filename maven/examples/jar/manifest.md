@@ -1,6 +1,8 @@
 # Manifest
 
-To set up the JAR manifest use this configuration.
+The manifest file includes metadata about the project, and can be used for example by repositories.
+
+This is added by setting up the [Maven Jar plugin](https://maven.apache.org/plugins/maven-jar-plugin/):
 
 ```xml
 <plugin>

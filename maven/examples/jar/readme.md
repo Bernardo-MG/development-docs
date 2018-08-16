@@ -1,6 +1,5 @@
 # Setting Up the JAR
 
-By default the generated artifact will be missing the javadocs, sources and manifest, which are required for any open source project, and for any project which a minimum of documentation.
+By default Maven generates small artifacts, which will be missing things such as javadocs, sources and manifest. These are commonly offered, and sometimes required, when publishing projects, as they offer a minimum of documentation.
 
-Fixing this will require adding a bit of configuration to the maven plugins, in the build node.
-
+They can be added with a bit of configuration, and a few Maven plugins.

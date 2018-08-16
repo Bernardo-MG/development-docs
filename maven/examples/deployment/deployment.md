@@ -1,20 +1,14 @@
 # Deployment With Maven
 
-## JAR/WAR
-
-[Maven](./maven) is used to deploy Java artifacts. The code artifacts are deployed to an artifacts repository as part of the CI process.
-
-### Command
-
-If needed, a project can be deployed manually:
+Maven is prepared to deploy Java artifacts. The code artifacts are deployed to an artifacts repository as part of a CI process or manually, as all it requires is calling a command:
 
 ```bash
 mvn deploy
 ```
 
-### Configuration
+## Configuration
 
-Add the repositories info to the POM:
+You need to tell Maven where the artifacts will be deployed. Remember that it makes a distinction between releases and snapshots, so it requires a repository for each:
 
 ```xml
 <distributionManagement>
@@ -35,9 +29,9 @@ Add the repositories info to the POM:
 
 The 'repository' node defines the releases repository, while the 'snapshotRepository' defines the snapshots one.
 
-They will require access data. Never include it in the project, instead add it to the CI configuration. It is recommended using a Maven settings file.
+Now they need some sort of credentials for the deployment. Never include thesein the project, instead add it to the CI configuration. It is recommended using a Maven settings file.
 
-For the previous example the settings file would require something like:
+For the previous example the settings file would be similar to this:
 
 ```xml
 <settings>
