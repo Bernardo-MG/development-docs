@@ -1,6 +1,6 @@
 # Continuous Integration with Maven
 
-![](../img/diagram/ci_maven_activity.png)
+![](../../../img/diagram/ci_maven_activity.png)
 
 It is easy to integrate Maven with a CI project. Take advantage of profiles and Maven phases, and use a settings file for sensitive information.
 
