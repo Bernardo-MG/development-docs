@@ -3,14 +3,6 @@
 The persistence context requires the following common beans:
 
 ```xml
-<!-- Data source -->
-<bean id="dataSource" class="${jdbc.dataSource.class}">
-   <property name="driverClassName" value="${jdbc.driver}" />
-   <property name="jdbcUrl" value="${jdbc.url}" />
-   <property name="username" value="${jdbc.username}" />
-   <property name="password" value="${jdbc.password}" />
-</bean>
-
 <!-- Transaction manager -->
 <bean id="transactionManager" class="${jpa.transactionManager.class}">
    <property name="entityManagerFactory" ref="entityManagerFactory" />
@@ -28,7 +20,6 @@ jpa.entityManagerFactory.class=org.springframework.orm.jpa.LocalContainerEntityM
 jpa.entityManager.class=org.springframework.orm.jpa.support.SharedEntityManagerBean
 jpa.adapter.class=
 jpa.transactionManager.class=org.springframework.orm.jpa.JpaTransactionManager
-jdbc.dataSource.class=com.zaxxer.hikari.HikariDataSource
 
 # JPA configuration
 jpa.persistenceUnitName=jpa_example
