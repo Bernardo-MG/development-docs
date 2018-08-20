@@ -189,6 +189,8 @@
 ## Spring Examples
 
 * [Setting Up Persistence](spring/examples/setting_up_persistence/readme.md)
+  * [Common Persistence Beans](spring/examples/setting_up_persistence/common.md)
+  * [Persistence Providers](spring/examples/setting_up_persistence/providers.md)
 * [Controllers](spring/examples/controllers/readme.md)
   * [Loading Pageable Automatically](spring/examples/controllers/loading-pageable-automatically.md)
 * [Setting Up a Web Application](spring/examples/setting_up_web/readme.md)
