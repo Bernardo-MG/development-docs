@@ -67,6 +67,7 @@
   * [Tests](java/tests.md)
   * [Java Beans](java/beans.md)
   * [Immutable and Unmodifiable](java/immutable.md)
+  * [Regular Expression](java/regular-expression.md)
 * [Internationalization](java/i18n/readme.md)
   * [Locale](java/i18n/locale.md)
   * [Resource Bundle](java/i18n/bundle.md)
