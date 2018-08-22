@@ -22,3 +22,20 @@ public class ExtendedEmployee extends Employee
 
 Now the ExtendedEmployee can be serialized and deserialized using Employee as a reference. Jackson will know the actual type of Employee to use.
 
+### JsonSubTypes
+
+Used along JsonTypeInfo to indicate the inheritance hierarchy.
+
+```java
+@JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.PROPERTY, property = "type")
+@JsonSubTypes({
+   @Type(value = EmployeeExtended.class, name = "extended"),
+   @Type(value = EmployeeAdvanced.class, name = "advanced")
+})
+public class Employee
+```
+
+
+
+
+
