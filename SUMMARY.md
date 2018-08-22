@@ -122,6 +122,7 @@
 ## Jackson
 
 * [General](jackson/general/readme.md)
+* [Annotations](jackson/general/annotations.md)
 * [Mixin](jackson/general/mixin.md)
 
 ## Maven
