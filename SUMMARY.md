@@ -119,6 +119,11 @@
 * [Log4j](java/logging/log4j.md)
 * [SL4J](java/logging/sl4j.md)
 
+## Jackson
+
+* [General](jackson/general/readme.md)
+* [Mixin](jackson/general/mixin.md)
+
 ## Maven
 
 * [General](maven/readme.md)
