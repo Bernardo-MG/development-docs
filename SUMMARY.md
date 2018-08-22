@@ -29,6 +29,7 @@
   * [Open Graph](web/open_graph.md)
   * [Twitter Card](web/twitter_card.md)
 * [Parsers](services/parsers.md)
+* [Regular Expression](services/regular-expression.md)
 
 ## Web
 
@@ -38,6 +39,10 @@
 ## Architecture
 
 * [SOA](architecture/soa/readme.md)
+
+## Object Oriented Programming
+
+* [Returns](object-oriented-programming/returns.md)
 
 ## Java
 
@@ -63,6 +68,7 @@
   * [Tests](java/tests.md)
   * [Java Beans](java/beans.md)
   * [Immutable and Unmodifiable](java/immutable.md)
+  * [Regular Expression](java/regular-expression.md)
 * [Internationalization](java/i18n/readme.md)
   * [Locale](java/i18n/locale.md)
   * [Resource Bundle](java/i18n/bundle.md)
@@ -107,11 +113,18 @@
 
 * [Mocking](mockito/mocking.md)
 * [Capture Arguments](mockito/capture-arguments.md)
+* [Verify Calls](mockito/verify-calls.md)
 
 ## Logging in Java
 
 * [Log4j](java/logging/log4j.md)
 * [SL4J](java/logging/sl4j.md)
+
+## Jackson
+
+* [General](jackson/general/readme.md)
+* [Annotations](jackson/general/annotations.md)
+* [Mixin](jackson/general/mixin.md)
 
 ## Maven
 
