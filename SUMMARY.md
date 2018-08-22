@@ -113,6 +113,7 @@
 
 * [Mocking](mockito/mocking.md)
 * [Capture Arguments](mockito/capture-arguments.md)
+* [Verify Calls](mockito/verify-calls.md)
 
 ## Logging in Java
 
