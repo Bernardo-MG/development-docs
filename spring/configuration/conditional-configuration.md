@@ -12,7 +12,7 @@ Configuration classes can be loaded conditionally.
 public class ConfigClass
 ```
 
-### Conditional by Class
+### Conditional by Condition Class
 
 ```java
 @Configuration
@@ -38,9 +38,7 @@ public class ConfigurationCondition implements Condition
 }
 ```
 
-
-
-### Conditioned By Bean
+### Conditional by Bean
 
 Only if the bean exists:
 
@@ -67,7 +65,7 @@ public Placeholder placeholder(){
 }
 ```
 
-### Conditioned by Class
+### Conditional by Class
 
 Only if the class is in the classpath:
 
