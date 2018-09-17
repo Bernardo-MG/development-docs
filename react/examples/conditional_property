@@ -1,5 +1,5 @@
 # Conditional Property
 
 ```javascript
-<Button onClick={ allChosen ? () => props.onClick : null } label={props.intl.formatMessage(labelMessages.accept)} />
+<Button onClick={ props.allChosen ? () => props.onClick : null } label={props.intl.formatMessage(labelMessages.accept)} />
 ```
