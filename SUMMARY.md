@@ -208,8 +208,20 @@
 * [Controllers](spring/examples/controllers/readme.md)
   * [Loading Pageable Automatically](spring/examples/controllers/loading-pageable-automatically.md)
 * [Setting Up a Web Application](spring/examples/setting_up_web/readme.md)
-* [Complex Dependencies](spring/examples/complex-dependencies.md)
+* [Complex Dependencies](spring/examples/complex-dependencies/readme.md)
   * [Dynamic Dependency](spring/examples/complex-dependencies/dynamic-dependency.md)
+* [MVC Testing](spring/examples/mvc_tests/readme.md)
+  * [Argument Resolvers](spring/examples/mvc_tests/arg_resolvers.md)
+
+## Javascript
+
+* [Binding this](java/bindthis.md)
+
+## React
+
+## React Examples
+
+* [Conditional Property](react/examples/conditional_property.md)
 
 ## Python
 
