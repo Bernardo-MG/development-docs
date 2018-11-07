@@ -90,6 +90,7 @@
   * [Lambdas](java/functional/lambdas.md)
 * [Collections](java/collections.md)
   * [Collection](java/collections/collection.md)
+  * [Set](java/collections/set.md)
 
 ## Java Examples
 
