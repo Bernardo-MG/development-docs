@@ -91,6 +91,7 @@
 * [Collections](java/collections.md)
   * [Collection](java/collections/collection.md)
   * [Set](java/collections/set.md)
+  * [List](java/collections/list.md)
 
 ## Java Examples
 
