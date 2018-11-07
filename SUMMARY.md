@@ -92,6 +92,7 @@
   * [Collection](java/collections/collection.md)
   * [Set](java/collections/set.md)
   * [List](java/collections/list.md)
+  * [Queue](java/collections/queue.md)
 
 ## Java Examples
 
