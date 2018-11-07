@@ -10,22 +10,12 @@ A generic interface for groups of objects. Used as a base interface for most tra
 
 ## Traversing
 
-It can be iterated:
+As it inherits from Iterable it can be iterated and used in for-each loops.
 
-```java
-col.iterator();
-```
-
-Or it can be operated with a stream:
+Additionally it can be operated with a stream:
 
 ```java
 col.stream();
-```
-
-As it inherits from Iterable it can be used in for-each loops:
-
-```java
-for(String s : col)
 ```
 
 
