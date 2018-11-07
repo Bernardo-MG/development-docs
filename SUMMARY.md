@@ -93,6 +93,7 @@
   * [Set](java/collections/set.md)
   * [List](java/collections/list.md)
   * [Queue](java/collections/queue.md)
+  * [Map](java/collections/map.md)
 
 ## Java Examples
 
