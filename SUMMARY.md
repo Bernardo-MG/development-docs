@@ -88,6 +88,8 @@
   * [Method References](java/functional/method-references.md)
   * [Streams](java/functional/streams.md)
   * [Lambdas](java/functional/lambdas.md)
+* [Collections](java/collections.md)
+  * [Collection](java/collections/collection.md)
 
 ## Java Examples
 
