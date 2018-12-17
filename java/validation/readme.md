@@ -23,5 +23,10 @@ Beans can be annotated to indicate validations. They are set to fields. and thes
 
 Java offers a validator interface.
 
+## More Information
+
+* [Bean Validation Page](https://beanvalidation.org/)
+* [Using Bean Validation](https://docs.oracle.com/javaee/6/tutorial/doc/gircz.html)
+
 
 
