@@ -18,5 +18,16 @@ public class ValidatedClass {
 }
 ```
 
+Applying validation groups:
+
+```java
+public class ValidatedClass {
+
+   @NotNull(groups = { UpdateValidationGroup.class, CreateValidationGroup.class })
+   private String field;
+
+}
+```
+
 
 
