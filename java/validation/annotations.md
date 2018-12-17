@@ -1,0 +1,11 @@
+# Annotations
+
+Beans can be annotated to indicate validations. They are set to fields. and these are some of the most common ones:
+
+* AssertTrue
+* Max
+* Min
+* NotNull
+
+
+
