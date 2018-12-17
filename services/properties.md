@@ -3,6 +3,7 @@
 These contains pairs of key and value:
 
 ```properties
+# A comment
 key1=A value
 key2=Another value
 ```
