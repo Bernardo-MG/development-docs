@@ -7,5 +7,16 @@ Beans can be annotated to indicate validations. They are set to fields. and thes
 * Min
 * NotNull
 
+## Usage
+
+```java
+public class ValidatedClass {
+
+   @NotNull
+   private String field;
+
+}
+```
+
 
 
