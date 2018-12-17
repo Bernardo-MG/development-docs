@@ -10,5 +10,11 @@ Collection<ConstraintViolation<String>> constraintViolations;
 constraintViolations = validator.validate(entidad);
 ```
 
+Validating groups:
+
+```java
+constraintViolations = validator.validate(entidad, UpdateValidationGroup.class, CreateValidationGroup.class);
+```
+
 
 
