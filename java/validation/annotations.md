@@ -29,5 +29,5 @@ public class ValidatedClass {
 }
 ```
 
-
+The groups can be any class or interface.
 
