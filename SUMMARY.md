@@ -30,6 +30,8 @@
   * [Twitter Card](web/twitter_card.md)
 * [Parsers](services/parsers.md)
 * [Regular Expression](services/regular-expression.md)
+* [File Formats](services/file-formats.md)
+  * [Properties](services/properties.md)
 
 ## Web
 
