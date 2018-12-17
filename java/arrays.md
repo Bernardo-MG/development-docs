@@ -38,5 +38,9 @@ someClass.someMethod(1, 2, 3);
 
 The JDK offers the Arrays static class, with several helpful methods.
 
+## More Information
+
+* [JDK Array Docs](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+
 
 
