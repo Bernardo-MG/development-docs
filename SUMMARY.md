@@ -119,6 +119,7 @@
 * [Setting Up Tests](junit/settests/readme.md)
   * [Disable Tests](junit/settests/disable-tests.md)
   * [Exceptions](junit/settests/exceptions.md)
+  * [Test Lifecycle](junit/settests/test-lifecycle.md)
 
 ## Mockito
 
