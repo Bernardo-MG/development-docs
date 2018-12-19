@@ -10,18 +10,10 @@ The JSR 380 specification takes care of bean validation, and offers an API for t
 </dependency>
 ```
 
-## Annotations
+## More Information
 
-Beans can be annotated to indicate validations. They are set to fields. and these are some of the most common ones:
-
-* AssertTrue
-* Max
-* Min
-* NotNull
-
-## Validator
-
-Java offers a validator interface.
+* [Bean Validation Page](https://beanvalidation.org/)
+* [Using Bean Validation](https://docs.oracle.com/javaee/6/tutorial/doc/gircz.html)
 
 
 

@@ -16,6 +16,12 @@ Defining size:
 int[] integers = int[3];
 ```
 
+## Editing Arrays
+
+```java
+integers[0] = 10;
+```
+
 ## Arrays as Variable Arguments
 
 Variable arguments are handled as arrays
@@ -27,6 +33,14 @@ public void someMethod(final Integer... values);
 ```java
 someClass.someMethod(1, 2, 3);
 ```
+
+## Utilities Class
+
+The JDK offers the Arrays static class, with several helpful methods.
+
+## More Information
+
+* [JDK Array Docs](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
 
 
 

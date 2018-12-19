@@ -30,6 +30,8 @@
   * [Twitter Card](web/twitter_card.md)
 * [Parsers](services/parsers.md)
 * [Regular Expression](services/regular-expression.md)
+* [File Formats](services/file-formats.md)
+  * [Properties](services/properties.md)
 
 ## Web
 
@@ -74,6 +76,8 @@
   * [Resource Bundle](java/i18n/bundle.md)
   * [Formatting](java/i18n/formatting.md)
 * [Java Bean Validation](java/validation/readme.md)
+  * [Annotations](java/validation/annotations.md)
+  * [Validator](java/validation/validator.md)
 * [JPA](java/jpa/readme.md)
   * [JPA Entities](java/jpa/entities.md)
   * [Lifecycle](java/jpa/lifecycle.md)
@@ -115,6 +119,7 @@
 * [Setting Up Tests](junit/settests/readme.md)
   * [Disable Tests](junit/settests/disable-tests.md)
   * [Exceptions](junit/settests/exceptions.md)
+  * [Test Lifecycle](junit/settests/test-lifecycle.md)
 
 ## Mockito
 
