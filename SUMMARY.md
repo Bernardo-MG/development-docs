@@ -52,6 +52,7 @@
   * [Steps](jenkins/pipeline/steps.md)
   * [Environment](jenkins/pipeline/environment.md)
   * [Notifications](jenkins/pipeline/notifications.md)
+  * [Scripts](jenkins/pipeline/scripts.md)
 
 ## Java
 
