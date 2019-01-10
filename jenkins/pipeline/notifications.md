@@ -14,7 +14,7 @@ emailext (
 
 ```Groovy
 emailext (
-   recipientProviders : [culprits(), requestor()],
+   recipientProviders : [[$class: 'CulpritsRecipientProvider'],[$class: 'RequesterRecipientProvider']],
    subject: "Warning culprits",
    body: "The email body"
 )
