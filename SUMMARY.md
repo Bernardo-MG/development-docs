@@ -49,6 +49,7 @@
 ## Jenkins
 
 * [Pipeline](jenkins/pipeline.md)
+  * [Environment](jenkins/pipeline/environment.md)
   * [Notifications](jenkins/pipeline/notifications.md)
 
 ## Java
