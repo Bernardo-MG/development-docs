@@ -46,6 +46,11 @@
 
 * [Returns](object-oriented-programming/returns.md)
 
+## Jenkins
+
+* [Pipeline](jenkins/pipeline.md)
+  * [Notifications](jenkins/pipeline/notifications.md)
+
 ## Java
 
 * Environment
