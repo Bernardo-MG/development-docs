@@ -18,5 +18,17 @@ result.andDo(MockMvcResultHandlers.print());
 result.getResponse().getContentAsString();
 ```
 
+## Check Number of Elements
+
+```java
+result.andExpect(MockMvcResultMatchers.jsonPath("$.content", Matchers.hasSize(1)));
+```
+
+## Check String
+
+```java
+result.andExpect(MockMvcResultMatchers.jsonPath("$.content", Matchers.equalTo("text")));
+```
+
 
 
