@@ -1,6 +1,6 @@
 ## Deploying the WAR for Testing
 
-Just like explained in [deploying web projects locally](../deployment/web_locally.md), it is possible to run a web server during the integration tests, by anchoring the plugins execution to the verify phase.
+Just like explained in [deploying web projects locally](../../deployment/web_locally.md), it is possible to run a web server during the integration tests, by anchoring the plugins execution to the verify phase.
 
 ### Jetty
 
