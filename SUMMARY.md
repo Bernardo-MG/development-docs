@@ -175,6 +175,7 @@
   * [Attach Sources](maven/examples/jar/attach-sources.md)
   * [Attach Javadocs](maven/examples/jar/attach-javadocs.md)
   * [Manifest](maven/examples/jar/manifest.md)
+* [Commands](maven/examples/configuration/commands.md)
 * [Deployments](maven/examples/deployment/readme.md)
   * [Deployment With Maven](maven/examples/deployment/deployment.md)
   * [Deploying Web Projects Locally](maven/examples/deployment/web_locally.md)
