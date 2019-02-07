@@ -190,6 +190,8 @@
 ## Spring
 
 * [General](spring/readme.md)
+* [Beans](spring/beans.md)
+  * [Initialization and Destruction](spring/beans/initialization-and-destruction.md)
 * [Dependency Injection](spring/dependency-injection/readme.md)
   * [Injections](spring/dependency-injection/injections.md)
   * [Injecting Values](spring/dependency-injection/injecting-values.md)
