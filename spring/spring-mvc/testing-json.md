@@ -15,7 +15,7 @@ result.andDo(MockMvcResultHandlers.print());
 ## Get JSON
 
 ```java
-result.getResponse().getContentAsString();
+result.andReturn().getResponse().getContentAsString();
 ```
 
 ## Check Number of Elements
