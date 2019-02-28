@@ -14,11 +14,21 @@ Or by name if they were added to the context:
 @Value("#{@valuesCollection}")
 ```
 
+## Defaults
+
 It also supports default values:
 
 ```java
 @Value("${properties.booleanValue:false}")
 ```
+
+Which can be an empty text:
+
+```java
+@Value("${properties.textValue:}")
+```
+
+## Types
 
 The value usually is a primitive wrapper:
 
