@@ -142,7 +142,7 @@ allValues = Stream.concat(list1.stream(), list2.stream).collect(Collectors.toLis
 
 ## Searching For Values
 
-```
+```java
 Collection<Object> collection;
 Object found;
 
