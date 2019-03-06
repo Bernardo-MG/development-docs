@@ -18,7 +18,7 @@ Tests on modules depending on the failed module won't run, but all the other mod
 
 To check if there are newer versions for the dependencies use the following command:
 
-```sh
+```shell
 mvn versions:display-dependency-updates versions:display-plugin-updates
 ```
 
