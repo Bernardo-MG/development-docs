@@ -15,7 +15,7 @@ As it inherits from Iterable it can be iterated and used in for-each loops.
 Additionally it can be operated with a stream:
 
 ```java
-col.stream();
+strings.stream();
 ```
 
 
