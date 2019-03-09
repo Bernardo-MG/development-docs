@@ -13,20 +13,3 @@ public class TestSuite {
 
 }
 ```
-
-When using Spring:
-
-```java
-@RunWith(JUnitPlatform.class)
-@ExtendWith(SpringExtension.class)
-@TestExecutionListeners({ DependencyInjectionTestExecutionListener.class })
-@WebAppConfiguration
-@ContextConfiguration(locations = { "classpath:context/config.xml" })
-@TestPropertySource({ "classpath:config/config.properties" })
-public class TestSuite {
-
-}
-```
-
-
-
