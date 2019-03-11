@@ -11,7 +11,7 @@ Each file should end returning itself.
 * Run unit tests.
 */
 def unitTests() {
-   sh "mvn test";
+   sh 'mvn test'
 }
 
 return this;
@@ -23,7 +23,7 @@ return this;
 stage('Setup') {
    steps {
       script {
-         commandRunner = load("./ci/command.groovy")
+         commandRunner = load('./ci/command.groovy')
       }
    }
 }
