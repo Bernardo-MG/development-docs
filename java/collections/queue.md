@@ -10,6 +10,3 @@ A collection where the first element matters. Usually it is a FIFO collection.
 ## Deque
 
 An extension which supports checking and removing from both sides.
-
-
-

@@ -14,3 +14,13 @@ mvn clean verify -fae
 
 Tests on modules depending on the failed module won't run, but all the other modules will have their tests executed.
 
+## Checking for Updates
+
+To check if there are newer versions for the dependencies use the following command:
+
+```shell
+mvn versions:display-dependency-updates versions:display-plugin-updates
+```
+
+
+

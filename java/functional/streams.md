@@ -140,6 +140,28 @@ Collection<Integer> allValues;
 allValues = Stream.concat(list1.stream(), list2.stream).collect(Collectors.toList());
 ```
 
+## Searching For Values
+
+```java
+Collection<Object> collection;
+Object found;
+
+// Collection is initialized
+
+// Returns the first value which is not null
+found = collection.stream().filter(Objects::nonNull).findFirst();
+
+// Returns a value, which may not be the first, which is not null
+found = collection.stream().filter(Objects::nonNull).findAny();
+```
+
+```java
+Boolean exists;
+
+// Checks that at least one value is not null
+exists = collection.stream().anyMatch(Objects::nonNull);
+```
+
 ## Generation
 
 ### Stream From Array

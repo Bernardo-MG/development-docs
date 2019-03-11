@@ -79,6 +79,14 @@
   * [Java Beans](java/beans.md)
   * [Immutable and Unmodifiable](java/immutable.md)
   * [Regular Expression](java/regular-expression.md)
+* [Collections](java/collections/readme.md)
+  * [Iterable](java/collections/iterable.md)
+  * [Collection](java/collections/collection.md)
+  * [List](java/collections/list.md)
+  * [Set](java/collections/set.md)
+  * [Queue](java/collections/queue.md)
+  * [Stack](java/collections/stack.md)
+  * [Map](java/collections/map.md)
 * [Internationalization](java/i18n/readme.md)
   * [Locale](java/i18n/locale.md)
   * [Resource Bundle](java/i18n/bundle.md)
@@ -100,13 +108,6 @@
   * [Method References](java/functional/method-references.md)
   * [Streams](java/functional/streams.md)
   * [Lambdas](java/functional/lambdas.md)
-* [Collections](java/collections.md)
-  * [Iterable](java/collections/iterable.md)
-  * [Collection](java/collections/collection.md)
-  * [Set](java/collections/set.md)
-  * [List](java/collections/list.md)
-  * [Queue](java/collections/queue.md)
-  * [Map](java/collections/map.md)
 
 ## Java Examples
 
@@ -125,6 +126,7 @@
 ## JUnit
 
 * [Setting Up Tests](junit/settests/readme.md)
+  * [Dependencies with Spring](junit/settests/spring.md)
   * [Disable Tests](junit/settests/disable-tests.md)
   * [Exceptions](junit/settests/exceptions.md)
   * [Test Lifecycle](junit/settests/test-lifecycle.md)
