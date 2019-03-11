@@ -11,7 +11,7 @@ Each file should end returning itself.
 * Run unit tests.
 */
 def unitTests() {
-   sh "'mvn test";
+   sh "mvn test";
 }
 
 return this;
