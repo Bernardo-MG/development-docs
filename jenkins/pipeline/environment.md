@@ -16,7 +16,11 @@ environment {
 ## Set Up Manually
 
 ```Groovy
-env.DAILY_BUILD = isDailyBuild();
+env.DAILY_BUILD = isDailyBuild()
+```
+
+```Groovy
+env.MAIL_PROJECT_NAME = "${env.JOB_NAME} [${currentBuild.number}] ${PROJECT_VERSION}"
 ```
 
 
