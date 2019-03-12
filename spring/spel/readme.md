@@ -18,5 +18,5 @@ Properties can be used:
 ## Checking Properties
 
 ```
-#{property.name.contains('Some text')}
+#{'${property.name}'.contains('Some text')}
 ```
