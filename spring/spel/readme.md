@@ -14,3 +14,9 @@ Properties can be used:
 ```
 #{${property.name}}
 ```
+
+## Checking Properties
+
+```
+#{property.name.contains('Some text')}
+```
