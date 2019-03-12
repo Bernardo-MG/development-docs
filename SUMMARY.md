@@ -225,6 +225,8 @@
 * [Spring WS](spring/spring-ws/readme.md)
 * [Spring Boot](spring/spring-boot/readme.md)
   * [Setting Up](spring/spring-boot/setting-up.md)
+* [Testing with Spring](spring/testing/readme.md)
+  * [Conditional Tests](spring/spring-boot/conditional.md)
 
 ## Spring Examples
 
