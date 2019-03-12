@@ -1,4 +1,4 @@
-# Exceptions
+# Testing Exceptions
 
 ## JUnit 4
 
