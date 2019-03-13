@@ -25,7 +25,7 @@ stream = Stream.iterate(1, n -> n).limit(10);
 
 ## Skipping Values
 
-```
+```java
 Stream<Integer> stream;
 
 // Numbers 5 to 10
