@@ -5,7 +5,13 @@
 ```java
 final Iterable<Short> years;
 
-years = IntStream.range(startYear, endYear).mapToObj(i -> (short) i).collect(Collectors.toList());
+years = IntStream.range(startYear, endYear + 1).mapToObj(i -> (short) i).collect(Collectors.toList());
+```
+
+```java
+final Iterable<Short> years;
+
+years = IntStream.rangeClosed(startYear, endYear).mapToObj(i -> (short) i).collect(Collectors.toList());
 ```
 
 
