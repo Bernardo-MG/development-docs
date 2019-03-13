@@ -1,5 +1,51 @@
 # Other Operations
 
+## Remove Repeated
+
+```java
+Collection<Object> collection;
+Collection<Object> filtered;
+
+// Collection is initialized
+
+// Removes repeated values
+filtered = collection.stream().distinct().collect(Collectors.toList());
+```
+
+## Sorting
+
+```java
+Collection<Object> collection;
+Collection<Object> filtered;
+
+// Collection is initialized
+
+// Sorts values
+filtered = collection.stream().sorted().collect(Collectors.toList());
+```
+
+## Min and Max
+
+```java
+Collection<Object> collection;
+Object value;
+
+// Collection is initialized
+
+// Removes repeated values
+value = collection.stream().min(comparator);
+```
+
+```java
+Collection<Object> collection;
+Object value;
+
+// Collection is initialized
+
+// Removes repeated values
+value = collection.stream().max(comparator);
+```
+
 ## Generating Numeric Ranges
 
 ```java
