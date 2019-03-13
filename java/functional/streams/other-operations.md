@@ -1,5 +1,13 @@
 # Other Operations
 
+## Empty Stream
+
+```java
+Stream<String> empty;
+
+empty = Stream.empty();
+```
+
 ## Generating Numeric Ranges
 
 ```java
