@@ -109,6 +109,7 @@
   * [Streams](java/functional/streams.md)
     * [Common Operations](java/functional/streams/common-operations.md)
     * [Searching for Values](java/functional/streams/searching-for-values.md)
+    * [Other Operations](java/functional/streams/other-operations.md)
   * [Lambdas](java/functional/lambdas.md)
 
 ## Java Examples
