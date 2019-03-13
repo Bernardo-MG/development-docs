@@ -31,14 +31,14 @@ Boolean exists;
 exists = collection.stream().anyMatch(Objects::nonNull);
 ```
 
-```
+```java
 Boolean exists;
 
 // Checks that all the values are null
 exists = collection.stream().allMatch(Objects::nonNull);
 ```
 
-```
+```java
 Boolean exists;
 
 // Checks that no value is null
