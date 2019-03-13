@@ -74,6 +74,14 @@ Stream<Integer> stream;
 stream = Stream.iterate(1, n -> n).limit(10);
 ```
 
+### From Other Streams
+
+```java
+Stream<String> stream;
+
+stream = Stream.concat(streamA, streamB);
+```
+
 ## Closing Streams
 
 In some cases the streams can be working with an IO data source, or some other source which should be closed after being used. For that reason streams extend the AutoCloseable interface.
