@@ -10,6 +10,13 @@ Object found;
 
 // Returns the first value which is not null
 found = collection.stream().filter(Objects::nonNull).findFirst();
+```
+
+```java
+Collection<Object> collection;
+Object found;
+
+// Collection is initialized
 
 // Returns a value, which may not be the first, which is not null
 found = collection.stream().filter(Objects::nonNull).findAny();
