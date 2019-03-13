@@ -22,5 +22,11 @@ To check if there are newer versions for the dependencies use the following comm
 mvn versions:display-dependency-updates versions:display-plugin-updates
 ```
 
+## Generating Site
+
+```shell
+mvn clean site
+```
+
 
 
