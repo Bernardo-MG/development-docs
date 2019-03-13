@@ -35,6 +35,14 @@ Stream<String> stream;
 stream = StreamSupport.stream(strings.spliterator(), false);
 ```
 
+### Empty Stream
+
+```java
+Stream<String> empty;
+
+empty = Stream.empty();
+```
+
 ## Closing Streams
 
 In some cases the streams can be working with an IO data source, or some other source which should be closed after being used. For that reason streams extend the AutoCloseable interface.
