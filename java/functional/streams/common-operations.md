@@ -96,7 +96,7 @@ Some streams include the most common reduction functions:
 integers.stream().sum();
 ```
 
-## Consume
+## Consume \(Apply to All\)
 
 Apply a function to all the elements.
 
