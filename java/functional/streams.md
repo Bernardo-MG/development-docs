@@ -142,6 +142,8 @@ allValues = Stream.concat(list1.stream(), list2.stream).collect(Collectors.toLis
 
 ## Searching For Values
 
+## Find
+
 ```java
 Collection<Object> collection;
 Object found;
@@ -155,11 +157,27 @@ found = collection.stream().filter(Objects::nonNull).findFirst();
 found = collection.stream().filter(Objects::nonNull).findAny();
 ```
 
+## Match
+
 ```java
 Boolean exists;
 
 // Checks that at least one value is not null
 exists = collection.stream().anyMatch(Objects::nonNull);
+```
+
+```
+Boolean exists;
+
+// Checks that all the values are null
+exists = collection.stream().allMatch(Objects::nonNull);
+```
+
+```
+Boolean exists;
+
+// Checks that no value is null
+exists = collection.stream().noneMatch(Objects::nonNull);
 ```
 
 ## Generation
