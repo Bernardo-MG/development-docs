@@ -107,6 +107,9 @@
   * [Supplier](java/functional/supplier.md)
   * [Method References](java/functional/method-references.md)
   * [Streams](java/functional/streams.md)
+    * [Common Operations](java/functional/streams/common-operations.md)
+    * [Searching for Values](java/functional/streams/searching-for-values.md)
+    * [Other Operations](java/functional/streams/other-operations.md)
   * [Lambdas](java/functional/lambdas.md)
 
 ## Java Examples
@@ -128,7 +131,7 @@
 * [Setting Up Tests](junit/settests/readme.md)
   * [Dependencies with Spring](junit/settests/spring.md)
   * [Disable Tests](junit/settests/disable-tests.md)
-  * [Exceptions](junit/settests/exceptions.md)
+  * [Testing Exceptions](junit/settests/exceptions.md)
   * [Test Lifecycle](junit/settests/test-lifecycle.md)
 
 ## Mockito
@@ -192,7 +195,7 @@
 ## Spring
 
 * [General](spring/readme.md)
-* [Beans](spring/beans.md)
+* [Beans](spring/readme.md)
   * [Initialization and Destruction](spring/beans/initialization-and-destruction.md)
 * [Dependency Injection](spring/dependency-injection/readme.md)
   * [Injections](spring/dependency-injection/injections.md)
@@ -202,6 +205,7 @@
   * [Conditional Configuration](spring/configuration/conditional-configuration.md)
   * [Profiles](spring/configuration/profiles.md)
   * [Dependencies](spring/configuration/dependencies.md)
+* [SpEL](spring/spel/readme.md)
 * [JPA](spring/jpa/readme.md)
   * [Transactional](spring/jpa/transactional.md)
   * [Repositories](spring/jpa/repositories.md)
@@ -224,6 +228,8 @@
 * [Spring WS](spring/spring-ws/readme.md)
 * [Spring Boot](spring/spring-boot/readme.md)
   * [Setting Up](spring/spring-boot/setting-up.md)
+* [Testing with Spring](spring/testing/readme.md)
+  * [Conditional Tests](spring/spring-boot/conditional.md)
 
 ## Spring Examples
 
