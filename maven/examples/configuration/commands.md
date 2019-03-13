@@ -28,5 +28,21 @@ mvn versions:display-dependency-updates versions:display-plugin-updates
 mvn clean site
 ```
 
+## Purging Dependencies
+
+Sometimes you need to delete and download again all the dependencies. This may be caused by the use of snapshots.
+
+This command will do so:
+
+```
+mvn dependency:purge-local-repository
+```
+
+To remove only snapshots:
+
+```
+mvn dependency:purge-local-repository -DsnapshotsOnly=true
+```
+
 
 
