@@ -43,6 +43,37 @@ Stream<String> empty;
 empty = Stream.empty();
 ```
 
+### From Supplier
+
+```java
+Stream<String> stream;
+Supplier<String> supplier;
+
+supplier = this::operation;
+
+stream = Stream.generate(supplier);
+```
+
+### Builder
+
+```java
+Stream<String> stream;
+Supplier<String> supplier;
+
+supplier = this::operation;
+
+stream = Stream.builder().add("text").build();
+```
+
+### Iteration
+
+```java
+Stream<Integer> stream;
+
+// Numbers 1 to 10
+stream = Stream.iterate(1, n -> n).limit(10);
+```
+
 ## Closing Streams
 
 In some cases the streams can be working with an IO data source, or some other source which should be closed after being used. For that reason streams extend the AutoCloseable interface.
