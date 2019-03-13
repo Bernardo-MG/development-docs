@@ -107,6 +107,8 @@
   * [Supplier](java/functional/supplier.md)
   * [Method References](java/functional/method-references.md)
   * [Streams](java/functional/streams.md)
+    * [Common Operations](java/functional/streams/common-operations.md)
+    * [Searching for Values](java/functional/streams/searching-for-values.md)
   * [Lambdas](java/functional/lambdas.md)
 
 ## Java Examples
