@@ -1,6 +1,6 @@
 # Logging
 
-Keep logs in a single line.
+Keep logs in a single message.
 
 ## Levels Usage
 
