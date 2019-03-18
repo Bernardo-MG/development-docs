@@ -1,5 +1,7 @@
 # Logging
 
+Keep logs in a single line.
+
 ## Levels Usage
 
 * Debug: fine grained information, for debuggin
