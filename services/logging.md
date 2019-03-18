@@ -5,9 +5,9 @@ Keep logs in a single message.
 ## Levels Usage
 
 * Debug: fine grained information, for debuggin
-* Info: system announcements \(scheduled jobs, services starting/stopping\)
+* Info: system announcements \(scheduled jobs, services starting/stopping\), configuration, version data, usage
 * Warn: conditions which tell that the system is not working as expected
-* Error: condition which tells the system has failedç
+* Error: condition which tells the system has failed, critical failures
 
 ## More Information
 
