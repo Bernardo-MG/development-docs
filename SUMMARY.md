@@ -32,6 +32,7 @@
 * [Regular Expression](services/regular-expression.md)
 * [File Formats](services/file-formats.md)
   * [Properties](services/properties.md)
+* [Logging](services/logging.md)
 
 ## Web
 
