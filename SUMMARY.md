@@ -32,6 +32,7 @@
 * [Regular Expression](services/regular-expression.md)
 * [File Formats](services/file-formats.md)
   * [Properties](services/properties.md)
+* [Logging](services/logging.md)
 
 ## Web
 
@@ -244,10 +245,17 @@
   * [Dynamic Dependency](spring/examples/complex-dependencies/dynamic-dependency.md)
 * [MVC Testing](spring/examples/mvc_tests/readme.md)
   * [Argument Resolvers](spring/examples/mvc_tests/arg_resolvers.md)
+* [Sending Mails](spring/examples/setting_up_persistence/sending-mails.md)
 
 ## Javascript
 
 * [Binding this](java/bindthis.md)
+
+## npm
+
+* [General](npm/readme.md)
+  * [Scripts](npm/scripts.md)
+  * [Dependencies](npm/dependencies.md)
 
 ## React
 
