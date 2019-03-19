@@ -245,6 +245,7 @@
   * [Dynamic Dependency](spring/examples/complex-dependencies/dynamic-dependency.md)
 * [MVC Testing](spring/examples/mvc_tests/readme.md)
   * [Argument Resolvers](spring/examples/mvc_tests/arg_resolvers.md)
+* [Sending Mails](spring/examples/setting_up_persistence/sending-mails.md)
 
 ## Javascript
 
