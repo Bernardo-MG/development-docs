@@ -251,6 +251,12 @@
 
 * [Binding this](java/bindthis.md)
 
+## npm
+
+* [General](npm/readme.md)
+  * [Scripts](npm/scripts.md)
+  * [Dependencies](npm/dependencies.md)
+
 ## React
 
 ## React Examples
