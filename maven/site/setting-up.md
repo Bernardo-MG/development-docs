@@ -29,5 +29,9 @@ Inside /src/site/site.xml:
 </skin>
 ```
 
+Add an index file at src/site/markdown/index.md.
+
+Then check any additional configuration which the skin may have.
+
 
 
