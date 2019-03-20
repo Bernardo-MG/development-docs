@@ -20,8 +20,14 @@ Remember that some of these reports may need additional information, for example
 
 As some reports will require test results it is recommended running all the tests before generating the site:
 
-```
+```shell
 mvn verify site
+```
+
+To generate a test version of the site, useful for multimodule projects:
+
+```
+mvn verify site site:stage
 ```
 
 
