@@ -169,6 +169,7 @@
 * [Maven Archetype](maven/maven-archetype/readme.md)
   * [Testing Archetypes](maven/maven-archetype/testing-archetypes.md)
 * [Site](maven/site.md)
+  * [Setting Up](maven/site/setting-up.md)
 
 ## Maven Examples
 
