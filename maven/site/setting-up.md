@@ -35,7 +35,15 @@ Then check any additional configuration which the skin may have.
 
 ## Aggregating Reports
 
-This is for multimodule projects, where reports are generated for each module. These reports may be aggregated
+This is for multimodule projects, where reports are generated for each module. These reports may be aggregated, but it is not recommended, as Maven has problems generating aggregated reports.
+
+The way to activate aggregation for all reports is adding this property:
+
+```xml
+<properties>
+   <aggregate>true</aggregate>
+</properties>
+```
 
 
 
