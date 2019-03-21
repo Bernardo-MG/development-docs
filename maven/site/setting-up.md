@@ -45,5 +45,25 @@ The way to activate aggregation for all reports is adding this property:
 </properties>
 ```
 
+### Plugins configuration
+
+```xml
+<plugin>
+   <!-- Javadoc -->
+   <!-- Handles the Javadocs. -->
+   <groupId>org.apache.maven.plugins</groupId>
+   <artifactId>maven-javadoc-plugin</artifactId>
+   <executions>
+      <execution>
+         <id>aggregate-javadoc</id>
+         <goals>
+            <goal>aggregate</goal>
+         </goals>
+         <phase>site</phase>
+      </execution>
+   </executions>
+</plugin>
+```
+
 
 
