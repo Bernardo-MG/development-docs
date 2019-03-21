@@ -126,6 +126,7 @@
   * [Using Providers](java/examples/creating-new-instances/using-providers.md)
 * [Utilities Classes](java/examples/beans/utilities-classes.md)
   * [Constants Class](java/examples/utilities/constants-class.md)
+* [Preconditions](java/examples/beans/preconditions.md)
 
 ## JUnit
 
