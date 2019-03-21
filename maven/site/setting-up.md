@@ -65,5 +65,28 @@ The way to activate aggregation for all reports is adding this property:
 </plugin>
 ```
 
+```xml
+<reporting>
+   <plugins>
+         <plugin>
+            <!-- JXR -->
+            <!-- Generates references to the source files, used by other 
+               reports. -->
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jxr-plugin</artifactId>
+            <reportSets>
+               <reportSet>
+                  <id>aggregate</id>
+                  <reports>
+                     <report>aggregate</report>
+                     <report>test-aggregate</report>
+                  </reports>
+               </reportSet>
+            </reportSets>
+         </plugin>
+   </plugins>
+</reporting>
+```
+
 
 
