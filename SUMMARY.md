@@ -112,8 +112,8 @@
     * [Searching for Values](java/functional/streams/searching-for-values.md)
     * [Other Operations](java/functional/streams/other-operations.md)
   * [Lambdas](java/functional/lambdas.md)
-* Logging
-  * [JPA](java/jpa.md)
+* [Logging](java/logging.md)
+  * [JPA](java/logging/jpa.md)
 
 ## Java Examples
 
