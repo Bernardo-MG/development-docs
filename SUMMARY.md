@@ -112,6 +112,8 @@
     * [Searching for Values](java/functional/streams/searching-for-values.md)
     * [Other Operations](java/functional/streams/other-operations.md)
   * [Lambdas](java/functional/lambdas.md)
+* [Logging](java/logging.md)
+  * [JPA](java/logging/jpa.md)
 
 ## Java Examples
 
@@ -126,6 +128,7 @@
   * [Using Providers](java/examples/creating-new-instances/using-providers.md)
 * [Utilities Classes](java/examples/beans/utilities-classes.md)
   * [Constants Class](java/examples/utilities/constants-class.md)
+* [Preconditions](java/examples/beans/preconditions.md)
 
 ## JUnit
 
@@ -168,6 +171,8 @@
   * [Maven Reports](maven/maven_reports.md)
 * [Maven Archetype](maven/maven-archetype/readme.md)
   * [Testing Archetypes](maven/maven-archetype/testing-archetypes.md)
+* [Site](maven/site.md)
+  * [Setting Up](maven/site/setting-up.md)
 
 ## Maven Examples
 
