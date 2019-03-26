@@ -235,7 +235,7 @@
 * [Spring Boot](spring/spring-boot/readme.md)
   * [Setting Up](spring/spring-boot/setting-up.md)
 * [Testing with Spring](spring/testing/readme.md)
-  * [Conditional Tests](spring/spring-boot/conditional.md)
+  * [Conditional Tests](spring/testing/conditional.md)
   * [Initializing DB](spring/spring-boot/initializing-db.md)
 
 ## Spring Examples
