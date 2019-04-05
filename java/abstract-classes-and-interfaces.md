@@ -28,6 +28,16 @@ By using interfaces the code can be made easier to test, as implementations can 
 
 In a similar way to testing, interfaces make it easier injecting dependencies, and swapping them.
 
+## Checking Inheritance
+
+```java
+object instanceof ClassName
+```
+
+```
+ClassName.class.isAssignableFrom(object)
+```
+
 ## More Information
 
 * [Interfaces and Inheritance](https://docs.oracle.com/javase/tutorial/java/IandI/index.html)
