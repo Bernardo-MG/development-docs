@@ -244,10 +244,6 @@
   * [Persistence Providers](spring/persistence/providers.md)
 * [Sending Mails](spring/sending-mails.md)
 
-## Spring Examples
-
-
-
 ## Javascript
 
 * [Binding this](java/bindthis.md)
