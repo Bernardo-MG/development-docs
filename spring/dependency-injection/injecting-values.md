@@ -1,32 +1,14 @@
 # Injecting Values
 
-Any kind of object not supported by the bean injection system can be injected by using the @Value annotaion and SpEL.
+Any kind of object not supported by the bean injection system can be injected by using the @Value annotation and SpEL.
 
-These can be injected from properties:
+For example you can inject a property:
 
 ```java
 @Value("${properties.valueName}")
 ```
 
-Or by name if they were added to the context:
-
-```java
-@Value("#{@valuesCollection}")
-```
-
-## Defaults
-
-It also supports default values:
-
-```java
-@Value("${properties.booleanValue:false}")
-```
-
-Which can be an empty text:
-
-```java
-@Value("${properties.textValue:}")
-```
+More details can be found in the SpEL section.
 
 ## Types
 
