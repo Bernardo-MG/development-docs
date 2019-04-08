@@ -4,7 +4,7 @@ The manifest file includes metadata about the project, and can be used for examp
 
 This is added by setting up the [Maven Jar plugin](https://maven.apache.org/plugins/maven-jar-plugin/):
 
-```xml
+```markup
 <plugin>
    <!-- Jar -->
    <!-- Generates the jar file. -->
@@ -30,12 +30,10 @@ This is added by setting up the [Maven Jar plugin](https://maven.apache.org/plug
 
 The manifest data should contain the artifact coordinates as a folder:
 
-```xml
+```markup
 <properties>
    <!-- Manifest data -->
    <manifest.name>com/bernardomg/maven/pom/base</manifest.name>
 </properties>
 ```
-
-
 

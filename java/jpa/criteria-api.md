@@ -68,5 +68,3 @@ The metamodel can be generated automatically from a persistence entity with the 
 * [Using the Criteria API to Create Queries](https://docs.oracle.com/javaee/6/tutorial/doc/gjitv.html)
 * [Create type-safe queries with the JPA static metamodel](https://www.thoughts-on-java.org/jpa-21-entity-graph-part-2-define/)
 
-
-

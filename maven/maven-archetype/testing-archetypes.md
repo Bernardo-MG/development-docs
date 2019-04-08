@@ -8,7 +8,7 @@ Check the [archetype testing goal](http://maven.apache.org/archetype/maven-arche
 
 In some cases the tests will require additional Maven configuration, such as a default profile. This can be included in a Maven settings file, defined as a property:
 
-```xml
+```markup
 <properties>
    <!-- Archetype test settings -->
    <archetype.test.settingsFile>${project.build.testResources[0].directory}/settings.xml</archetype.test.settingsFile>
@@ -19,11 +19,11 @@ Just by adding this property the tests will load the file located at 'src/test/r
 
 ## Custom Properties
 
-Values for the archetype properties are added into the src/test/resources/projects/defaults/archetype.properties file. 
+Values for the archetype properties are added into the src/test/resources/projects/defaults/archetype.properties file.
 
 These will be used to set up the archetype.
 
-```properties
+```text
 groupId=com.bernardomg.test.archetype
 artifactId=libraryArchetypeTest
 version=1.0.0-SNAPSHOT
@@ -34,10 +34,11 @@ package=com.bernardomg.test.archetype.libraryArchetypeTest
 
 The goal used on the generated project can be set in a src/test/resources/projects/defaults/goal.txt file.
 
-```
+```text
 clean package verify
 ```
 
 ## Default Values
 
 Both the properties and goals files can be stored in the src/test/resources/projects/defaults folder, making them the default test files.
+

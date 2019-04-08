@@ -8,7 +8,7 @@ description: Setting Up the Application
 
 This will take care of authenticating users.
 
-```
+```text
 <authentication-manager>
    <authentication-provider user-service-ref="userDetailsService">
       <!-- <password-encoder ref="passwordEncoder" /> -->
@@ -20,10 +20,11 @@ This will take care of authenticating users.
 
 To activate security annotations:
 
-```
+```text
 <global-method-security pre-post-annotations="enabled" />
 ```
 
-```
+```text
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 ```
+

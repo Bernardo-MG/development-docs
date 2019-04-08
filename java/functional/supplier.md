@@ -25,5 +25,3 @@ Entity ent1 = new Entity();
 Entity ent2 = supplier.get();
 ```
 
-
-

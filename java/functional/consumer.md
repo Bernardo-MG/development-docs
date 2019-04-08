@@ -25,5 +25,3 @@ Consumer<String> firstThenSecond;
 firstThenSecond = consumer1.andThen(consumer2);
 ```
 
-
-

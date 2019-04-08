@@ -18,7 +18,7 @@ public final Iterable<ModelObject>
 
 First define the resolvers:
 
-```xml
+```markup
 <bean id="sortResolver" class="${resolver.sort.class}" />
 <bean id="pagingResolver" class="${resolver.pageable.class}">
    <constructor-arg ref="sortResolver" />
@@ -27,14 +27,14 @@ First define the resolvers:
 
 Using these properties:
 
-```
+```text
 resolver.sort.class=org.springframework.data.web.SortHandlerMethodArgumentResolver
 resolver.pageable.class=org.springframework.data.web.PageableHandlerMethodArgumentResolver
 ```
 
 Then register them:
 
-```xml
+```markup
 <mvc:annotation-driven>
    <mvc:argument-resolvers>
       <ref bean="sortResolver" />
@@ -42,6 +42,4 @@ Then register them:
    </mvc:argument-resolvers>
 </mvc:annotation-driven>
 ```
-
-
 

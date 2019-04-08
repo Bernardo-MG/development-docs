@@ -18,5 +18,3 @@ Additionally it can be operated with a stream:
 strings.stream();
 ```
 
-
-

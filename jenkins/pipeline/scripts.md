@@ -6,7 +6,7 @@ Additional scripts can be stored into files and then read by the pipeline.
 
 Each file should end returning itself.
 
-```Groovy
+```groovy
 /**
 * Run unit tests.
 */
@@ -19,7 +19,7 @@ return this;
 
 ## Reading Scripts
 
-```Groovy
+```groovy
 stage('Setup') {
    steps {
       script {
@@ -31,13 +31,11 @@ stage('Setup') {
 
 ## Using Scripts
 
-```Groovy
+```groovy
 stage('Unit tests') {
     steps {
         script { commandRunner.unitTests() }
     }
 }
 ```
-
-
 

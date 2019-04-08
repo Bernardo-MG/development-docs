@@ -2,7 +2,7 @@
 
 ## Send Email
 
-```Groovy
+```groovy
 emailext (
    to: email@somewhere.com,
    subject: 'Mail subject',
@@ -12,13 +12,11 @@ emailext (
 
 ## Email Culprits
 
-```Groovy
+```groovy
 emailext (
    recipientProviders : [[$class: 'CulpritsRecipientProvider'],[$class: 'RequesterRecipientProvider']],
    subject: 'Warning culprits',
    body: 'The email body'
 )
 ```
-
-
 

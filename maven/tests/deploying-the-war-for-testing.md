@@ -1,12 +1,12 @@
-## Deploying the WAR for Testing
+# Deploying the WAR for Testing
 
-Just like explained in [deploying web projects locally](../../deployment/web_locally.md), it is possible to run a web server during the integration tests, by anchoring the plugins execution to the verify phase.
+Just like explained in [deploying web projects locally](https://github.com/bernardo-mg/development-docs/tree/607d3a34739325f64d3fc216771c0bc79458f781/deployment/web_locally.md), it is possible to run a web server during the integration tests, by anchoring the plugins execution to the verify phase.
 
-### Jetty
+## Jetty
 
 When using the Jetty plugin with Maven use this configuration:
 
-```xml
+```markup
 <plugin>
    <!-- Jetty -->
    <!-- Jetty will run the web service during the integration 
@@ -49,11 +49,11 @@ When using the Jetty plugin with Maven use this configuration:
 </plugin>
 ```
 
-### Tomcat
+## Tomcat
 
 When using the Tomcat plugin with Maven use this configuration:
 
-```xml
+```markup
 <plugin>
    <!-- Tomcat 7 -->
    <!-- Tomcat 7 will run the web service during the integration 
@@ -87,6 +87,4 @@ When using the Tomcat plugin with Maven use this configuration:
    </executions>
 </plugin>
 ```
-
-
 

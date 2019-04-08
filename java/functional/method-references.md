@@ -74,5 +74,3 @@ public final <I, O> O apply(final I input, final Function<I, O> strategy);
 apply(input, StringUtils::isNotBlank);
 ```
 
-
-

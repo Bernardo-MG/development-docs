@@ -28,5 +28,3 @@ Closer to mathematics than other paradigms, this is based on mathematical functi
 
 Javascript and Python are functional.
 
-
-

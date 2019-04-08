@@ -30,5 +30,3 @@ result.andExpect(MockMvcResultMatchers.jsonPath("$.content", Matchers.hasSize(1)
 result.andExpect(MockMvcResultMatchers.jsonPath("$.content", Matchers.equalTo("text")));
 ```
 
-
-

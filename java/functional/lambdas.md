@@ -30,7 +30,7 @@ As functional interfaces have a single method the conversion won't be ambiguous.
 
 The previous example is using a lambda just to pass an argument to the function. This can be avoided by using the other functional patterns:
 
-```
+```text
 read(sample, this::onRead);
 ```
 

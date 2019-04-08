@@ -10,7 +10,7 @@ Transactionality can be marked by using the @Transactional annotation. Note that
 
 This alone won't work, transactionality should be activated through configuration:
 
-```xml
+```markup
 <beans
    xmlns:tx="http://www.springframework.org/schema/tx"
    xsi:schemaLocation="
@@ -39,6 +39,4 @@ To create a transactional test with JUnit 5:
 @Transactional
 public class TransactionalTest extends AbstractJUnit4SpringContextTests
 ```
-
-
 

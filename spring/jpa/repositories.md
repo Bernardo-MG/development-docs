@@ -56,7 +56,7 @@ public Iterable<Entity> findByNameJpql(@Param("name") final String name);
 
 Notice that it is using a named argument.
 
-#### SpEL in Queries {#jpa.query.spel-expressions}
+### SpEL in Queries <a id="jpa.query.spel-expressions"></a>
 
 To find out automatically the received entity name \(useful when extending the entity\):
 
@@ -116,6 +116,4 @@ public final class EntityService {
 ## More Information
 
 * [Working with Spring Data Repositories](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories)
-
-
 

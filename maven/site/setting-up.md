@@ -2,7 +2,7 @@
 
 Inside the POM:
 
-```xml
+```markup
 <plugin>
     <!-- Site -->
     <!-- Generates the Maven Site -->
@@ -21,7 +21,7 @@ Inside the POM:
 
 Inside /src/site/site.xml:
 
-```xml
+```markup
 <skin>
    <groupId>com.bernardomg.maven.skins</groupId>
    <artifactId>docs-maven-skin</artifactId>
@@ -39,7 +39,7 @@ This is for multimodule projects, where reports are generated for each module. T
 
 The way to activate aggregation for all reports is adding this property:
 
-```xml
+```markup
 <properties>
    <aggregate>true</aggregate>
 </properties>
@@ -47,7 +47,7 @@ The way to activate aggregation for all reports is adding this property:
 
 ### Plugins configuration
 
-```xml
+```markup
 <plugin>
    <!-- Javadoc -->
    <!-- Handles the Javadocs. -->
@@ -64,8 +64,4 @@ The way to activate aggregation for all reports is adding this property:
    </executions>
 </plugin>
 ```
-
-
-
-
 

@@ -37,3 +37,4 @@ public class StatsBundle_fr_CA extends ListResourceBundle {
 
 }
 ```
+

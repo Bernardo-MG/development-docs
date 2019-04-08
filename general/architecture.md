@@ -22,4 +22,5 @@ It is used for example in UIs.
 
 ## Additional Information
 
-- [Wikipedia's Software Architecture](https://en.wikipedia.org/wiki/Software_architecture)
+* [Wikipedia's Software Architecture](https://en.wikipedia.org/wiki/Software_architecture)
+

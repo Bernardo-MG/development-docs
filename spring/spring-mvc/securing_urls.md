@@ -2,7 +2,7 @@
 
 This will set up three access settings:
 
-```xml
+```markup
 <http>
    <intercept-url pattern="/static/**" access="permitAll" />
    <intercept-url pattern="/login*" access="permitAll" />
@@ -11,7 +11,7 @@ This will set up three access settings:
 ```
 
 | URL | Access control |
-| --- | --- |
+| :--- | :--- |
 | /static/\*\* | None. Everybody can access. |
 | /login\* | None. Everybody can access. |
 | /\*\* | Only authenticated users. |

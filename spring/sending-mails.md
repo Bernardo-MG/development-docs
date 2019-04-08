@@ -19,5 +19,3 @@ mailMessage.setSubject(titulo);
 mailSender.send(mimeMessage);
 ```
 
-
-

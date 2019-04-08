@@ -6,3 +6,4 @@ A collection where the last element added matters. It is a LIFO collection.
 
 * Checking last element
 * Removing last element
+

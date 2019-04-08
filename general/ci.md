@@ -6,16 +6,16 @@ It should run after each commit to the code repository, and take care of generat
 
 ## Workflow
 
-![CI flow][ci_flow]
+![](../.gitbook/assets/ci_general_activity.png)
 
 CI is triggered by changes to the code repository.
 
 But not all the changes should be treated equally, instead there are a few workflows depending on the source of the changes:
 
-- Releases, when the code is for a version which will be published
-- Development, for the main development version
-- Pull request, when combining branches
-- Other, for example when developing a feature
+* Releases, when the code is for a version which will be published
+* Development, for the main development version
+* Pull request, when combining branches
+* Other, for example when developing a feature
 
 Releases and development versions are the primary source code bases for the project. And these receive special care, which usually includes deploying documentation.
 
@@ -25,33 +25,33 @@ Other triggers usually skip only the deployment tasks.
 
 ### Conditions
 
-Flow | Marked by
---- | ---
-Release | Comes from the master branch
-Development | Comes from the develop branch
-Pull request | Environment variable
-Other| Any other case
+| Flow | Marked by |
+| :--- | :--- |
+| Release | Comes from the master branch |
+| Development | Comes from the develop branch |
+| Pull request | Environment variable |
+| Other | Any other case |
 
 ### Tasks
 
-Flow | Marked by
---- | ---
-Release | Validate project, publish release artifacts
-Development | Validate project, publish development artifacts
-Pull request | Validate project, forbid invalid merges
-Other | Validate project
+| Flow | Marked by |
+| :--- | :--- |
+| Release | Validate project, publish release artifacts |
+| Development | Validate project, publish development artifacts |
+| Pull request | Validate project, forbid invalid merges |
+| Other | Validate project |
 
 ### Publication flow
 
-![Publish flow][publish_flow]
+![](../.gitbook/assets/ci_publish_flow.png)
 
 ## Scripts
 
-There is a set of [CI scripts][scripts_repo] to help running the CI tasks. These are meant for Travis and may not work with other services.
+There is a set of [CI scripts](https://github.com/Bernardo-MG/ci-shell-scripts) to help running the CI tasks. These are meant for Travis and may not work with other services.
 
 To use them copy the entire repository and set the access permissions, as the scripts readme explains.
 
-```
+```text
 before_install:
   # Gets scripts
   - git clone -b v1.1.2 --single-branch https://github.com/Bernardo-MG/ci-shell-scripts.git ~/.scripts
@@ -63,7 +63,7 @@ before_install:
 
 One of the scripts can be used for most projects:
 
-```
+```text
 before_install:
   # Prepares CI environment
   - source ~/.scripts/travis/load-travis-environment.sh
@@ -73,17 +73,14 @@ This will initialize a set of environment variables to be used by the other scri
 
 Some of these will be the following flow control environmental variables:
 
-Variable | Type
---- | ---
-DO\_DEPLOY | boolean
-DO\_DEPLOY\_RELEASE | boolean
-DO\_DEPLOY\_DEVELOP | boolean
-DO\_DEPLOY\_DOCS | boolean
-DO\_DEPLOY\_DOCS_RELEASE | boolean
-DO\_DEPLOY\_DOCS_DEVELOP | boolean
-DO\_TEST\_DOCS | boolean
-DO\_COVERAGE | boolean
+| Variable | Type |
+| :--- | :--- |
+| DO\_DEPLOY | boolean |
+| DO\_DEPLOY\_RELEASE | boolean |
+| DO\_DEPLOY\_DEVELOP | boolean |
+| DO\_DEPLOY\_DOCS | boolean |
+| DO\_DEPLOY\_DOCS\_RELEASE | boolean |
+| DO\_DEPLOY\_DOCS\_DEVELOP | boolean |
+| DO\_TEST\_DOCS | boolean |
+| DO\_COVERAGE | boolean |
 
-[ci_flow]: ../img/diagram/ci_general_activity.png
-[publish_flow]: ../img/diagram/ci_publish_flow.png
-[scripts_repo]: https://github.com/Bernardo-MG/ci-shell-scripts

@@ -2,7 +2,7 @@
 
 These are used to handle and generate the UI.
 
-```xml
+```markup
 <bean id="thymeleafViewResolver" class="${template.viewResolver.class}">
    <property name="templateEngine" ref="templateEngine" />
    <property name="order" value="2" />
@@ -24,6 +24,4 @@ public ViewResolver getViewResolver(final SpringTemplateEngine templateEngine)
    return viewResolver;
 }
 ```
-
-
 

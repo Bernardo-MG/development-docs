@@ -18,7 +18,7 @@ First of all remember that Maven by default makes use of several plugins, and al
 
 For example, the assembly plugin:
 
-```xml
+```markup
 <pluginManagement>
    <plugin>
       <!-- Assembly -->
@@ -32,7 +32,7 @@ For example, the assembly plugin:
 
 Otherwise, does all your project need that plugin? If you are going to run integration tests it makes sense forcing the projects to use the Failsafe plugin:
 
-```xml
+```markup
 <build>
    <plugin>
       <!-- Failsafe -->
@@ -67,6 +67,4 @@ These are a few parent POMs ready to use:
 
 * [Base POM](https://github.com/Bernardo-MG/base-pom), generic and useful for most projects
 * [Archetype POM](https://github.com/Bernardo-MG/archetype-pom), for Maven Archetypes
-
-
 

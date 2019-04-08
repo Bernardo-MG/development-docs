@@ -10,5 +10,3 @@
 * [Design patterns implemented in Java](https://github.com/iluwatar/java-design-patterns)
 * [The Universal Design Pattern](http://steve-yegge.blogspot.com/2008/10/universal-design-pattern.html)
 
-
-

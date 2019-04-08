@@ -2,7 +2,7 @@
 description: Java IDE
 ---
 
-# Java IDE
+# IDE
 
 ## Eclipse
 
@@ -17,6 +17,4 @@ Eclipse supports XML configuration for its code style formatter.
 The following files are set for recommended configurations:
 
 * [Java code style](https://github.com/Bernardo-MG/eclipse-code-style/blob/master/Eclipse-Format-Java.xml), a mix of various standards.
-
-
 

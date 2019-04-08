@@ -11,3 +11,4 @@ Check it was called one or more times:
 ```java
 Mockito.verify(service, Mockito.atLeastOnce()).method(ArgumentMatchers.any());
 ```
+

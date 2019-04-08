@@ -17,5 +17,3 @@ public ComponentB componentB(){
 }
 ```
 
-
-

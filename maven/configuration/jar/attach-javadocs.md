@@ -2,7 +2,7 @@
 
 Again, this just needs a plugin, in this case the [Maven Javadoc plugin](https://maven.apache.org/plugins/maven-javadoc-plugin/):
 
-```xml
+```markup
 <plugin>
    <!-- Javadoc -->
    <!-- Handles the Javadocs. -->
@@ -24,7 +24,7 @@ Again, this just needs a plugin, in this case the [Maven Javadoc plugin](https:/
 
 The generated Javadocs won't link to third party libraries. This can be fixed by specifying the links to the Javadocs for those libraries:
 
-```xml
+```markup
 <plugin>
    <!-- Javadoc -->
    <!-- Generates the javadocs -->
@@ -49,7 +49,7 @@ With this all the references to JEE7 or Spring classes will contain a link to th
 
 Some code is generated automatically and its Javadocs won't add anything. This is a good case for ignoring code during Javadoc generation:
 
-```xml
+```markup
 <plugin>
    <!-- Javadoc -->
    <!-- Generates the javadocs -->
@@ -61,3 +61,4 @@ Some code is generated automatically and its Javadocs won't add anything. This i
    </configuration>
 </plugin>
 ```
+

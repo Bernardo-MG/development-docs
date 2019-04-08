@@ -5,7 +5,7 @@
 The following properties should be set up to match the project requirements:
 
 | Variable | Recommended value | Usage |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | project.build.sourceEncoding | UTF-8 | Used by plugins to define the file encoding of input files |
 | project.reporting.outputEncoding | UTF-8 | Used by plugins to define the file encoding of output files |
 | maven.compiler.source | 1.7 | Used by the compiler plugin to define the source code version |
@@ -20,8 +20,4 @@ These properties have an impact in the Maven flow. Don't override them without h
 | Variable | Usage |
 | :--- | :--- |
 | maven.test.skip | Set to true to disable tests |
-
-### 
-
-
 

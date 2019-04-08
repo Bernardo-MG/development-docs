@@ -2,7 +2,7 @@
 
 ## Conditional Step
 
-```Groovy
+```groovy
 stage('Integration tests') {
    when {
       expression { flowControl.runIntegrationTests() }
@@ -15,7 +15,7 @@ stage('Integration tests') {
 
 ## Retry
 
-```Groovy
+```groovy
 stage('Deploy repository'){
    steps {
       script {
@@ -33,7 +33,7 @@ stage('Deploy repository'){
 
 In this case a message is stored in an environmental variable, and then it always publishes the coverage results.
 
-```Groovy
+```groovy
 stage('Integration tests') {
    steps {
       script { commandRunner.integrationTests() }
@@ -51,7 +51,7 @@ stage('Integration tests') {
 
 ## After All the Steps
 
-```Groovy
+```groovy
 post {
     failure {
         script { notifier.notifyFailure(currentBuild) }
@@ -61,6 +61,4 @@ post {
     }
 }
 ```
-
-
 

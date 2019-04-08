@@ -35,25 +35,25 @@ The license file should use a standard license and be included in the project ro
 
 Check a licenses guide:
 
-- [Choose a License][choose_license]
+* [Choose a License](https://choosealicense.com/)
 
 Recommended licenses:
 
-- MIT license for simple projects or examples, meant for a wide use
-- Apache 2 license for more complex projects, meant for a specific range of users
+* MIT license for simple projects or examples, meant for a wide use
+* Apache 2 license for more complex projects, meant for a specific range of users
 
 ### Generated documentation site
 
 There are services for generates documentation:
 
-- [RTD][rtd]
-- [GitBook][gitbook]
+* [RTD](https://readthedocs.org/)
+* [GitBook](https://www.gitbook.com)
 
 And tools for generating documentation:
 
-- [Sphinx][sphinx]
-- [Maven site][maven_site]
-- [Jekyll][jekyll]
+* [Sphinx](http://www.sphinx-doc.org)
+* [Maven site](https://maven.apache.org/plugins/maven-site-plugin/)
+* [Jekyll](https://jekyllrb.com/)
 
 More details will be given in other chapters.
 
@@ -65,8 +65,8 @@ If using Github, it offers one for every repository.
 
 Some alternatives which require a server:
 
-- [Redmine][redmine]
-- [Jira][jira]
+* [Redmine](https://www.redmine.org/)
+* [Jira](https://www.atlassian.com/software/jira)
 
 ## Diagrams
 
@@ -74,21 +74,10 @@ Visual diagrams are helpful for documentation. These should follow the UML speci
 
 Tools for creating diagrams:
 
-- [UMLet][umlet], free and simple Eclipse-based UML editor
-- [Enterprise Architect][enterprise_architect]
+* [UMLet](http://www.umlet.com/), free and simple Eclipse-based UML editor
+* [Enterprise Architect](https://github.com/bernardo-mg/development-docs/tree/607d3a34739325f64d3fc216771c0bc79458f781/general/sparxsystems.com/products/ea/README.md)
 
 ## Additional information
 
-* [Write the Docs][write_the_docs]
+* [Write the Docs](http://www.writethedocs.org/guide/)
 
-[choose_license]: https://choosealicense.com/
-[enterprise_architect]: sparxsystems.com/products/ea/
-[gitbook]: https://www.gitbook.com
-[jekyll]: https://jekyllrb.com/
-[jira]: https://www.atlassian.com/software/jira
-[maven_site]: https://maven.apache.org/plugins/maven-site-plugin/
-[redmine]: https://www.redmine.org/
-[rtd]: https://readthedocs.org/
-[sphinx]: http://www.sphinx-doc.org
-[umlet]: http://www.umlet.com/
-[write_the_docs]: http://www.writethedocs.org/guide/

@@ -1,4 +1,4 @@
-# Development Docs
+# Introduction
 
 This is a personal programming guide and code base, to help myself when developing a software project.
 
@@ -8,11 +8,11 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
 
 ## Reading the docs
 
-The docs can be [read in Gitbook][docs], where they are deployed automatically.
+The docs can be [read in Gitbook](https://www.gitbook.com/book/bernardo-mg/development-docs), where they are deployed automatically.
 
 ## Building the docs
 
-The docs source is composed of markdown files, meant to be used with [Gitbook][gitbook].
+The docs source is composed of markdown files, meant to be used with [Gitbook](https://www.gitbook.com/).
 
 ## Collaborate
 
@@ -22,20 +22,13 @@ Of course everybody is free to fork and adapt the project for their own use.
 
 ### Issues management
 
-Issues are managed at the GitHub [project issues tracker][issues], where any Github user may report bugs or ask for new features.
+Issues are managed at the GitHub [project issues tracker](https://github.com/bernardo-mg/development-docs/issues), where any Github user may report bugs or ask for new features.
 
 ### Getting the code
 
-
-If you wish to fork or modify the code, visit the [GitHub project page][scm], where the latest versions are always kept. Check the 'master' branch for the latest release, and the 'develop' for the current, and stable, development version.
+If you wish to fork or modify the code, visit the [GitHub project page](https://github.com/bernardo-mg/development-docs), where the latest versions are always kept. Check the 'master' branch for the latest release, and the 'develop' for the current, and stable, development version.
 
 ## License
 
-The project has been released under the [MIT License][license].
+The project has been released under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
 
-[issues]: https://github.com/bernardo-mg/development-docs/issues
-[license]: http://www.opensource.org/licenses/mit-license.php
-[scm]: https://github.com/bernardo-mg/development-docs
-
-[docs]: https://www.gitbook.com/book/bernardo-mg/development-docs
-[gitbook]: https://www.gitbook.com/

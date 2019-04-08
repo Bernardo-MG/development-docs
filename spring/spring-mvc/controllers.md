@@ -41,5 +41,3 @@ Otherwise operations make use of the same mappings:
 public final Iterable<Employee> getEmployees(final Pageable page)
 ```
 
-
-

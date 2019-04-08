@@ -1,8 +1,8 @@
-# Common Persistence Beans
+# Datasource
 
 ## DB Access From Properties
 
-```xml
+```markup
 <!-- Data source -->
 <bean id="dataSource" class="${jdbc.dataSource.class}">
    <property name="driverClassName" value="${jdbc.driver}" />
@@ -14,9 +14,9 @@
 
 ## DB Access From Environment
 
-In this case the DB URI is taken from the DATABASE_URL environmental variable.
+In this case the DB URI is taken from the DATABASE\_URL environmental variable.
 
-```xml
+```markup
 <!-- DB Access URI -->
 <bean class="java.net.URI" id="dbUrl">
    <constructor-arg value="#{systemEnvironment['DATABASE_URL']}" />
@@ -34,7 +34,8 @@ In this case the DB URI is taken from the DATABASE_URL environmental variable.
 
 ## Common
 
-```properties
+```text
 # Bean classes
 jpa.entityManagerFactory.class=org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean
 ```
+

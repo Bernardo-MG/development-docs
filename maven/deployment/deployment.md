@@ -10,7 +10,7 @@ mvn deploy
 
 You need to tell Maven where the artifacts will be deployed. Remember that it makes a distinction between releases and snapshots, so it requires a repository for each:
 
-```xml
+```markup
 <distributionManagement>
    <repository>
       <uniqueVersion>false</uniqueVersion>
@@ -33,7 +33,7 @@ Now they need some sort of credentials for the deployment. Never include thesein
 
 For the previous example the settings file would be similar to this:
 
-```xml
+```markup
 <settings>
    <servers>
       <server>
@@ -49,6 +49,4 @@ For the previous example the settings file would be similar to this:
    </servers>
 </settings>
 ```
-
-
 

@@ -9,5 +9,3 @@ public final String readData(@Valid final EmployeeData employee)
 
 If the received bean is prepared for Java Bean Validation these validations will be applied and a exception thrown if any fails.
 
-
-

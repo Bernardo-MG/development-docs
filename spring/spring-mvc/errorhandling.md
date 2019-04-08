@@ -33,5 +33,3 @@ There is an abstract class to ease creating exception handlers:
 public class DefaultErrorHandler extends ResponseEntityExceptionHandler
 ```
 
-
-

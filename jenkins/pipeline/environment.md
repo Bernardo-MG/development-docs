@@ -2,7 +2,7 @@
 
 ## Load from Maven POM
 
-```Groovy
+```groovy
 environment {
    PROJECT_VERSION = readMavenPom().getVersion()
    PROJECT_ARTIFACT_ID = readMavenPom().getArtifactId()
@@ -15,13 +15,11 @@ environment {
 
 ## Set Up Manually
 
-```Groovy
+```groovy
 env.DAILY_BUILD = isDailyBuild()
 ```
 
-```Groovy
+```groovy
 env.MAIL_PROJECT_NAME = "${env.JOB_NAME} [${currentBuild.number}] ${PROJECT_VERSION}"
 ```
-
-
 

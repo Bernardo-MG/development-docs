@@ -12,11 +12,9 @@ public class ConfigClass
 
 ## XML
 
-```xml
+```markup
 <beans profile="profileName">
    <bean id="profiledBean" class="org.path.ClassName" />
 </beans>
 ```
-
-
 

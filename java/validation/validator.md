@@ -16,5 +16,3 @@ Validating groups:
 constraintViolations = validator.validate(entidad, UpdateValidationGroup.class, CreateValidationGroup.class);
 ```
 
-
-

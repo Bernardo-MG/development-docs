@@ -35,3 +35,4 @@ Locale locale;
 
 locale = Locale.CANADA_FRENCH;
 ```
+

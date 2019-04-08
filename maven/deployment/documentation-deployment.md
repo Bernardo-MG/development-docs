@@ -1,4 +1,4 @@
-# Documentation Deployment
+# Deploying Documentation
 
 In a similar fashion the Javadocs and a Maven site can be deployed:
 
@@ -10,7 +10,7 @@ mvn site site:deploy
 
 First of all include a site configuration:
 
-```xml
+```markup
 <distributionManagement>
    <site>
       <id>site-development</id>
@@ -25,7 +25,7 @@ It is a good idea hiding the actual deployment URL, as in some cases it can give
 
 As with the artifacts deployment we will need some access settings:
 
-```xml
+```markup
 <settings>
    <servers>
       <server>
@@ -36,3 +36,4 @@ As with the artifacts deployment we will need some access settings:
    </servers>
 </settings>
 ```
+

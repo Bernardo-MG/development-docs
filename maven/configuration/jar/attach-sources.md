@@ -2,7 +2,7 @@
 
 Just use the [Maven Source plugin](https://maven.apache.org/plugins/maven-source-plugin/):
 
-```xml
+```markup
 <plugin>
    <!-- Source -->
    <!-- Bundles the source into the packaged project. -->
@@ -19,6 +19,4 @@ Just use the [Maven Source plugin](https://maven.apache.org/plugins/maven-source
    </executions>
 </plugin>
 ```
-
-
 

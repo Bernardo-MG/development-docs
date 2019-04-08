@@ -60,5 +60,3 @@ SELECT entity FROM CollectionEntity entity WHERE :value IN ELEMENTS(entity.value
 * [JPA Queries](https://www.objectdb.com/java/jpa/query)
 * [Ultimate Guide to JPQL Queries with JPA and Hibernate](https://www.thoughts-on-java.org/jpql/)
 
-
-

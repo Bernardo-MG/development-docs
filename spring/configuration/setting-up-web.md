@@ -2,7 +2,7 @@
 description: Setting Up the Application
 ---
 
-# Setting Up the Application
+# Setting Up a Web Application
 
 ## web.xml
 
@@ -10,7 +10,7 @@ The application requires a web.xml file. If using Maven it should be located at 
 
 And should like this:
 
-```xml
+```markup
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee"
    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
@@ -70,7 +70,7 @@ This means that if the web application is split into smaller parts, all the comm
 
 The configuration would look like this:
 
-```xml
+```markup
 <beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xmlns:context="http://www.springframework.org/schema/context" xmlns:jdbc="http://www.springframework.org/schema/jdbc"
    xsi:schemaLocation="http://www.springframework.org/schema/beans
@@ -101,7 +101,7 @@ Servlets are the smaller components of the application.
 
 The context would look like this:
 
-```xml
+```markup
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xmlns:context="http://www.springframework.org/schema/context" xmlns:mvc="http://www.springframework.org/schema/mvc"
@@ -136,7 +136,7 @@ The context would look like this:
 
 The importan import here is the one defining the MVC configuration:
 
-```xml
+```markup
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xmlns:context="http://www.springframework.org/schema/context" xmlns:mvc="http://www.springframework.org/schema/mvc"
@@ -177,6 +177,4 @@ The importan import here is the one defining the MVC configuration:
 
 </beans>
 ```
-
-
 

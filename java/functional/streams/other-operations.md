@@ -78,5 +78,3 @@ Stream<Integer> stream;
 stream = Stream.iterate(1, n -> n).skip(4).limit(10);
 ```
 
-
-

@@ -2,7 +2,7 @@
 
 ## Base POM
 
-```xml
+```markup
 <parent>
    <groupId>org.springframework.boot</groupId>
    <artifactId>spring-boot-starter-parent</artifactId>
@@ -17,7 +17,7 @@ These dependencies are used to set up the application automatically.
 
 For example this prepares a MVC project:
 
-```xml
+```markup
 <dependency>
    <groupId>org.springframework.boot</groupId>
    <artifactId>spring-boot-starter-web</artifactId>
@@ -26,7 +26,7 @@ For example this prepares a MVC project:
 
 While this adds and allows running an embedded Tomcat:
 
-```xml
+```markup
 <dependency>
    <groupId>org.springframework.boot</groupId>
    <artifactId>spring-boot-starter-tomcat</artifactId>
@@ -56,6 +56,4 @@ public static void main(String[] args) {
    SpringApplication.run(Application.class, args);
 }
 ```
-
-
 

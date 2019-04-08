@@ -2,13 +2,13 @@
 
 ## Running Tests
 
-```shell
+```text
 mvn clean verify
 ```
 
 With multimodule project the testing process will be stopped once a module fails. To avoid this there is the "fail at end" property:
 
-```shell
+```text
 mvn clean verify -fae
 ```
 
@@ -18,13 +18,13 @@ Tests on modules depending on the failed module won't run, but all the other mod
 
 To check if there are newer versions for the dependencies use the following command:
 
-```shell
+```text
 mvn versions:display-dependency-updates versions:display-plugin-updates
 ```
 
 ## Generating Site
 
-```shell
+```text
 mvn clean site
 ```
 
@@ -34,15 +34,13 @@ Sometimes you need to delete and download again all the dependencies. This may b
 
 This command will do so:
 
-```
+```text
 mvn dependency:purge-local-repository
 ```
 
 To remove only snapshots:
 
-```
+```text
 mvn dependency:purge-local-repository -DsnapshotsOnly=true
 ```
-
-
 

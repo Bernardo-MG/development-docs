@@ -40,5 +40,3 @@ public final Iterable<Employee> getEmployeesHtml(final Pageable page)
 
 This way the client can choose the data it receives, which can be useful for example for showing a default view in web services.
 
-
-

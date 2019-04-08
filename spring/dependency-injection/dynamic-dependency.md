@@ -1,4 +1,4 @@
-# Dynamic Dependency
+# Dynamic Dependencies
 
 A bean which will choose between two from the context and return one of them:
 
@@ -20,6 +20,4 @@ public Component componentB(){
 // ...
 }
 ```
-
-
 

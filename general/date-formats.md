@@ -13,5 +13,3 @@ Date formats can be a hell, as there are lots of them, which may even coexist in
 
 * [Date and Time Formats](https://www.w3.org/TR/NOTE-datetime)
 
-
-

@@ -2,7 +2,7 @@
 
 By using the Maven processor plugin, and the Hibernate JPA model generator, the metamodel classes will be generated in the same package as the entities.
 
-```xml
+```markup
 <plugin>
    <!-- Maven processor -->
    <!-- Processes Java annotations -->

@@ -4,7 +4,7 @@ Variables in the URL can be mapped into the controller arguments.
 
 For example, having this URL:
 
-```
+```text
 https://localhost:8080/controller/John
 ```
 
@@ -65,6 +65,4 @@ public final class EmployeeName {
 
 }
 ```
-
-
 

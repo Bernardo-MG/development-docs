@@ -29,5 +29,3 @@ To get both the keys and the values:
 map.entrySet();
 ```
 
-
-

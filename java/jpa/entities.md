@@ -169,5 +169,3 @@ Requirementes may vary between implementations, but there are some recommended t
 * Avoid final classes
 * Avoid final getters and setters for lazy fields
 
-
-

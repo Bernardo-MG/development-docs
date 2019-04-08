@@ -13,3 +13,4 @@ service = Mockito.mock(Service.class);
 ```java
 Mockito.when(service.operation(ArgumentMatchers.any()).thenReturn(values);
 ```
+

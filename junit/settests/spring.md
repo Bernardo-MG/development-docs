@@ -17,14 +17,12 @@ public class TestSuite {
     @Test
     public final void alwaysTrue() {
         final Boolean success;
-        
+
         success = testedService.call();
-        
+
         Assert.assertTrue(success);
     }
 
 }
 ```
-
-
 

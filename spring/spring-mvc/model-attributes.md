@@ -18,5 +18,3 @@ public final String saveEntity(final ModelMap model,
         final BindingResult bindingResult, final HttpSession session)
 ```
 
-
-

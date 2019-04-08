@@ -25,5 +25,3 @@ Always remember to add the required advices to MVC tests:
 getMockMvcBuilder().setControllerAdvice(new EmployeeControllerConfig())
 ```
 
-
-

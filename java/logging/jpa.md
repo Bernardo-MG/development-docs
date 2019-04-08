@@ -2,21 +2,19 @@
 
 To log all from the JDBC:
 
-```properties
+```text
 log4j.logger.jdbc=ALL
 ```
 
 To show all the queries:
 
-```properties
+```text
 log4j.logger.jdbc.sqlonly=ALL
 ```
 
 To show times:
 
-```properties
+```text
 log4j.logger.jdbc.sqltiming=DEBUG
 ```
-
-
 

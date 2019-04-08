@@ -2,7 +2,7 @@
 
 ## Hibernate
 
-```xml
+```markup
 <!-- JPA EntityManagerFactory -->
 <bean id="entityManagerFactory" class="${jpa.entityManagerFactory.class}">
    <property name="jpaVendorAdapter" ref="jpaAdapter" />
@@ -31,7 +31,7 @@
 </util:map>
 ```
 
-```
+```text
 # Entity manager
 jpa.adapter.class=org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter
 
@@ -49,7 +49,7 @@ hibernate.cache.region.factory_class=org.hibernate.cache.ehcache.SingletonEhCach
 
 ## EclipseLink
 
-```xml
+```markup
 <!-- JPA EntityManagerFactory -->
 <bean id="entityManagerFactory" class="${jpa.entityManagerFactory.class}">
    <property name="jpaVendorAdapter" ref="jpaAdapter" />
@@ -80,7 +80,7 @@ hibernate.cache.region.factory_class=org.hibernate.cache.ehcache.SingletonEhCach
 </util:map>
 ```
 
-```
+```text
 # Entity manager
 jpa.loadTimeWeaver.class=org.springframework.instrument.classloading.InstrumentationLoadTimeWeaver
 jpa.adapter.class=org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter
@@ -96,6 +96,4 @@ eclipselink.ddl-generation.output-mode=database
 eclipselink.allow-zero-id=true
 eclipselink.id-validation=NEGATIVE
 ```
-
-
 

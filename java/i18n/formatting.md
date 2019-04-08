@@ -1,4 +1,4 @@
-# Internationalization Formatting
+# Formatting
 
 The following can require formatting:
 
@@ -13,7 +13,7 @@ The following can require formatting:
 
 Having this message bundle:
 
-```
+```text
 template = The employee {0} has the id {1,number,integer}
 ```
 
@@ -40,7 +40,7 @@ formatted = formatter.format(messageArguments);
 
 Having this message bundle:
 
-```properties
+```text
 template = There {0}.
 noEmployees = are no employees
 oneEmployee = is one employee
@@ -150,6 +150,4 @@ formatted = patternFormatter.format(amount);
 ## More Information
 
 * [Formatting](https://docs.oracle.com/javase/tutorial/i18n/format/index.html)
-
-
 

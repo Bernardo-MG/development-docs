@@ -45,5 +45,3 @@ Boolean exists;
 exists = collection.stream().noneMatch(Objects::nonNull);
 ```
 
-
-
