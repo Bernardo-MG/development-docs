@@ -1,4 +1,4 @@
-# Dependencies
+# Interdependency
 
 ## Bean Depends on Another
 
