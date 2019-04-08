@@ -1,4 +1,3 @@
-
 # SpEL
 
 Spring Expression Language
@@ -20,3 +19,18 @@ Properties can be used:
 ```
 #{'${property.name}'.contains('Some text')}
 ```
+
+## Default Values
+
+```
+${properties.booleanValue:false}
+```
+
+It may be the empty string:
+
+```
+${properties.textValue:}
+```
+
+
+
