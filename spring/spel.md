@@ -2,7 +2,7 @@
 
 Spring Expression Language
 
-## Acquiring a Bean
+### Acquiring a Bean
 
 Using the name of a value or a constant:
 
@@ -32,13 +32,13 @@ It is possible to get a factory:
 #{&beanName}
 ```
 
-## Checking Properties
+### Checking Properties
 
 ```text
 #{'${property.name}'.contains('Some text')}
 ```
 
-## Default Values
+### Default Values
 
 ```text
 ${properties.booleanValue:false}
@@ -48,5 +48,11 @@ It may be the empty string:
 
 ```text
 ${properties.textValue:}
+```
+
+### Type Safe Operations
+
+```text
+#{bean?.field}
 ```
 
