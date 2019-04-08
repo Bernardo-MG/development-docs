@@ -198,6 +198,7 @@
 ## Spring
 
 * [General](spring/readme.md)
+* [SpEL](spring/spel/readme.md)
 * [Beans](spring/readme.md)
   * [Initialization and Destruction](spring/beans/initialization-and-destruction.md)
 * [Dependency Injection](spring/dependency-injection/readme.md)
@@ -210,7 +211,6 @@
   * [Profiles](spring/configuration/profiles.md)
   * [Dependencies](spring/configuration/dependencies.md)
   * [Setting Up a Web Application](spring/configuration/setting-up-web.md)
-* [SpEL](spring/spel/readme.md)
 * [JPA](spring/jpa/readme.md)
   * [Transactional](spring/jpa/transactional.md)
   * [Repositories](spring/jpa/repositories.md)
