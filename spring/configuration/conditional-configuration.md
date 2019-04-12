@@ -1,9 +1,5 @@
 # Conditional Configuration
 
-## Configuration Class
-
-Configuration classes can be loaded conditionally.
-
 ### Conditional by Property
 
 ```java
