@@ -1,6 +1,12 @@
-# Maven Reports
+# Reports
 
-Recommended Maven report plugins:
+The [report plugins]() will generate several reports along the site. Check the plugin documentation to find about each of them, but most of them will generate a HTML file which can be linked by the site.
+
+Usually these HTML files are processed by the Maven skin being used. But some reports will ignore that completely.
+
+Remember that some of these reports may need additional information, for example the coverage data generated during the testing phase.
+
+### Recommended Reports
 
 * [Changes](https://maven.apache.org/plugins/maven-changes-plugin/), generates the changes report from the changes log.
 * [Checkstyle](https://maven.apache.org/plugins/maven-checkstyle-plugin/), checks that the source files comply with style standards.

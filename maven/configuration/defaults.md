@@ -1,6 +1,18 @@
 # Default Properties
 
-## Properties to Override
+The [Maven Super POM](https://maven.apache.org/pom.html#The_Super_POM) includes several default properties.
+
+### Array Properties
+
+If a property contains several children they can be accessed as an array.
+
+For example this gets the path to the first test resources directory:
+
+```text
+${project.build.testResources[0].directory}
+```
+
+### Properties to Override
 
 The following properties should be set up to match the project requirements:
 
@@ -13,7 +25,7 @@ The following properties should be set up to match the project requirements:
 | maven.compiler.showDeprecation | true | Shows deprecation warnings on compilation |
 | maven.compiler.showWarnings | true | Shows compilation warnings on compilation |
 
-## Flow Properties
+### Flow Properties
 
 These properties have an impact in the Maven flow. Don't override them without having a good reason.
 
