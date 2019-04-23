@@ -152,7 +152,9 @@
 ## Jackson
 
 * [General](jackson/general.md)
-* [Annotations](jackson/annotations.md)
+* [Deserialize](jackson/deserialize.md)
+* [Object Hierarchy](jackson/object-hierarchy.md)
+* [Ignoring Data](jackson/annotations.md)
 * [Mixin](jackson/mixin.md)
 
 ## Maven
