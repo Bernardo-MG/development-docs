@@ -2,17 +2,16 @@
 
 Simple components can be declared as functions:
 
-```java
+```javascript
 const CustomComponent = (props) =>
    <div>
       This is a component
    </div>
-}
 ```
 
 They can be declared also as classes, which is more useful for complex components with internal state or custom operations:
 
-```java
+```javascript
 class CustomComponent extends Component {
    render() {
       <div>
