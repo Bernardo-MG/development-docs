@@ -6,7 +6,7 @@ Simple components can be declared as functions:
 const CustomComponent = (props) =>
    <div>
       This is a component
-   </div>
+   </div>;
 ```
 
 They can be declared also as classes, which is more useful for complex components with internal state or custom operations:
