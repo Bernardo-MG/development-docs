@@ -259,7 +259,8 @@
 ## React
 
 * [Conditional Property](react/conditional_property.md)
-* [Components](react/components.md)
+* [Components](react/components/README.md)
+  * [Wrapping Components](react/components/wrapping-components.md)
 
 ## Python
 
