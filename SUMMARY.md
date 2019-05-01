@@ -256,9 +256,10 @@
   * [Scripts](npm/npm/scripts.md)
   * [Dependencies](npm/npm/dependencies.md)
 
-## React Examples
+## React
 
 * [Conditional Property](react-examples/conditional_property.md)
+* [Components](react-examples/components.md)
 
 ## Python
 
