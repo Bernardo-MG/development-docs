@@ -258,8 +258,8 @@
 
 ## React
 
-* [Conditional Property](react-examples/conditional_property.md)
-* [Components](react-examples/components.md)
+* [Conditional Property](react/conditional_property.md)
+* [Components](react/components.md)
 
 ## Python
 
