@@ -75,3 +75,9 @@ mvn jqassistant:server
 
 The server will be available at [http://localhost:7474](http://localhost:7474)
 
+If you need to make use of advanced funciones remember to activate APOC:
+
+```text
+mvn jqassistant:server -Djqassistant.embedded.apocEnabled=true
+```
+
