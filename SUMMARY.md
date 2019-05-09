@@ -246,6 +246,16 @@
 * [Aspects](spring/aspects/README.md)
   * [Logging Services](spring/aspects/logging-services.md)
 
+## JQAssistant
+
+* [Maven Plugin](jqassistant/maven-plugin.md)
+* [Queries](jqassistant/queries.md)
+* [Concepts](jqassistant/concepts.md)
+* [Constraints](jqassistant/constraints.md)
+* [Groups](jqassistant/groups.md)
+* [Rules](jqassistant/rules/README.md)
+  * [Custom Rules](jqassistant/rules/custom-rules.md)
+
 ## Javascript
 
 * [Binding this](javascript/binding-this.md)
