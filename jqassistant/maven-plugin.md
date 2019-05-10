@@ -22,7 +22,7 @@ To set it up:
          </goals>
          <configuration>
             <groups>
-               <group>junit4:Strict</group>
+               <group>junit4:Default</group>
                <group>spring-boot:Strict</group>
             </groups>
             <concepts>
