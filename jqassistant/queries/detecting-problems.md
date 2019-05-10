@@ -25,7 +25,7 @@ RETURN
     returntype.name AS returned
 ```
 
-## Controllers with public final methods:
+## Controllers with public final methods
 
 ```text
 MATCH (c:Controller)-[:DECLARES]->(m:Method { visibility: 'public' })

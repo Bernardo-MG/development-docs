@@ -252,6 +252,7 @@
 * [Queries](jqassistant/queries/README.md)
   * [Structure](jqassistant/queries/structure.md)
   * [Detecting Problems](jqassistant/queries/detecting-problems.md)
+  * [Controller](jqassistant/queries/controller.md)
 * [Concepts](jqassistant/concepts.md)
 * [Constraints](jqassistant/constraints.md)
 * [Groups](jqassistant/groups.md)
