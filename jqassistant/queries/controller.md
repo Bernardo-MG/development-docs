@@ -19,7 +19,8 @@ WITH
     controller,
 	method,
 	annotation,
-	controllerValues
+	controllerValues,
+    annotationType
 OPTIONAL MATCH
     (annotation)-[hasValue:HAS]->(annotationValue:Value)-[:CONTAINS]->(values)
 WHERE
@@ -28,7 +29,8 @@ RETURN
     controller.name AS controller,
     method.name AS method,
     controllerValues.value AS controllerPath,
-    values.value AS methodPath
+    values.value AS methodPath,
+	annotationType.name AS annotation
 ORDER BY
     controller,
     method
