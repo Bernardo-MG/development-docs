@@ -22,8 +22,24 @@ To set it up:
          </goals>
          <configuration>
             <groups>
+               <group>junit4:Strict</group>
                <group>spring-boot:Strict</group>
             </groups>
+            <concepts>
+               <concept>ejb3:*</concept>
+               <concept>java:*</concept>
+               <concept>java8:*</concept>
+               <concept>jaxrs:*</concept>
+               <concept>jpa2:*</concept>
+               <concept>junit:*</concept>
+               <concept>junit4:*</concept>
+               <concept>osgi-bundle:*</concept>
+               <concept>spring-boot:*</concept>
+               <concept>spring-component:*</concept>
+               <concept>spring-data:*</concept>
+               <concept>spring-injection:*</concept>
+               <concept>spring-transaction:*</concept>
+            </concepts>
             <warnOnSeverity>MINOR</warnOnSeverity>
             <failOnSeverity>MAJOR</failOnSeverity>
             <rule>
