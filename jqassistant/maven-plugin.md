@@ -73,11 +73,11 @@ Once it has finished you can start a local client for checking the analysis:
 mvn jqassistant:server
 ```
 
-The server will be available at [http://localhost:7474](http://localhost:7474)
-
-If you need to make use of advanced funciones remember to activate APOC:
+Or if you need to make use of advanced funciones remember to activate APOC:
 
 ```text
 mvn jqassistant:server -Djqassistant.embedded.apocEnabled=true
 ```
+
+The server will be available at [http://localhost:7474](http://localhost:7474)
 
