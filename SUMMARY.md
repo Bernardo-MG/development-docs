@@ -249,7 +249,9 @@
 ## JQAssistant
 
 * [Maven Plugin](jqassistant/maven-plugin.md)
-* [Queries](jqassistant/queries.md)
+* [Queries](jqassistant/queries/README.md)
+  * [Structure](jqassistant/queries/structure.md)
+  * [Detecting Problems](jqassistant/queries/detecting-problems.md)
 * [Concepts](jqassistant/concepts.md)
 * [Constraints](jqassistant/constraints.md)
 * [Groups](jqassistant/groups.md)
