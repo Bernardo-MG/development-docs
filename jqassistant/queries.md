@@ -28,3 +28,29 @@ RETURN
     extract(p in apoc.text.regexGroups(annotationValue.value, "\\('([a-zA-Z]*)', '[crud]'\\)") | p[1]) as permission
 ```
 
+All the entities used in facade services:
+
+```text
+MATCH
+	(facade:Facade)-[:DECLARES]->(method),
+	(method)-[:HAS]->()-[:OF_TYPE*]->(receivedtype:Entity),
+	(method)-[:RETURNS]->(returntype:Entity)
+WHERE
+	(method.visibility="public" OR method.visibility="protected")
+RETURN
+	facade.name AS service,
+    method.name AS method,
+    collect(distinct receivedtype.name) AS received,
+    returntype.name AS returned
+```
+
+All types extending a base type:
+
+```text
+MATCH
+    (component:Type {name: 'ClassName'}),
+    (extension:Type)-[:EXTENDS|IMPLEMENTS*0..]->(component)
+RETURN
+    extension
+```
+
