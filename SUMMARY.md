@@ -249,7 +249,8 @@
 ## jQAssistant
 
 * [More Information](jqassistant/more-information.md)
-* [Maven Plugin](jqassistant/maven-plugin.md)
+* [Maven Plugin](jqassistant/maven-plugin/README.md)
+  * [Git](jqassistant/maven-plugin/git.md)
 * [Queries](jqassistant/queries/README.md)
   * [Structure](jqassistant/queries/structure.md)
   * [Detecting Problems](jqassistant/queries/detecting-problems.md)
@@ -259,7 +260,6 @@
 * [Groups](jqassistant/groups.md)
 * [Rules](jqassistant/rules/README.md)
   * [Custom Rules](jqassistant/rules/custom-rules.md)
-* [Git](jqassistant/git.md)
 
 ## Javascript
 

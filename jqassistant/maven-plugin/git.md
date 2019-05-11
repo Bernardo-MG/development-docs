@@ -2,7 +2,7 @@
 
 jQAssistant can analyze the contents of a Git repository.
 
-```text
+```markup
 <plugin>
    <!-- JQAssistant -->
    <!-- Code and architecture analysis. -->
