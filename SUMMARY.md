@@ -246,7 +246,7 @@
 * [Aspects](spring/aspects/README.md)
   * [Logging Services](spring/aspects/logging-services.md)
 
-## JQAssistant
+## jQAssistant
 
 * [More Information](jqassistant/more-information.md)
 * [Maven Plugin](jqassistant/maven-plugin.md)
@@ -259,6 +259,7 @@
 * [Groups](jqassistant/groups.md)
 * [Rules](jqassistant/rules/README.md)
   * [Custom Rules](jqassistant/rules/custom-rules.md)
+* [Git](jqassistant/git.md)
 
 ## Javascript
 
