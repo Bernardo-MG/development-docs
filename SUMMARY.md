@@ -248,6 +248,7 @@
 
 ## JQAssistant
 
+* [More Information](jqassistant/more-information.md)
 * [Maven Plugin](jqassistant/maven-plugin.md)
 * [Queries](jqassistant/queries/README.md)
   * [Structure](jqassistant/queries/structure.md)
