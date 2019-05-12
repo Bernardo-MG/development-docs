@@ -4,25 +4,25 @@
 
 ```text
 MATCH
-    (t:Type)-[:DEPENDS_ON*]->(t)
+   (t:Type)-[:DEPENDS_ON*]->(t)
 RETURN
-    t
+   t
 ```
 
 ## Entities used in facade services
 
 ```text
 MATCH
-	(facade:Facade)-[:DECLARES]->(method),
-	(method)-[:HAS]->()-[:OF_TYPE*]->(receivedtype:Entity),
-	(method)-[:RETURNS]->(returntype:Entity)
+   (facade:Facade)-[:DECLARES]->(method),
+   (method)-[:HAS]->()-[:OF_TYPE*]->(receivedtype:Entity),
+   (method)-[:RETURNS]->(returntype:Entity)
 WHERE
-	(method.visibility="public" OR method.visibility="protected")
+   (method.visibility="public" OR method.visibility="protected")
 RETURN
-	facade.name AS service,
-    method.name AS method,
-    collect(distinct receivedtype.name) AS received,
-    returntype.name AS returned
+   facade.name AS service,
+   method.name AS method,
+   collect(distinct receivedtype.name) AS received,
+   returntype.name AS returned
 ```
 
 ## Controllers with public final methods
@@ -30,9 +30,9 @@ RETURN
 ```text
 MATCH (c:Controller)-[:DECLARES]->(m:Method { visibility: 'public' })
 WHERE
-    EXISTS(m.final)
+   EXISTS(m.final)
 RETURN
-    c.name as controller,
-    m.name as method
+   c.name as controller,
+   m.name as method
 ```
 
