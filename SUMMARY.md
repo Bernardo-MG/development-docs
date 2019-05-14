@@ -200,6 +200,7 @@
 * [SpEL](spring/spel.md)
 * [Beans](spring/spring-1/README.md)
   * [Initialization and Destruction](spring/spring-1/initialization-and-destruction.md)
+  * [Extending Initialization](spring/spring-1/extending-initialization.md)
 * [Dependency Injection](spring/dependency-injection/README.md)
   * [Injections](spring/dependency-injection/injections.md)
   * [Injecting Values](spring/dependency-injection/injecting-values.md)
