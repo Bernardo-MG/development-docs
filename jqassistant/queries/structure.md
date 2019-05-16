@@ -14,9 +14,8 @@ RETURN
 
 ```text
 MATCH
-   (component:Type {name: 'ClassName'}),
-   (component)-[:EXTENDS|IMPLEMENTS*0..]->(extended:Type),
-   (extended)-[:DECLARES]->(inheritedMethod:Method)
+   (component:Type {name: 'CrudService'}),
+   (component)-[:EXTENDS|IMPLEMENTS*0..]->()-[:DECLARES]->(inheritedMethod:Method)
 RETURN
    component,
    inheritedMethod
