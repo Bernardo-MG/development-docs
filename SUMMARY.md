@@ -244,6 +244,10 @@
 * [Aspects](spring/aspects/README.md)
   * [Logging Services](spring/aspects/logging-services.md)
 
+## Neo4j
+
+* [Cypher](neo4j/cypher.md)
+
 ## jQAssistant
 
 * [More Information](jqassistant/more-information.md)
