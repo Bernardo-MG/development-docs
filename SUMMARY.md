@@ -254,6 +254,7 @@
   * [Git](jqassistant/maven-plugin/git.md)
 * [Queries](jqassistant/queries/README.md)
   * [Structure](jqassistant/queries/structure.md)
+  * [Maven](jqassistant/queries/maven.md)
   * [Detecting Problems](jqassistant/queries/detecting-problems.md)
   * [Controller](jqassistant/queries/controller.md)
 * [Concepts](jqassistant/concepts.md)
