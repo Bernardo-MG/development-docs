@@ -1,6 +1,6 @@
 # Structure
 
-## Types extending a base type
+## Types extending a base type, along the base type
 
 ```text
 MATCH
@@ -8,6 +8,18 @@ MATCH
    (extension:Type)-[:EXTENDS|IMPLEMENTS*0..]->(component)
 RETURN
    extension
+```
+
+## Methods, including inherited methods, of a class
+
+```text
+MATCH
+   (component:Type {name: 'ClassName'}),
+   (component)-[:EXTENDS|IMPLEMENTS*0..]->(extended:Type),
+   (extended)-[:DECLARES]->(inheritedMethod:Method)
+RETURN
+   component,
+   inheritedMethod
 ```
 
 ## Methods annotated with PreAuthorize and the permission used
