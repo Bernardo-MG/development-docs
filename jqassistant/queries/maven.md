@@ -4,12 +4,13 @@
 
 ```text
 MATCH
-   (main:Maven:Main)-[r:DEPENDS_ON]->(:Maven:Main)
+   (main:Maven:Main)-[r:DEPENDS_ON]->(dependency:Maven:Main)
 RETURN
    main.name AS module,
-   COUNT(r) AS dependencies
+   COUNT(r) AS dependenciesCount,
+   COLLECT(dependency.name) AS dependencies
 ORDER BY
-   dependencies DESC,
+   dependenciesCount DESC,
    module
 ```
 
