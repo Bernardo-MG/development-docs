@@ -35,7 +35,9 @@
 
 ## git
 
-* [Configuration files](git/configuration-files.md)
+* [Configuration files](git/configuration-files/README.md)
+  * [gitignore](git/configuration-files/gitignore.md)
+  * [gitattributes](git/configuration-files/gitattributes.md)
 * [Gitflow](git/gitflow.md)
 
 ## Web

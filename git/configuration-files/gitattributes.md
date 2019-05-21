@@ -1,25 +1,4 @@
-# Configuration files
-
-
-
-Projects include a .gitignore and a .gitattributes files.
-
-### .gitignore
-
-The [git ignore file](https://git-scm.com/docs/gitignore) marks all the files and folders to be ignored by git. These won't be persisted.
-
-This way generated content, such as test results or IDE configuration, won't be stored.
-
-Just add files and folders to the file:
-
-```text
-# Eclipse files #
-.buildpath
-.classpath
-.settings/
-```
-
-### .gitattributes
+# gitattributes
 
 The [git attributes file](https://git-scm.com/docs/gitattributes) maps file extensions to content types. This way, for example, it is possible telling git that the xml extension is used only for text files and never for binaries.
 
@@ -55,16 +34,9 @@ This defaults all files to text files, and normalizes line endings:
 text=auto
 ```
 
-### Line endings
+## Line endings
 
 Line endings can give lots of problems when working in a team. Always normalize them.
 
 * [Github's Dealing with File Endings](https://help.github.com/articles/dealing-with-line-endings/)
-
-### Sample files
-
-These files include the recommended configurations:
-
-* [Github's git ignore file examples](https://github.com/github/gitignore)
-* [Various git attributes file examples](https://github.com/alexkaratarakis/gitattributes)
 
