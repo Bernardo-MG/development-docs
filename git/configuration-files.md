@@ -1,8 +1,6 @@
-# git
+# Configuration files
 
-Recommended version control tool.
 
-## Configuration files
 
 Projects include a .gitignore and a .gitattributes files.
 
@@ -69,8 +67,4 @@ These files include the recommended configurations:
 
 * [Github's git ignore file examples](https://github.com/github/gitignore)
 * [Various git attributes file examples](https://github.com/alexkaratarakis/gitattributes)
-
-## Git flow
-
-The most popular methodology for using git is [git flow](http://nvie.com/posts/a-successful-git-branching-model/).
 

@@ -16,7 +16,6 @@
 ## Various
 
 * [Technologies and services](various/services/README.md)
-  * [git](various/services/git.md)
   * [Travis](various/services/travis.md)
   * [GitHub](various/services/github.md)
 * [Databases](various/databases/README.md)
@@ -33,6 +32,11 @@
 * [File Formats](various/file-formats/README.md)
   * [Properties](various/file-formats/properties.md)
 * [Logging](various/logging.md)
+
+## git
+
+* [Configuration files](git/configuration-files.md)
+* [Gitflow](git/gitflow.md)
 
 ## Web
 
