@@ -31,10 +31,19 @@ MATCH
 WHERE
    annotationType.fqn = 'org.springframework.security.access.prepost.PreAuthorize'
 RETURN
-   service.name as service,
-   method.name as method,
+   service.name AS service,
+   method.name AS method,
    extract(p in apoc.text.regexGroups(annotationValue.value, "\\('([a-zA-Z]*)', '[crud]'\\)") | p[1]) as permission
 ```
 
+## Methods In a Maven Module
 
+```text
+MATCH
+   (artifact:Artifact {name :'module-name'}),
+   (artifact)-[:CONTAINS*..]->(class:Class)
+RETURN
+   artifact.name AS artifact,
+   class.name AS class
+```
 
