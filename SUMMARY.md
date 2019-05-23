@@ -274,6 +274,7 @@
 * [Groups](jqassistant/groups.md)
 * [Rules](jqassistant/rules/README.md)
   * [Custom Rules](jqassistant/rules/custom-rules.md)
+* [Maven Repositories](jqassistant/maven-repositories.md)
 
 ## Javascript
 
