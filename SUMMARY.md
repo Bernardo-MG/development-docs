@@ -160,6 +160,10 @@
 * [Ignoring Data](jackson/annotations.md)
 * [Mixin](jackson/mixin.md)
 
+## Ant
+
+* [Scripts](ant/scripts.md)
+
 ## Maven
 
 * [Maven Lifecycle](maven/lifecycle.md)
@@ -196,6 +200,7 @@
   * [Generating Metamodel](maven/jpa/generating-metamodel.md)
 * [Frontend with Maven](maven/frontend.md)
 * [Continuous Integration](maven/ci.md)
+* [Ant](maven/ant.md)
 
 ## Spring
 
