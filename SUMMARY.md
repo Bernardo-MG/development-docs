@@ -264,6 +264,7 @@
 * [More Information](jqassistant/more-information.md)
 * [Maven Plugin](jqassistant/maven-plugin/README.md)
   * [Git](jqassistant/maven-plugin/git.md)
+  * [Maven Dependencies](jqassistant/maven-plugin/maven-repositories.md)
 * [Queries](jqassistant/queries/README.md)
   * [Structure](jqassistant/queries/structure.md)
   * [Maven](jqassistant/queries/maven.md)
@@ -274,7 +275,6 @@
 * [Groups](jqassistant/groups.md)
 * [Rules](jqassistant/rules/README.md)
   * [Custom Rules](jqassistant/rules/custom-rules.md)
-* [Maven Repositories](jqassistant/maven-repositories.md)
 
 ## Javascript
 
