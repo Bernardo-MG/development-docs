@@ -26,7 +26,13 @@ To set it up:
                <group>spring-boot:Strict</group>
             </groups>
             <concepts>
+               <concept>cdi:*</concept>
+               <concept>classpath:*</concept>
+               <concept>decorator:*</concept>
+               <concept>dependency:*</concept>
                <concept>ejb3:*</concept>
+               <concept>git:*</concept>
+               <concept>interceptor:*</concept>
                <concept>java:*</concept>
                <concept>java8:*</concept>
                <concept>jaxrs:*</concept>
