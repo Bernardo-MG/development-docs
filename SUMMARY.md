@@ -163,6 +163,10 @@
 ## Ant
 
 * [Scripts](ant/scripts.md)
+* [Examples](ant/examples/README.md)
+  * [Replace Version](ant/examples/replace-version.md)
+  * [Merge Files](ant/examples/merge-files.md)
+  * [Execute Command](ant/examples/execute-command.md)
 
 ## Maven
 
