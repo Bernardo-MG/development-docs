@@ -289,6 +289,7 @@
 * [General](npm/npm/README.md)
   * [Scripts](npm/npm/scripts.md)
   * [Dependencies](npm/npm/dependencies.md)
+* [Versions](npm/versions.md)
 
 ## React
 
