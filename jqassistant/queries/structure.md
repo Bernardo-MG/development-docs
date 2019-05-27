@@ -47,3 +47,18 @@ RETURN
    class.name AS class
 ```
 
+## Merge Nodes For the Same Class
+
+```text
+MATCH
+   (type1:Type),
+   (type2:Type)
+WHERE
+   type1.fqn = type2.fqn
+   AND NOT (type1)-[:ASSIGNABLE_FROM]->(type2)
+CALL
+   apoc.refactor.mergeNodes([type1, type2]) YIELD node
+RETURN
+   node
+```
+

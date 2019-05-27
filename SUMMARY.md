@@ -261,6 +261,7 @@
 
 ## Neo4j
 
+* [More Information](neo4j/more-information.md)
 * [Cypher](neo4j/cypher.md)
 
 ## jQAssistant
