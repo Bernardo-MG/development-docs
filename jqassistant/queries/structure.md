@@ -51,13 +51,15 @@ RETURN
 
 ```text
 MATCH
-   (type1:Type),
-   (type2:Type)
+   (type:Type)
+WITH
+   type.fqn AS name,
+   COLLECT(type) AS nodelist,
+   COUNT(*) AS count
 WHERE
-   type1.fqn = type2.fqn
-   AND NOT (type1)-[:ASSIGNABLE_FROM]->(type2)
+   count > 1
 CALL
-   apoc.refactor.mergeNodes([type1, type2]) YIELD node
+   apoc.refactor.mergeNodes(nodelist) YIELD node
 RETURN
    node
 ```
