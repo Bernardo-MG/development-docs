@@ -51,6 +51,8 @@ Note that they are filtered, so only those from the specified group are included
          <configuration>
             <outputDirectory>${dependencyAnalysis.path}</outputDirectory>
             <includeGroupIds>es.seresco</includeGroupIds>
+            <includeScope>compile</includeScope>
+            <classifier>sources</classifier>
             <excludeTransitive>true</excludeTransitive>
          </configuration>
       </execution>
