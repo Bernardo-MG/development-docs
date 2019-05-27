@@ -14,3 +14,19 @@ ORDER BY
    module
 ```
 
+## All  the Classes in a Module
+
+```text
+MATCH
+   (main:Artifact),
+   (child)-[:HAS_PARENT]->(main),
+   (child)-[:DESCRIBES]->(directory:Artifact:Directory),
+   (directory)-[:CONTAINS]->(class:Type)
+WHERE
+   main.name = 'parent-module-name'
+RETURN
+   class.name AS class
+ORDER BY
+   class
+```
+
