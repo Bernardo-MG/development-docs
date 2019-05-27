@@ -8,16 +8,26 @@ jQAssistant is able to analyze Maven dependencies from a repository, just by inc
    <artifactId>jqassistant-maven-plugin</artifactId>
    <executions>
       <execution>
-         <id>jqassistant-scan</id>
+         <id>copy-dependencies-analysis-class</id>
          <goals>
-            <goal>scan</goal>
+            <goal>copy-dependencies</goal>
          </goals>
          <configuration>
-            <scanIncludes>
-               <scanInclude>
-                  <path>${settings.localRepository}</path>
-               </scanInclude>
-            </scanIncludes>
+            <outputDirectory>${dependencyAnalysis.path}</outputDirectory>
+            <includeScope>compile</includeScope>
+            <excludeTransitive>true</excludeTransitive>
+         </configuration>
+      </execution>
+      <execution>
+         <id>copy-dependencies-analysis-source</id>
+         <goals>
+            <goal>copy-dependencies</goal>
+         </goals>
+         <configuration>
+            <outputDirectory>${dependencyAnalysis.path}</outputDirectory>
+            <includeScope>compile</includeScope>
+            <classifier>sources</classifier>
+            <excludeTransitive>true</excludeTransitive>
          </configuration>
       </execution>
    </executions>
