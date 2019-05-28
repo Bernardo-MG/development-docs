@@ -64,3 +64,18 @@ RETURN
    node
 ```
 
+### Delete Duplicated Relationships
+
+```text
+START
+   r = RELATIONSHIP(*) 
+MATCH
+   (s)-[r]->(e)
+WITH
+   s,
+   e,
+   TYPE(r) AS typ,
+   tail(collect(r)) AS coll 
+FOREACH(x IN coll | DELETE x)
+```
+
