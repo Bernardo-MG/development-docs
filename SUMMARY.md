@@ -284,6 +284,10 @@
 ## Javascript
 
 * [Binding this](javascript/binding-this.md)
+* [Testing](javascript/testing/README.md)
+  * [Jest](javascript/testing/jest.md)
+  * [Enzyme](javascript/testing/enzyme.md)
+  * [React Test Rendering](javascript/testing/react-test-rendering.md)
 
 ## npm
 
