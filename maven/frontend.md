@@ -163,7 +163,7 @@ It is recommended binding a npm testing script to the testing phase:
 </plugin>
 ```
 
-### npm and webpack:
+### npm and webpack
 
 ```markup
 <plugin>
