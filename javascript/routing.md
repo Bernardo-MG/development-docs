@@ -8,5 +8,7 @@ This is done by adding a hash to the URL:
 
 > https:\\somewhere.com\\#path
 
-It is useful when the page is deployed to a static content server, but otherwise it is better to avoid this, as it will break the URL.
+Anything after the hash will be handled by the client, while the path before the hash will be handled by the server.
+
+It is useful when the page is deployed to a static content server, but otherwise it is better to avoid this, as it will break the URL, and for example may cause problems to crawlers.
 
