@@ -288,6 +288,7 @@
   * [Jest](javascript/testing/jest.md)
   * [Enzyme](javascript/testing/enzyme.md)
   * [React Test Rendering](javascript/testing/react-test-rendering.md)
+* [Routing](javascript/routing.md)
 
 ## npm
 
