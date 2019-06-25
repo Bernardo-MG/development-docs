@@ -52,14 +52,16 @@ RETURN
 ```text
 MATCH
    (type:Type)
+WHERE
+   type.fqn STARTS WITH 'es.seresco'
 WITH
    type.fqn AS name,
-   COLLECT(type) AS nodelist,
+   COLLECT(type) AS nodes,
    COUNT(*) AS count
 WHERE
    count > 1
 CALL
-   apoc.refactor.mergeNodes(nodelist) YIELD node
+   apoc.refactor.mergeNodes(nodes, {mergeRels: true}) YIELD node
 RETURN
    node
 ```
@@ -67,15 +69,22 @@ RETURN
 ### Delete Duplicated Relationships
 
 ```text
-START
-   r = RELATIONSHIP(*) 
 MATCH
-   (s)-[r]->(e)
+   (type:Type)-[r]->(related:Type)
+WHERE
+   type.fqn STARTS WITH 'es.seresco'
+   AND related.fqn STARTS WITH 'es.seresco'
 WITH
-   s,
-   e,
-   TYPE(r) AS typ,
-   tail(collect(r)) AS coll 
-FOREACH(x IN coll | DELETE x)
+   type.fqn AS name,
+   related.fqn AS related,
+   type(r) AS relType,
+   COLLECT(r) AS rels,
+   COUNT(*) AS count
+WHERE
+   count > 1
+CALL
+   apoc.refactor.mergeRelationships(rels) YIELD rel
+RETURN
+   rel
 ```
 
