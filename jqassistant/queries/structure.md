@@ -51,12 +51,10 @@ RETURN
 
 ```text
 MATCH
-   (type:Type)
-WHERE
-   type.fqn STARTS WITH 'es.seresco'
+   (node)
 WITH
-   type.fqn AS name,
-   COLLECT(type) AS nodes,
+   node.fqn AS name,
+   COLLECT(node) AS nodes,
    COUNT(*) AS count
 WHERE
    count > 1
@@ -70,12 +68,9 @@ RETURN
 
 ```text
 MATCH
-   (type:Type)-[r]->(related:Type)
-WHERE
-   type.fqn STARTS WITH 'es.seresco'
-   AND related.fqn STARTS WITH 'es.seresco'
+   (node)-[r]->(related)
 WITH
-   type.fqn AS name,
+   node.fqn AS name,
    related.fqn AS related,
    type(r) AS relType,
    COLLECT(r) AS rels,
