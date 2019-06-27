@@ -4,10 +4,13 @@ Keep logs in a single message.
 
 ## Levels Usage
 
-* Debug: fine grained information, for debugging. No long-term value
-* Info: system announcements \(scheduled jobs, services starting/stopping\), configuration, version data, usage
-* Warn: conditions which tell that the system is not working as expected
-* Error: condition which tells the system has failed, critical failures
+| Level | Usage |
+| :--- | :--- |
+| Trace | The most detailed information, useful only for deep debugging. Logging calls to inner methods. |
+| Debug | Fine grained information, for debugging. No long-term value. |
+| Info | System announcements \(scheduled jobs, services starting/stopping\), configuration, version data, usage. |
+| Warn | The system is not working as expected. |
+| Error | The system has failed, critical failures. |
 
 ## More Information
 
