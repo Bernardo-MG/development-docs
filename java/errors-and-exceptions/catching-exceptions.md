@@ -29,16 +29,16 @@ try
 To make sure the resources are always closed or finalized there is the try-with-resources variant, since Java 7:
 
 ```java
-try (final ServletOutputStream outputStream = response.getOutputStream();)
-{
-   // Write to output stream
-   if (output instanceof ByteArrayOutputStream)
-   {
-      ((ByteArrayOutputStream) output).writeTo(outputStream);
-   }
+final Path path;
+OutputStream output;
 
-   output.flush();
-   output.close();
+path = Paths.get(file.getPath());
+
+// Initialize output stream
+
+try (final InputStream istream = new FileInputStream(file))
+{
+   IOUtils.copy(istream, output);
 } catch (final IOException e)
 {
    // Exception handling
@@ -46,7 +46,7 @@ try (final ServletOutputStream outputStream = response.getOutputStream();)
 }
 ```
 
-This way the outputStream will be closed always, not matter what happens. All it requires is that the resources implement the AutoCloseable interface.
+The istream will be closed no matter what happens, without explicit code. All this requires is that the resources implement the AutoCloseable interface.
 
 ## Chaining Exceptions
 
