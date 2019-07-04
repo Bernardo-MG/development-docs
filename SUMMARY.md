@@ -274,6 +274,7 @@
   * [Maven Dependencies](jqassistant/maven-plugin/maven-repositories.md)
 * [Queries](jqassistant/queries/README.md)
   * [Structure](jqassistant/queries/structure.md)
+  * [Pruning](jqassistant/queries/pruning.md)
   * [Maven](jqassistant/queries/maven.md)
   * [Detecting Problems](jqassistant/queries/detecting-problems.md)
   * [Controller](jqassistant/queries/controller.md)
