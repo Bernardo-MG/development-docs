@@ -47,7 +47,7 @@ RETURN
    class.name AS class
 ```
 
-## Merge Nodes For the Same Class
+## Merge Duplicated Classes
 
 ```text
 MATCH
@@ -64,7 +64,25 @@ RETURN
    node
 ```
 
-### Delete Duplicated Relationships
+## Merge Duplicated Methods
+
+```text
+MATCH
+   (class)-[:DECLARES]->(method:Method)
+WITH
+   class.fqn as class,
+   method.name AS method,
+   COLLECT(method) AS nodes,
+   COUNT(*) AS count
+WHERE
+   count > 1
+CALL
+   apoc.refactor.mergeNodes(nodes, {mergeRels: true}) YIELD node
+RETURN
+   node
+```
+
+## Merge Duplicated Relationships
 
 ```text
 MATCH
