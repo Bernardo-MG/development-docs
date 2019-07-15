@@ -292,6 +292,7 @@
   * [Enzyme](javascript/testing/enzyme.md)
   * [React Test Rendering](javascript/testing/react-test-rendering.md)
 * [Routing](javascript/routing.md)
+* [Spread Operator](javascript/spread-operator.md)
 
 ## npm
 
@@ -305,6 +306,7 @@
 * [Conditional Property](react/conditional_property.md)
 * [Components](react/components/README.md)
   * [Wrapping Components](react/components/wrapping-components.md)
+  * [Spreading Properties](react/components/spreading-properties.md)
 * [Internationalization](react/internationalization.md)
 
 ## Python
