@@ -308,6 +308,7 @@
 * [Components](react/components/README.md)
   * [Wrapping Components](react/components/wrapping-components.md)
   * [Spreading Properties](react/components/spreading-properties.md)
+  * [Dynamic Construction](react/components/dynamic-construction.md)
 * [Internationalization](react/internationalization.md)
 
 ## Python
