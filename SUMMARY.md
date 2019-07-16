@@ -293,6 +293,7 @@
   * [React Test Rendering](javascript/testing/react-test-rendering.md)
 * [Routing](javascript/routing.md)
 * [Spread Operator](javascript/spread-operator.md)
+* [Lambdas](javascript/lambdas.md)
 
 ## npm
 
