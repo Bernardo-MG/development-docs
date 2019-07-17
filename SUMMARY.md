@@ -294,6 +294,8 @@
 * [Routing](javascript/routing.md)
 * [Spread Operator](javascript/spread-operator.md)
 * [Lambdas](javascript/lambdas.md)
+* [Testing](javascript/testing-1/README.md)
+  * [Jest](javascript/testing-1/jest.md)
 
 ## npm
 
@@ -310,6 +312,8 @@
   * [Spreading Properties](react/components/spreading-properties.md)
   * [Dynamic Construction](react/components/dynamic-construction.md)
 * [Internationalization](react/internationalization.md)
+* [Testing](react/testing/README.md)
+  * [Enzyme](react/testing/enzyme.md)
 
 ## Python
 
