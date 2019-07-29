@@ -1,18 +1,23 @@
 # Jest
 
-Allows running tests on Javascript objects, including React components:
+Verifies the code through simple test cases.
 
 ```javascript
-describe('<ButtonInput />', () => {
-   it('handles button click when there is a value', () => {
-      const { wrapper, props } = setup();
-      const textField = wrapper.find(TextField);
-      const button = wrapper.find(Button);
+import books from 'books/reducers';
+import * as types from 'books/actions/types';
 
-      textField.props().onChange({ target: { value: 'abc' } });
-      button.simulate('click', {type: 'click'});
-      expect(props.action.mock.calls.length).toBe(1);
+describe('Books reducer', () => {
+   it('returns the initial state', () => {
+      expect(books(undefined, {})).toEqual(
+         {
+            books: {}
+         }
+      )
    })
-})
+});
 ```
+
+## More Information
+
+* [Jest](https://jestjs.io/)
 

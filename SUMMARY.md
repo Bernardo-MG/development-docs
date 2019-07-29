@@ -294,8 +294,6 @@
 * [Routing](javascript/routing.md)
 * [Spread Operator](javascript/spread-operator.md)
 * [Lambdas](javascript/lambdas.md)
-* [Testing](javascript/testing-1/README.md)
-  * [Jest](javascript/testing-1/jest.md)
 
 ## npm
 
