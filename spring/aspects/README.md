@@ -22,3 +22,13 @@
 </beans>
 ```
 
+## Configuration Class
+
+```java
+@Configuration
+@EnableAspectJAutoProxy
+public class AppConfig {
+
+}
+```
+
