@@ -140,8 +140,8 @@
 * [Setting Up Tests](junit/settests/README.md)
   * [Dependencies with Spring](junit/settests/spring.md)
   * [Disable Tests](junit/settests/disable-tests.md)
-  * [Testing Exceptions](junit/settests/exceptions.md)
-  * [Test Lifecycle](junit/settests/test-lifecycle.md)
+* [Test Lifecycle](junit/test-lifecycle.md)
+* [Testing Exceptions](junit/exceptions.md)
 
 ## Mockito
 
