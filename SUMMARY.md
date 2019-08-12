@@ -237,7 +237,6 @@
   * [Controllers](spring/spring-mvc/controllers/README.md)
     * [Mapping and Choosing Controller Methods](spring/spring-mvc/controllers/mapping-to-controller-methods.md)
     * [Mapping Controller Variables](spring/spring-mvc/controllers/mapping-controller-arguments.md)
-    * [Values from the Request and Path](spring/spring-mvc/controllers/values-from-the-request-and-path.md)
     * [Request Argument Validation](spring/spring-mvc/controllers/request-argument-validation.md)
     * [Controller Advices](spring/spring-mvc/controllers/controller-advices.md)
   * [Error Handling](spring/spring-mvc/errorhandling.md)
