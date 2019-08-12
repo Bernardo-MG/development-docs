@@ -249,6 +249,7 @@
 * [Spring Boot](spring/spring-boot/README.md)
   * [Setting Up](spring/spring-boot/setting-up.md)
 * [Testing with Spring](spring/testing/README.md)
+  * [Request Path Testing](spring/testing/request-path-testing.md)
   * [Conditional Tests](spring/testing/conditional.md)
   * [Initializing DB](spring/testing/initializing-db.md)
   * [Argument Resolvers](spring/testing/arg_resolvers.md)
