@@ -91,3 +91,12 @@ public final Employee getEmployee(
    @RequestParam(value = "name", required = false, defaultValue = "") final String name)
 ```
 
+## Body Content
+
+The content of a request can be mapped into an object:
+
+```java
+@PostMapping
+public final Employee createEmployee(@RequestBody final EmployeeName name)
+```
+

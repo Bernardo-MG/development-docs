@@ -1,4 +1,4 @@
-# Mapping to Controller Methods
+# Mapping and Choosing Controller Methods
 
 ## Choosing Method by Param
 
