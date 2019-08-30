@@ -1,52 +1,36 @@
 # Other Operations
 
-## Remove Repeated
+## Remove Duplicated
 
 ```java
-Collection<Object> collection;
-Collection<Object> filtered;
+final Collection<Object> filtered;
 
-// Collection is initialized
-
-// Removes repeated values
-filtered = collection.stream().distinct().collect(Collectors.toList());
+filtered = originalStream.distinct().collect(Collectors.toList());
 ```
 
 ## Sorting
 
 ```java
-Collection<Object> collection;
-Collection<Object> filtered;
+final Collection<Object> sorted;
 
-// Collection is initialized
-
-// Sorts values
-filtered = collection.stream().sorted().collect(Collectors.toList());
+sorted = originalStream.sorted().collect(Collectors.toList());
 ```
 
 ## Min and Max
 
 ```java
-Collection<Object> collection;
-Object value;
+final Object value;
 
-// Collection is initialized
-
-// Removes repeated values
-value = collection.stream().min(comparator);
+value = originalStream.min(comparator);
 ```
 
 ```java
-Collection<Object> collection;
-Object value;
+final Object value;
 
-// Collection is initialized
-
-// Removes repeated values
-value = collection.stream().max(comparator);
+value = originalStream.max(comparator);
 ```
 
-## Generating Numeric Ranges
+## Numeric Ranges
 
 ```java
 final Iterable<Short> years;
