@@ -107,6 +107,7 @@
     * [Common Operations](java/functional/streams/common-operations.md)
     * [Searching for Values](java/functional/streams/searching-for-values.md)
     * [Other Operations](java/functional/streams/other-operations.md)
+    * [Data Structure Transformations](java/functional/streams/data-structure-transformations.md)
   * [Lambdas](java/functional/lambdas.md)
 * [Internationalization](java/i18n/README.md)
   * [Locale](java/i18n/locale.md)
