@@ -24,5 +24,3 @@ final Map<String, List<Employee>> employees;
 employees = empStream.collect(Collectors.groupingBy(Employee::getCity));
 ```
 
-
-

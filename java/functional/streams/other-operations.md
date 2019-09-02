@@ -1,6 +1,6 @@
 # Other Operations
 
-## Remove Duplicated
+## Remove Duplicates
 
 ```java
 final Collection<Object> filtered;
