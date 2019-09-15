@@ -155,6 +155,14 @@
 * [Log4j](logging-in-java/log4j.md)
 * [SL4J](logging-in-java/sl4j.md)
 
+## Hibernate
+
+* [Logging](hibernate/logging.md)
+
+## Hikari
+
+* [Logging](hikari/logging.md)
+
 ## Jackson
 
 * [General](jackson/general.md)
