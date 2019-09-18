@@ -158,6 +158,7 @@
 ## Hibernate
 
 * [Logging](hibernate/logging.md)
+* [More Information](hibernate/more-information.md)
 
 ## Hikari
 
