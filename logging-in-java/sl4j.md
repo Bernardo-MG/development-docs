@@ -7,10 +7,10 @@
 ```java
 public class LoginHandler {
 
-   private static final Logger logger = LoggerFactory.getLogger(LoginHandler.class);
+   private static final Logger LOGGER = LoggerFactory.getLogger(LoginHandler.class);
 
    public void login(String user) {
-      logger.debug("User {} logged in", user);
+      LOGGER.debug("User {} logged in", user);
    }
 
 }
