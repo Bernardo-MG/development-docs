@@ -130,8 +130,6 @@
   * [Lifecycle](java/jpa/lifecycle.md)
   * [JPQL](java/jpa/jpql.md)
   * [Criteria API](java/jpa/criteria-api.md)
-* [Logging](java/logging/README.md)
-  * [JPA](java/logging/jpa.md)
 * [Utilities Classes](java/utilities-classes/README.md)
   * [Constants Class](java/utilities-classes/constants-class.md)
 * [Preconditions](java/preconditions.md)
@@ -154,6 +152,7 @@
 
 * [Log4j](logging-in-java/log4j.md)
 * [SL4J](logging-in-java/sl4j.md)
+* [JPA](logging-in-java/jpa.md)
 
 ## Hibernate
 
