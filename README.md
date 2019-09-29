@@ -8,7 +8,7 @@ As it is just a helping tool, it does not aim to be an in-depth guide. It expect
 
 ## Reading the docs
 
-The docs can be [read in Gitbook](https://www.gitbook.com/book/bernardo-mg/development-docs), where they are deployed automatically.
+The docs can be [read in Gitbook](https://bernardo.gitbook.io/development-docs/), where they are deployed automatically.
 
 ## Building the docs
 
