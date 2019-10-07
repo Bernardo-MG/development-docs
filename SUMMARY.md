@@ -208,8 +208,6 @@
   * [Datasource](spring/persistence/datasource.md)
   * [Persistence Providers](spring/persistence/providers.md)
 * [Sending Mails](spring/sending-mails.md)
-* [Aspects](spring/aspects/README.md)
-  * [Logging Services](spring/aspects/logging-services.md)
 
 ## Neo4j
 
