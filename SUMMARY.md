@@ -75,29 +75,6 @@
   * [Using Classes](java/creating-new-instances/using-classes.md)
   * [Using Providers](java/creating-new-instances/using-providers.md)
 
-## Neo4j
-
-* [More Information](neo4j/more-information.md)
-* [Cypher](neo4j/cypher.md)
-
-## jQAssistant
-
-* [More Information](jqassistant/more-information.md)
-* [Maven Plugin](jqassistant/maven-plugin/README.md)
-  * [Git](jqassistant/maven-plugin/git.md)
-  * [Maven Dependencies](jqassistant/maven-plugin/maven-repositories.md)
-* [Queries](jqassistant/queries/README.md)
-  * [Structure](jqassistant/queries/structure.md)
-  * [Pruning](jqassistant/queries/pruning.md)
-  * [Maven](jqassistant/queries/maven.md)
-  * [Detecting Problems](jqassistant/queries/detecting-problems.md)
-  * [Controller](jqassistant/queries/controller.md)
-* [Concepts](jqassistant/concepts.md)
-* [Constraints](jqassistant/constraints.md)
-* [Groups](jqassistant/groups.md)
-* [Rules](jqassistant/rules/README.md)
-  * [Custom Rules](jqassistant/rules/custom-rules.md)
-
 ## Javascript
 
 * [Binding this](javascript/binding-this.md)
