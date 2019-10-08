@@ -75,23 +75,6 @@
   * [Using Classes](java/creating-new-instances/using-classes.md)
   * [Using Providers](java/creating-new-instances/using-providers.md)
 
-## Javascript
-
-* [Binding this](javascript/binding-this.md)
-* [Testing](javascript/testing/README.md)
-  * [Jest](javascript/testing/jest.md)
-  * [Enzyme](javascript/testing/enzyme.md)
-* [Routing](javascript/routing.md)
-* [Spread Operator](javascript/spread-operator.md)
-* [Lambdas](javascript/lambdas.md)
-
-## npm
-
-* [General](npm/npm/README.md)
-  * [Scripts](npm/npm/scripts.md)
-  * [Dependencies](npm/npm/dependencies.md)
-* [Versions](npm/versions.md)
-
 ## React
 
 * [Conditional Property](react/conditional_property.md)
