@@ -75,19 +75,6 @@
   * [Using Classes](java/creating-new-instances/using-classes.md)
   * [Using Providers](java/creating-new-instances/using-providers.md)
 
-## React
-
-* [Conditional Property](react/conditional_property.md)
-* [Components](react/components/README.md)
-  * [Wrapping Components](react/components/wrapping-components.md)
-  * [Spreading Properties](react/components/spreading-properties.md)
-  * [Dynamic Construction](react/components/dynamic-construction.md)
-  * [Conditional Rendering](react/components/conditional-rendering.md)
-  * [Hooks](react/components/hooks.md)
-* [Internationalization](react/internationalization.md)
-* [Testing](react/testing/README.md)
-  * [Enzyme](react/testing/enzyme.md)
-
 ## Python
 
 * [General](python/python/README.md)
