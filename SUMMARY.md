@@ -39,6 +39,7 @@
   * [gitignore](git/configuration-files/gitignore.md)
   * [gitattributes](git/configuration-files/gitattributes.md)
 * [Gitflow](git/gitflow.md)
+* [Tools](git/tools.md)
 
 ## Web
 
