@@ -76,17 +76,3 @@
   * [Using Classes](java/creating-new-instances/using-classes.md)
   * [Using Providers](java/creating-new-instances/using-providers.md)
 
-## Python
-
-* [General](python/python/README.md)
-  * [Development Ecosystem](python/python/deveco.md)
-  * [IDE](python/python/ide.md)
-  * [Building the Project](python/python/building.md)
-  * [Project Setup](python/python/project_setup.md)
-  * [Project Templates](python/python/templates.md)
-  * [Continuous Integration](python/python/ci.md)
-  * [PyPi](python/python/pypi.md)
-  * [tox](python/python/tox.md)
-  * [Tests](python/python/tests.md)
-  * [Deployment](python/python/deployment.md)
-
